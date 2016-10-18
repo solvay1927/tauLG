@@ -1,7 +1,7 @@
-\contentsline {section}{\numberline {1}Literature Review}{1}{section.1}
+\contentsline {section}{\numberline {1}Lepton Flavour Violation and the Standard Model}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Introduction}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}LFV and the Standard Model}{1}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Other LFV}{1}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Other LFV}{2}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}Hints of LFV beyond the Standard Model}{2}{subsection.1.4}
 \contentsline {subsubsection}{\numberline {1.4.1}Neutrino mixing}{2}{subsubsection.1.4.1}
 \contentsline {subsubsection}{\numberline {1.4.2}$h\to \tau \mu $ excess}{3}{subsubsection.1.4.2}
@@ -12,15 +12,33 @@
 \contentsline {subsection}{\numberline {1.6}Future searches}{7}{subsection.1.6}
 \contentsline {subsubsection}{\numberline {1.6.1}Belle II}{7}{subsubsection.1.6.1}
 \contentsline {section}{\numberline {2}The Belle and Belle II detectors}{8}{section.2}
-\contentsline {subsection}{\numberline {2.1} Silicon Vertex Detector}{9}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2} Central Drift Chamber}{9}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Electromagnetic Calorimeter}{9}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Time-of-flight/Cerenkov aerogel chamber}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}K-long/muon detector}{9}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Super-KEKB upgrades/differences}{9}{subsection.2.6}
-\contentsline {section}{\numberline {3}Monte Carlo production and background types}{9}{section.3}
-\contentsline {section}{\numberline {4}Reconstruction and pre-selection}{9}{section.4}
-\contentsline {section}{\numberline {5}Correlation}{9}{section.5}
-\contentsline {section}{\numberline {6}Scalings and signal optimisation}{9}{section.6}
-\contentsline {section}{\numberline {7}Signal region and event selection}{9}{section.7}
-\contentsline {section}{\numberline {8}Conclusion}{9}{section.8}
+\contentsline {subsection}{\numberline {2.1}Silicon Vertex Detector}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Central Drift Chamber}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Electromagnetic Calorimeter}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Time-of-flight/Cerenkov aerogel chamber}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}K-long/muon detector}{8}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Particle identification (PID)}{8}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Super-KEKB}{9}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Beam backgrounds}{9}{subsection.2.8}
+\contentsline {section}{\numberline {3}Monte Carlo production and background types}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Event generation}{10}{subsection.3.1}
+\contentsline {section}{\numberline {4}Reconstruction}{12}{section.4}
+\contentsline {section}{\numberline {5}Event topologies}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Signal}{12}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Muon mode}{13}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Electron mode}{13}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Backgrounds}{13}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Tau-pair processes}{13}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Mu-pair processes}{13}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Bhabha}{13}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Continuum and $B\bar {B}$}{13}{subsubsection.5.2.4}
+\contentsline {section}{\numberline {6}Preselection}{14}{section.6}
+\contentsline {subsection}{\numberline {6.1}Muon mode}{14}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Electron mode}{15}{subsection.6.2}
+\contentsline {section}{\numberline {7}Correlation}{16}{section.7}
+\contentsline {section}{\numberline {8}Scalings and signal optimisation}{17}{section.8}
+\contentsline {section}{\numberline {9}Signal region and event selection}{20}{section.9}
+\contentsline {section}{\numberline {10}Conclusion}{21}{section.10}
+\contentsline {subsection}{\numberline {10.1}Future improvements}{21}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Working group status}{21}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Expected impact on Belle II}{21}{subsection.10.3}

@@ -1,4 +1,4 @@
-\BOOKMARK [1][-]{section.1}{Literature Review}{}% 1
+\BOOKMARK [1][-]{section.1}{Lepton Flavour Violation and the Standard Model}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Introduction}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{LFV and the Standard Model}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{Other LFV}{section.1}% 4
@@ -12,15 +12,33 @@
 \BOOKMARK [2][-]{subsection.1.6}{Future searches}{section.1}% 12
 \BOOKMARK [3][-]{subsubsection.1.6.1}{Belle II}{subsection.1.6}% 13
 \BOOKMARK [1][-]{section.2}{The Belle and Belle II detectors}{}% 14
-\BOOKMARK [2][-]{subsection.2.1}{ Silicon Vertex Detector}{section.2}% 15
-\BOOKMARK [2][-]{subsection.2.2}{ Central Drift Chamber}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.1}{Silicon Vertex Detector}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.2}{Central Drift Chamber}{section.2}% 16
 \BOOKMARK [2][-]{subsection.2.3}{Electromagnetic Calorimeter}{section.2}% 17
 \BOOKMARK [2][-]{subsection.2.4}{Time-of-flight/Cerenkov aerogel chamber}{section.2}% 18
 \BOOKMARK [2][-]{subsection.2.5}{K-long/muon detector}{section.2}% 19
-\BOOKMARK [2][-]{subsection.2.6}{Super-KEKB upgrades/differences}{section.2}% 20
-\BOOKMARK [1][-]{section.3}{Monte Carlo production and background types}{}% 21
-\BOOKMARK [1][-]{section.4}{Reconstruction and pre-selection}{}% 22
-\BOOKMARK [1][-]{section.5}{Correlation}{}% 23
-\BOOKMARK [1][-]{section.6}{Scalings and signal optimisation}{}% 24
-\BOOKMARK [1][-]{section.7}{Signal region and event selection}{}% 25
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 26
+\BOOKMARK [2][-]{subsection.2.6}{Particle identification \(PID\)}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.7}{Super-KEKB}{section.2}% 21
+\BOOKMARK [2][-]{subsection.2.8}{Beam backgrounds}{section.2}% 22
+\BOOKMARK [1][-]{section.3}{Monte Carlo production and background types}{}% 23
+\BOOKMARK [2][-]{subsection.3.1}{Event generation}{section.3}% 24
+\BOOKMARK [1][-]{section.4}{Reconstruction}{}% 25
+\BOOKMARK [1][-]{section.5}{Event topologies}{}% 26
+\BOOKMARK [2][-]{subsection.5.1}{Signal}{section.5}% 27
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Muon mode}{subsection.5.1}% 28
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Electron mode}{subsection.5.1}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Backgrounds}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Tau-pair processes}{subsection.5.2}% 31
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Mu-pair processes}{subsection.5.2}% 32
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Bhabha}{subsection.5.2}% 33
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Continuum and BbarB}{subsection.5.2}% 34
+\BOOKMARK [1][-]{section.6}{Preselection}{}% 35
+\BOOKMARK [2][-]{subsection.6.1}{Muon mode}{section.6}% 36
+\BOOKMARK [2][-]{subsection.6.2}{Electron mode}{section.6}% 37
+\BOOKMARK [1][-]{section.7}{Correlation}{}% 38
+\BOOKMARK [1][-]{section.8}{Scalings and signal optimisation}{}% 39
+\BOOKMARK [1][-]{section.9}{Signal region and event selection}{}% 40
+\BOOKMARK [1][-]{section.10}{Conclusion}{}% 41
+\BOOKMARK [2][-]{subsection.10.1}{Future improvements}{section.10}% 42
+\BOOKMARK [2][-]{subsection.10.2}{Working group status}{section.10}% 43
+\BOOKMARK [2][-]{subsection.10.3}{Expected impact on Belle II}{section.10}% 44
