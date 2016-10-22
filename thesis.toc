@@ -42,10 +42,9 @@
 \contentsline {chapter}{\numberline {6}Preselection}{30}{chapter.6}
 \contentsline {section}{\numberline {6.1}Muon mode}{30}{section.6.1}
 \contentsline {section}{\numberline {6.2}Electron mode}{32}{section.6.2}
-\contentsline {chapter}{\numberline {7}Correlation}{35}{chapter.7}
-\contentsline {chapter}{\numberline {8}Signal optimisation}{36}{chapter.8}
-\contentsline {chapter}{\numberline {9}Signal region and event selection}{39}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{40}{chapter.10}
-\contentsline {section}{\numberline {10.1}Future improvements}{40}{section.10.1}
-\contentsline {section}{\numberline {10.2}Working group status}{40}{section.10.2}
-\contentsline {section}{\numberline {10.3}Expected impact on Belle II}{40}{section.10.3}
+\contentsline {chapter}{\numberline {7}Signal optimisation}{35}{chapter.7}
+\contentsline {chapter}{\numberline {8}Signal region and event selection}{37}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{38}{chapter.9}
+\contentsline {section}{\numberline {9.1}Future improvements}{38}{section.9.1}
+\contentsline {section}{\numberline {9.2}Working group status}{38}{section.9.2}
+\contentsline {section}{\numberline {9.3}Expected impact on Belle II}{38}{section.9.3}

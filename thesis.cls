@@ -103,6 +103,7 @@
     { \Huge {\bfseries {\@title}} \par}
 {\large \vspace*{40mm} {\logo \par} \vspace*{25mm}}
     {{\Large \@author} \par}
+    {\large \vspace*{1ex} Under the supervision of Dr. Phillip Urquijo \par}
 {\large \vspace*{1ex}
     {{\@college} \par}
 \vspace*{1ex}
