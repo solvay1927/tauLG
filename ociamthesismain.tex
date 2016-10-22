@@ -1,0 +1,156 @@
+\documentclass[12pt]{thesis}  % default square logo 
+%\documentclass[12pt,beltcrest]{ociamthesis} % use old belt crest logo
+%\documentclass[12pt,shieldcrest]{ociamthesis} % use older shield crest logo
+
+%load any additional packages
+\usepackage[utf8x]{inputenc}
+\usepackage{braket}
+\usepackage{amsmath}
+\usepackage{bm}
+%\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{tikz}
+%\usepackage{tikz-feynman}
+%\usepackage{pgfornament}
+\usepackage{pgfplots}
+\usepackage{pgffor}
+\usepackage[version-1-compatibility]{siunitx}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+%\usepackage{gensymb}
+\usepackage{framed}
+\usepackage{cancel}
+\usepackage{slashed}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{geometry}
+\usepackage{yfonts}
+\usepackage{calc}
+\usepackage{cite}
+\usepackage{caption}
+\usepackage{subcaption}
+% rotated tables (and figures if necessary)
+%\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{rotating}
+% Coloured rows in table
+\usepackage{color, colortbl}
+\usepackage{amssymb}
+
+
+%%%%%%%%%%%%%%%CATE'S PREAMBLE BIT (TikZ for Feynman diagrams)%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{trees}
+\usetikzlibrary{patterns}
+\usetikzlibrary{matrix,arrows} 				% For commutative diagram
+											% http://www.felixl.de/commu.pdf
+\usetikzlibrary{positioning}				% For "above of=" commands
+\usetikzlibrary{calc,through}				% For coordinates
+\usetikzlibrary{decorations.pathreplacing}  % For curly braces
+% http://www.math.ucla.edu/~getreuer/tikz.html
+\usepackage{pgffor}							% For repeating patterns
+
+\usetikzlibrary{decorations.pathmorphing}	% For Feynman Diagrams
+\usetikzlibrary{decorations.markings}
+\tikzset{
+	% >=stealth', %%  Uncomment for more conventional arrows
+    vector/.style={decorate, decoration={snake}, draw},
+	provector/.style={decorate, decoration={snake,amplitude=2.5pt}, draw},
+	antivector/.style={decorate, decoration={snake,amplitude=-2.5pt}, draw},
+    fermion/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{>}}}},
+    fermionbar/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{<}}}},
+    fermionnoarrow/.style={draw=black},
+    gluon/.style={decorate, draw=black,
+        decoration={coil,amplitude=4pt, segment length=5pt}},
+    scalar/.style={dashed,draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{>}}}},
+    neutrino/.style={dashed,draw=black},
+    scalarbar/.style={dashed,draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{<}}}},
+    scalarnoarrow/.style={dashed,draw=black},
+    electron/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position .55 with {\arrow[draw=black]{>}}}},
+    bigvector/.style={decorate, decoration={snake,amplitude=4pt}, draw},
+    arrow/.style={draw=black, postaction={decorate},
+        decoration={markings,mark=at position 1 with {\arrow[draw=black]{>}}}},
+}
+
+% TIKZ - for block diagrams, 
+% from http://www.texample.net/tikz/examples/control-system-principles/
+% \usetikzlibrary{shapes,arrows}
+\tikzstyle{block} = [draw, rectangle, 
+    minimum height=3em, minimum width=6earticlem]
+
+\tikzset{>=latex}
+
+\tikzset{cross/.style={cross out, draw, minimum size=2*(#1-\pgflinewidth),
+			inner sep=0pt, outer sep=0pt}}
+			
+\tikzset{snake it/.style={decorate, decoration=snake}}
+
+%%%%%%%%%%%%%%END CATE'S PREAMBLE BIT%%%%%%%%%%%%%
+
+
+\newcommand{\br}{\mathcal{B}}
+\newcommand{\tmg}{\tau\to\mu\gamma}
+\newcommand{\tlg}{\tau\to\ell\gamma}
+\newcommand{\htm}{h\to \tau \mu}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=28mm,
+ right=28mm,
+ top=30mm,
+ bottom=30mm,
+ }
+
+%input macros (i.e. write your own macros file called mymacros.tex 
+%and uncomment the next line)
+%\include{mymacros}
+
+\title{Codimension-Two\\[1ex]     %your thesis title,
+        Free Boundary Problems}   %note \\[1ex] is a line break in the title
+
+\author{Keith Gillow}             %your name
+\college{St Catherine's College}  %your college
+
+%\renewcommand{\submittedtext}{change the default text here if needed}
+\degree{Doctor of Philosophy}     %the degree
+\degreedate{Trinity 1998}         %the degree date
+
+%end the preamble and start the document
+\begin{document}
+
+%this baselineskip gives sufficient line spacing for an examiner to easily
+%markup the thesis with comments
+\baselineskip=18pt plus1pt
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+
+\maketitle                  % create a title page from the preamble info
+
+\begin{romanpages}          % start roman page numbering
+\tableofcontents            % generate and include a table of contents
+\end{romanpages}            % end roman page numbering
+
+\chapter{Lepton Flavour Violation and the Standard Model}
+
+%\rhead{$\tau\to\ell\gamma$ \textsc{at Belle II}}
+
+\section{Introduction}
+
+Lepton flavour violation (LFV) is an exciting field of research at the frontier of particle physics. Searches for LFV can probe a wide variety of new physics (NP) scenarios. We will not be looking at all LFV; in this literature review we specifically cover charged LFV of the form $\tau$. Of the tau processes, these modes are predicted to be the most sensitive to NP. We choose to investigate tau LFV rather than, say, muon LFV, for two main reasons. Firstly, the tau processes have predicted branching fractions of $\sim 5 - 6$ orders of magnitude greater than the analogous muon processes, due to the differences in mass. The decay $\tau$ has a predicted branching fraction $\sim 6$ orders of magnitude greater than the analogous $\mu\to e \gamma$! Secondly, if this NP introduces Higgs-like particles, we would observe the NP more strongly in the tau sector, since taus couple more strongly to Higgs than do muons.
+
+\end{document}
+

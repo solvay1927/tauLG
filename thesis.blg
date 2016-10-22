@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: plain.bst
+Database file #1: refs.bib.bib
+Warning--I didn't find a database entry for "Paradisi:2016"
+Warning--I didn't find a database entry for "SuperK:1998"
+Warning--I didn't find a database entry for "SNO:2002"
+Warning--I didn't find a database entry for "CMS:2015a"
+Warning--I didn't find a database entry for "ATLAS:2015"
+Warning--I didn't find a database entry for "Harnik:2012"
+Warning--I didn't find a database entry for "Dorsner:2015"
+Warning--I didn't find a database entry for "Hayasaka:2007"
+Warning--I didn't find a database entry for "Belle:2002"
+Warning--I didn't find a database entry for "Babar:2002"
+Warning--I didn't find a database entry for "Babar:2010"
+Warning--I didn't find a database entry for "Belle:2010"
+Warning--empty title in Passemar:2015
+Warning--empty journal in Passemar:2015
+Warning--empty year in Passemar:2015
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            534 strings with 4511 characters,
+and the built_in function-call counts, 505 in all, are:
+= -- 46
+> -- 14
+< -- 0
++ -- 6
+- -- 4
+* -- 34
+:= -- 93
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 21
+empty$ -- 44
+format.name$ -- 4
+if$ -- 99
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 12
+num.names$ -- 4
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 12
+stack$ -- 0
+substring$ -- 31
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 3
+while$ -- 5
+width$ -- 3
+write$ -- 20
+(There were 15 warnings)
