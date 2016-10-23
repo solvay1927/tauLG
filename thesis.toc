@@ -29,22 +29,37 @@
 \contentsline {section}{\numberline {3.2}Event scaling}{13}{section.3.2}
 \contentsline {section}{\numberline {3.3}Version differences}{13}{section.3.3}
 \contentsline {section}{\numberline {3.4}Implementation of beam backgrounds}{14}{section.3.4}
-\contentsline {chapter}{\numberline {4}Reconstruction}{18}{chapter.4}
-\contentsline {chapter}{\numberline {5}Event topologies}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Signal}{21}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Muon mode}{21}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Electron mode}{22}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Backgrounds}{24}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Tau-pair processes}{24}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Mu-pair processes}{26}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Bhabha}{26}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Continuum and $B\bar {B}$}{27}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Preselection}{30}{chapter.6}
-\contentsline {section}{\numberline {6.1}Muon mode}{30}{section.6.1}
-\contentsline {section}{\numberline {6.2}Electron mode}{32}{section.6.2}
-\contentsline {chapter}{\numberline {7}Signal optimisation}{35}{chapter.7}
-\contentsline {chapter}{\numberline {8}Signal region and event selection}{37}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{38}{chapter.9}
-\contentsline {section}{\numberline {9.1}Future improvements}{38}{section.9.1}
-\contentsline {section}{\numberline {9.2}Working group status}{38}{section.9.2}
-\contentsline {section}{\numberline {9.3}Expected impact on Belle II}{38}{section.9.3}
+\contentsline {chapter}{\numberline {4}Reconstruction}{17}{chapter.4}
+\contentsline {chapter}{\numberline {5}Event topologies}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Signal}{19}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Muon mode}{19}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Electron mode}{20}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Backgrounds}{22}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Tau-pair processes}{22}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Mu-pair processes}{24}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Bhabha}{24}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Continuum and $B\bar {B}$}{25}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Preselection}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}Muon mode}{28}{section.6.1}
+\contentsline {section}{\numberline {6.2}Electron mode}{30}{section.6.2}
+\contentsline {chapter}{\numberline {7}Signal optimisation}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}Muon mode}{35}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Energy-momentum}{35}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Topological relations}{36}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}PID likelihoods}{36}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Continuum suppression}{36}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Remaining criteria}{37}{subsection.7.1.5}
+\contentsline {section}{\numberline {7.2}Electron mode}{38}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Energy-momentum}{38}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Topological relations}{38}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}PID likelihoods}{38}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Continuum suppression}{38}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Remaining criteria}{38}{subsection.7.2.5}
+\contentsline {chapter}{\numberline {8}Signal region analysis}{40}{chapter.8}
+\contentsline {section}{\numberline {8.1}Muon mode}{40}{section.8.1}
+\contentsline {section}{\numberline {8.2}Electron mode}{41}{section.8.2}
+\contentsline {section}{\numberline {8.3}New bounds and new physics}{41}{section.8.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{42}{chapter.9}
+\contentsline {section}{\numberline {9.1}Future improvements}{42}{section.9.1}
+\contentsline {section}{\numberline {9.2}Working group status}{42}{section.9.2}
+\contentsline {section}{\numberline {9.3}Expected impact on Belle II}{42}{section.9.3}

@@ -12,7 +12,7 @@
 %\usepackage{pgfornament}
 \usepackage{pgfplots}
 \usepackage{pgffor}
-\usepackage[version-1-compatibility]{siunitx}
+\usepackage[version-1-compatibility, separate-uncertainty=true]{siunitx}
 \usepackage{fancyhdr}
 \usepackage{lipsum}
 %\usepackage{gensymb}
@@ -150,7 +150,7 @@
 
 \chapter*{Acknowledgements}
 
-~~
+
 
 \end{romanpages}
 
@@ -399,7 +399,7 @@ I can talk about the importance of cluster timing
 \section{Particle identification (PID)}
 
 
-These PID values are generated through combination of many components of the detector, and provide the probability of a track being a particular particle. Due to how reconstruction is handled by the \texttt{reconstructDecay} module, some tracks may be double counted or misreconstructed. To account for this, several tighter PID cuts are implemented later.
+These PID values are generated through combination of many components of the detector, and provide the probability of a track being a particular particle. Some tracks may be double counted or misreconstructed. To account for this, several tighter PID cuts are implemented later.
 
 %-------------------------------------------------------------------
 
@@ -602,24 +602,6 @@ For comparison, some samples of MC were generated without beam background. Compa
     \end{figure}
     
     
-   \begin{figure}[h]
-        \centering
-        \begin{subfigure}[b]{0.475\textwidth}
-            \centering
-            \includegraphics[width=\textwidth]{images/test.pdf}
-            \caption[Network2]%
-            {{\small Total center-of-mass energies w/o beam background}}    
-            \label{fig:mean and std of net14}
-        \end{subfigure}
-        \hfill
-        \begin{subfigure}[b]{0.475\textwidth}  
-            \centering 
-            \includegraphics[width=\textwidth]{images/test.pdf}
-            \caption[]%
-            {{\small Total center-of-mass energies w/ beam background}}    
-            \label{fig:mean and std of net24}
-        \end{subfigure}
-    \end{figure}
     
     
 There are many differences between MC with and without beam background; only a few key points will be discussed here. Most obvious is the number of tracks recorded. Taking, for instance, our signal mode, we would expect for most events 2 or 4 tracks - one signal-side track corresponding to $\mu/e$, and one or three tracks on the tag-side (one- or three-pronged) coming from standard model $\tau$ decays, which are dominantly one- or three-pronged. Beam background particles in the detector produce a number of new tracks (as well as clusters) which are tracked by sub-detector components, then later reconstructed.
@@ -687,24 +669,6 @@ $e^+ e^- \to B^0 \bar{B}^0$       & \num{d6}           & 26058               & 0
 \end{table}
 
 
-% A landscape table
-\begin{sidewaystable}
-\bigskip
-\centering  
-  \begin{tabular}{|l|l|l|l|l|l|p{2.5in}|}  
-  \hline  
-  \multicolumn{6}{|c|}{Text in columns 1 through 6}   
-        & A paragraph 2.5 inches wide \\  
-  \hline  
-  Column 1 & Column 2 & Column 3 & Column 4 & Column 5 & Column 6
-                      & This text is a paragraph.  It will wrap  
-                      around to the next line if necessary. \\  
-  Column 1 & Column 2 & Column 3 & Column 4 & Column 5 & Column 6
-                      & The paragraph column \\  
-  \hline  
-  \end{tabular}  
-  \caption{A Very Wide Table}  	
-\end{sidewaystable}
 
 
 \pagebreak
@@ -1074,8 +1038,7 @@ $e^+ e^-\to B^0 \bar{B}^0$ & 26058 & 3550 & 13.62\%
 
 \section{Electron mode}
 
-Separate preselection criteria was chosen for the electron mode. 
-
+Separate preselection criteria was chosen for the electron mode. These criteria do not differ much, as expected, however due to the prevalence of bremsstrahlung in the electron mode the energy variables differ greatly. Due to this we set an upper limit on $E^{\text{CM}}_{\text{sum}}$ rather than a lower limit as for the muon mode.
 
 \begin{figure}[h]
 \centering
@@ -1195,67 +1158,305 @@ The final signal region in which events will be selected from lies in $\Delta E$
 
 \chapter{Signal optimisation}
 
-A total of XXXX selection cuts were performed.
+(DISCUSS $S/\sqrt{S+B}$, what it is and why we optimise it.)
 
-In optimizing the selection cuts, two distinct methods were used. In the first method, selection cuts were manually chosen based on a combination of individual threshold efficiencies and visual inspection. For individual threshold efficiencies, each cut was performed over all MC types with no other cuts, and the cut ``threshold'' varied each time. The output files were then used to produce figure-of-merit plots, where $S/\sqrt{S+B}$ was plotted against threshold; see below for a few examples. Cuts were applied in ``groups'', with more immediately clear cuts being performed first to reduce background for later cuts. After all cuts were performed, the signal and background efficiencies were as below, with the expected number of events.
+There are many reasonable ways to quantify signal optimisation compared to background in a particle physics analysis. For this analysis, we have chosen the measure of signal optimisation $S/\sqrt{S+B}$. $S$ is the expected number of signal events remaining after event selection has been performed; note that we scale for our signal events dependent on their associated LFV branching fractions, which are currently experimental upper bounds. Hence the measure $S/\sqrt{S+B}$ will vary for different branching fraction hypotheses. 
+Similarly $B$ is the expected number of background events remaining after event selection; specifically this is the sum of all events remaining across all background MC used in analysis. Since not all possible background processes have been included we would expect the empirical value of $B$ to be higher; this is mostly unimportant for our analysis since we need only compare changes in $S/\sqrt{S+B}$ between different selection criteria, not to know the absolute value.
+\\
+To maximise $S/\sqrt{S+B}$, the number of background events must be reduced while not removing too many sgnal events. This is especially important given the low branching fraction of our signal - taking the experimental upper limit of the $\tau\to\mu\gamma$ ($\tau\to e\gamma$) branching fraction, we expect only 135 (XXX) signal events, after reconstruction and preselection, in a $\SI{1000}{fb^-1}$ dataset, compared to over \num{1500000000} (1.5 billion) background events in the same luminosity. The actual number of signal events is very likely lower, due to double-counting in reconstruction (REPHRASE. Also, something to say about lower branching fraction?).
+\\
+Forty selection criteria were used in selecting for $\tau\to\mu\gamma$ events. Variables chosen for selection originally came from the previous search for $\tau\to\ell\gamma$ at Belle (REF); more were added as the analysis progressed to achieve better greater signal separation. Some of these variables were not included in the final analysis. Notable were those related to missing momentum and mass, excluded due to poor reconstruction resulting in poor event separation. Others such as tag-track transverse momentum and signal-track momentum were not included due to significant overlap of background exclusion with other variables (most obviously center-of-mass tag track momentum and center-of-mass signal-track momentum) causing selection on these measureables to have little to no impact on signal optimisation.
+\\
+The thresholds were chosen via a manuallly iterative process, continually improving the ratio $S/\sqrt{S+B}$ by adding or refining criteria. Initial criteria were informed by a combination of automatic iteration over a range of threshold values for around 20 variables, and by visual inspection.
 
-EFFICIENCIES
+The accomplish the former, selection was repeatedly performed over all MC with only a single criteria applied. The lower or upper threshold of this criteria was modified by a small increment each time. The resulting value of $S/\sqrt{S+B}$ was then plotted against the selection threshold; this plot is called a \emph{figure-of-merit} plot. An obvious peak, as in Figure XXXX, indicates a beneficial (??) value for selection. For many variables, no peak was apparent and so no initial threshold could be chosen through this method.
 
-The second method used multivariate analysis (MVA) methods, available through the Toolkit for Multivariate Analysis (TMVA). ??? haven't actually done this yet.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{images/fom-test.pdf}
+\caption{Figure-of-merit plot for $p_{\text{signal}}^{\text{CM}}$}
+\label{}
+\end{figure}
 
-\pagebreak
+Initial visual inspection was performed by finding obvious separation between signal and many background variables. This was informed by knowledge of event topologies (Section XXXX), as well as some figure-of-merit plots as described above. Figures XXXX and XXXXX are examples of good and poor selection variables. In Figure XXXX, large background peaks occuring at less than $\SI{1}{GeV/c}$ and greater than $\SI{4.3}{Gev}$ lead to great separation from signal, which does not peak anywhere in those regions. Figure XXXX offers less than optimal threshold positions, as there is no apparent way to remove any amount of background without also removing a large amount of signal; note that this variable was not included during event selection. 
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{images/tauMG-muCM_P.pdf}
+  \captionof{figure}{muCM P}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{images/tauMG-missingCosTheta.pdf}
+  \captionof{figure}{missingCosTheta}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+\section{Muon mode}
+
+Figure XXXX shows the number of signal and background events remaining after selection has been applied. Specific discussion and justification of selection criteria is given below.
 
 \begin{table}[h]
 \centering
-\begin{tabular}{lllll}
-\textbf{cut number} & \textbf{symbolic} & \textbf{description} & \textbf{lower} & \textbf{upper} \\ \hline
-\textbf{muCM\_P} & $p_{\text{signal}}^{\text{CM}}$  & CM momentum of signal track  &  &  \\
-\textbf{tagtrackCM\_P} & $p_{\text{tag}}^{\text{CM}}$  & CM momentum of tag track &  &  \\
-\textbf{mu\_Pt} & $p_{t~\text{signal}}$ & Transverse momentum of signal track &  &  \\
-\textbf{mu\_Pt} & $p_{t~\text{tag}}$ & Transverse momentum of tag track &  &  \\
-\textbf{muCosTheta} & $\cos\theta_{\text{signal}}$ & Cosine of polar angle of signal track &  &  \\
-\textbf{tagtrackCosTheta} & $\cos\theta_{\text{tag}}$ & Cosine of polar angle of tag track &  &  \\
-\textbf{totalCM\_E} & $E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system  &  &  \\
-\textbf{thrustSignal} & $\lvert\text{thrust}_{\text{signal}}\rvert$ & Magnitude of signal thrust vector* &  &  \\
-\textbf{signalPIDmu} & $\mu\text{-ID}_{\text{signal}}$ & $\mu$ PID of signal track &  &  \\
-\textbf{mu\_P} & $p_{\text{signal}}$  & Momentum of signal track &  &  \\
-\textbf{tagPIDmu} & $\mu\text{-ID}_{\text{tag}}$ & $\mu$ PID of tag track &  &  \\
-\textbf{gamma\_E} & $E_{\gamma}$ & Energy of signal photon &  &  \\
- & $\cos\theta_{\gamma}$ & Cosine of polar angle of signal photon &  &  \\
- & $\cos\theta^{\text{CM}}_{\text{signal}-\gamma}$ & Cosine of angle between signal track and signal photon in CM &  &  \\
-\textbf{sumCM\_E} & $E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks &  &  \\
-\textbf{tracksCMOpeningTheta} &  & Opening angle between signal and tag track &  &  \\
-\textbf{helicityCosTheta} &  & Cosine of the helicity angle &  &  \\
- & $\cos\theta^{\text{CM}}_{\text{miss-tag}}$ & Opening angle between tag track and missing momentum &  &  \\
-\textbf{tracks} & $n_{\text{tracks}}$ & Number of charged tracks &  &  \\
-\textbf{signalPIDk} & $\text{K-ID}_{\text{signal}}$ & K PID of signal track &  &  \\
-\textbf{signalPIDpi} & $\pi\text{-ID}_{\text{signal}}$ & $\pi$ PID of signal track &  &  \\
-\textbf{signalPIDe} & $\text{e-ID}_{\text{signal}}$ & e PID of signal track &  &  \\
-\textbf{clusterNHits} &  & timing of this cluster &  &  \\
-\textbf{clusterUncorrE} &  & uncorrected cluster energy &  &  \\
-\textbf{clusterHighE} &  & highest crystal energy in the cluster &  &  \\
-\textbf{clusterTiming} &  & timing of this cluster &  &  \\
-\textbf{signalTrPval} &  & Signal track fit pvalue &  &  \\
-\textbf{tagTrPval} &  & Tag track fit pvalue &  &  \\
-\textbf{cosTBz} &  & Cosine of the angle between the thrust axis of the signal track and the z-axis &  &  \\
-\textbf{cc1} &  & Cleo cone 1 &  &  \\
-\textbf{hso00} &  & Hso(0,0) &  &  \\
-\textbf{neutralECLEnergy} &  & Total energy of all neutral ECLClusters &  & 
+\begin{tabular}{lrr}
+\textbf{Event process}         & \textbf{events in} & \textbf{events out} \\ \hline 
+\rowcolor[HTML]{EFEFEF} 
+$\tau\to\mu\gamma$       & \num{135 \pm 1}        & 6                             \\
+$\tau\to\mu\nu\nu$      & \num{631235}             & 163                    \\
+$\tau\to\pi\nu$         & \num{822028}                & 40                                     \\
+$\tau\to e\nu\nu$       & \num   {70675}              & 0                                  \\
+$\tau\to\text{generic}$  & \num{636954}           & 0                                   \\
+$e^+ e^- \to \mu^+ \mu^- (\gamma)$       & \num{21938180}        & 15             \\
+$e^+ e^- \to e^+ e^- (\gamma)$      & \num{1457005758}      & 0                               \\
+$e^+ e^- \to u \bar{u}$       & \num{29767142}           & 9                                 \\
+$e^+ e^- \to d \bar{d}$        & \num{7307320}           & 3                                \\
+$e^+ e^- \to c \bar{c}$        & \num{23401910}           & 0                            \\
+$e^+ e^- \to s \bar{s}$       & \num{6299797}           & 3                                       \\
+$e^+ e^- \to B^+ B^-$     & \num{22083348}           & 0                            \\
+$e^+ e^- \to B^0 \bar{B}^0$       & \num{23372366}           & 0                           
+\end{tabular}
+\caption{Events remaining after selection (electron mode)}
+\label{my-label}
+\end{table}
+
+\subsection{Energy-momentum}
+
+{\large I need some way to say this without saying ``we require'' repeatedly. Could borrow from Hayasaka-san}
+
+We require $p^{\text{CM}}_{\mu}$ greater than $\SI{1}{GeV/c}$ and less than $\SI{4.3}{GeV/c}$, to remove low-momentum tracks from continuum events and to remove high-momentum tracks from leptonic processes without high-energy final state photons, that is, generic tau-pair processes, mu-pair processes, and bhabha. Muon transerve momentum $p^{\text{t}}_{\mu}$ is required to be greater than $\SI{0.1}{GeV/c}$; tracks with a lesser transverse momentum could not reach the CDC sub-detector component so we do not select these events. Low-energy tracks from continuum events often do not satisfy this criteria, however most low-energy tracks are excluded through selection on $p^{\text{CM}}_{\mu}$. To suppress $\mu^+\mu^-$ and Bhabha backgrounds we require center-of-mass momentum of the tag track $p^{\text{CM}}_{\text{tag track}}$ less than $\SI{2.5}{GeV}$. Through conservation of momentum we expect the signal and tag tracks of the processes $e^+ e^-\to\ell^+ \ell^- (\gamma)$ we to have momentum peaks around $\SI{5}{GeV}$, which are excluded by this selection. Since most background processes reconstruct the signal photon from low-energy photons, we require the energy of the signal photon $E_{\gamma}$ to be $\SI{0.8}{GeV}$. This selection criteria is effective in removing background events across different processes. Total energy in the center-of-mass frame $E^{\text{CM}}_{\text{total}}$ is required to be less than $\SI{12}{GeV}$ to suppress $\mu^+\mu^-$ events.
+
+NOTE: variables I didn't use but could have used = $p^{\text{t}}_{\text{tag track}}$, $p_{\mu}$, $E^{\text{CM}}_{\text{sum}}$
+
+
+\subsection{Topological relations}
+
+We require $\cos\theta_{\mu}$ in the range \num{-0.8} to \num{0.9}; \num{-0.8} < $\cos\theta_{\gamma}$ < \num{0.85}; \num{1} < $\theta^{\text{CM}}_{\text{signal $\tau$}}$ < \num{2.2}; -0.8 < $\cos\theta_{\text{H}}$ < 0.8.
+
+DISCUSS, ELABORATE, ETC.
+
+\subsection{PID likelihoods}
+
+Signal-side tracks are identified as muons by requiring $\mathcal{L}_{\mu} > 0.8$. To reduce the effect of double-counting, mostly for signal events, we require $\mathcal{L}_{K} < 0.08$ and $\mathcal{L}_{e} < 0.005$. Due to how events are reconstructed in \texttt{basf2} we also require $\mathcal{L}_{\pi} > 0.8$ (WHY IS THIS??). On the tag-side, we require $\mathcal{L}_{\mu} < 0.85$ to identify the tag-track as not a muon.
+
+SOMETHING ABOUT $\mathcal{L}_{\mu}$ being not perfect? Very rough on the tag-side.
+
+
+\subsection{Continuum suppression}
+
+Thrust vectors are very powerful in event selection. They are defined as ?????
+
+The magnitude of the thrust vector constructed from ..... signal side stuff(??) should be between \num{0.936} and \num{0.944}; signal events exhibit a sharp, narrow peak around \num{0.944} while other leptonic processes peak towards \num{1}.
+
+Another thrust vector is also built using rest-of-event data; rest-of-event encompasses all clusters and tracks which are not reconstructed as part of the signal- or tag-sides. The magnitude of this rest-of-event thrust vector is required to be in the range from \num{0.85} and \num{0.98}. As shown in Figure XXXX, events produce very clean Gaussian-like distributions with little trailing tail. As such, while this selection removes a non-negligible amount of signal, it suppreses continuum events very strongly and almost completely excludes $B\bar{B}$ events. 
+
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{images/tauMG-thrustSignal.pdf}
+  \captionof{figure}{Signal thrust}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{images/tauMG-thrustRoe.pdf}
+  \captionof{figure}{Rest-of-event thrust}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+
+We also selection events using the angle between these thrust vectors; we require the cosine of the angle between the signal thrust vector and rest-of-event thrust vector to be greater than \num{0.7}.
+
+Several continuum suppression variables were chosen by inspection after many more obvious criteria had been applied. These are:
+
+WHAT ARE CLEO CONES/SUPER FOX WOLFRAM MOMENTS.
+
+cc1 < 5
+cc2 > 2.4
+cc4 < 1.7
+cc5 < 0.9
+cc6 < 0.7
+cc7 < 0.5
+cc9 < 0.4
+0.05 < hso00 < 1
+-0.05 < hso01 < 0.3
+hso02 < 0.48
+-0.1 < hso03 < 0.25
+-0.1 < hso20 < 1
+-0.018 < hoo1 < 0.08
+-0.01 < hoo3 < 0.007
+R2 > 0.4
+
+
+\subsection{Remaining criteria}
+
+
+Number of tracks 
+tracks < 15
+
+Total energy of all neutral ECLClusters
+2 < neutralECLenergy < 6
+
+
+Cluster timing (???)
+-1 < clusterTiming < 1
+
+
+Ratio of energies in inner 3x3 and 5x5 cells
+e9e25 > 0.95
+
+sigD0	-0.05	0.05
+sigZ0	-0.06	0.06
+
+\section{Electron mode}
+
+Selection for the electron mode is similar to the muon mode; differences will be highlighted and discussed. Figure XXXX shows the number of signal and background events remaining after selection has been applied.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrr}
+\textbf{Event process}         & \textbf{events in} & \textbf{events out} \\ \hline 
+\rowcolor[HTML]{EFEFEF} 
+$\tau\to e\gamma$       & \num{135 \pm 1}        & 6                             \\
+$\tau\to\mu\nu\nu$      & \num{631235}             & 163                    \\
+$\tau\to\pi\nu$         & \num{822028}                & 40                                     \\
+$\tau\to e\nu\nu$       & \num   {70675}              & 0                                  \\
+$\tau\to\text{generic}$  & \num{636954}           & 0                                   \\
+$e^+ e^- \to \mu^+ \mu^- (\gamma)$       & \num{21938180}        & 15             \\
+$e^+ e^- \to e^+ e^- (\gamma)$      & \num{1457005758}      & 0                               \\
+$e^+ e^- \to u \bar{u}$       & \num{29767142}           & 9                                 \\
+$e^+ e^- \to d \bar{d}$        & \num{7307320}           & 3                                \\
+$e^+ e^- \to c \bar{c}$        & \num{23401910}           & 0                            \\
+$e^+ e^- \to s \bar{s}$       & \num{6299797}           & 3                                       \\
+$e^+ e^- \to B^+ B^-$     & \num{22083348}           & 0                            \\
+$e^+ e^- \to B^0 \bar{B}^0$       & \num{23372366}           & 0                           
+\end{tabular}
+\caption{Events remaining after selection (electron mode)}
+\label{my-label}
+\end{table}
+
+\subsection{Energy-momentum}
+
+
+\subsection{Topological relations}
+
+
+\subsection{PID likelihoods}
+
+
+\subsection{Continuum suppression}
+
+
+\subsection{Remaining criteria}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\textbf{variable} & \textbf{description} \\ \hline
+$p_{\text{signal}}^{\text{CM}}$  & CM momentum of signal track \\
+$p_{\text{tag}}^{\text{CM}}$  & CM momentum of tag track  \\
+$p_{t~\text{signal}}$ & Transverse momentum of signal track \\
+$p_{t~\text{tag}}$ & Transverse momentum of tag track  \\
+$\cos\theta_{\text{signal}}$ & Cosine of polar angle of signal track  \\
+$\cos\theta_{\text{tag}}$ & Cosine of polar angle of tag track  \\
+$E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system    \\
+$\lvert\text{thrust}_{\text{signal}}\rvert$ & Magnitude of signal thrust vector* \\
+$\mu\text{-ID}_{\text{signal}}$ & $\mu$ PID of signal track  \\
+$\mu\text{-ID}_{\text{tag}}$ & $\mu$ PID of tag track  \\
+$E_{\gamma}$ & Energy of signal photon   \\
+$\cos\theta_{\gamma}$ & Cosine of polar angle of signal photon   \\
+$\cos\theta^{\text{CM}}_{\text{signal}-\gamma}$ & Cosine of angle between signal track and signal photon in CM  \\
+$E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks  \\
+$\cos\theta^{\text{CM}}_{\text{signal, tag track}}$ & Opening angle between signal and tag track  \\
+$\cos\theta_{\text{H}}$ & Cosine of the helicity angle \\
+$n_{\text{tracks}}$ & Number of charged tracks  \\
+$\text{K-ID}_{\text{signal}}$ & K PID of signal track\\
+$\pi\text{-ID}_{\text{signal}}$ & $\pi$ PID of signal track \\
+$\text{e-ID}_{\text{signal}}$ & e PID of signal track  \\
+\textbf{clusterTiming} & timing of this cluster   \\
+\textbf{cosTBz} & Cosine of the angle between the thrust axis of the signal track and z-axis   \\
+\textbf{cosTBTO} & Cosine of the angle between the thrust axis of the signal track and ???  \\
+\textbf{thrustRoe} & Thrust roe   \\
+\textbf{tauCMtheta} & Center-of-mass frame polar angle of reconstructed signal $\tau$ \\
+$E_{\text{neutral ECL}}$ & Energy in ECL clusters deposited by neutral particles \\
+\textbf{sigD0} & D0 of signal track  \\
+\textbf{sigZ0} & Z0 of signal track \\
+\textbf{cc1} & Cleo cone 1   \\
+\textbf{cc2} & Cleo cone 2 \\
+\textbf{cc4} & Cleo cone 4  \\
+\textbf{cc5} & Cleo cone 5   \\
+\textbf{cc6} & Cleo cone 6  \\
+\textbf{cc7} & Cleo cone 7 \\
+\textbf{cc9} & Cleo cone 9  \\
+\textbf{hso00} & Hso(0,0)  \\
+\textbf{hso01} & Hso(0,1)   \\
+\textbf{hso02} & Hso(0,2)  \\
+\textbf{hso03} & Hso(0,3)  \\
+\textbf{hso20} & Hso(2,0)  \\
+\textbf{hoo1} & R(1)  \\
+\textbf{hoo2} & R(2) \\
+\textbf{hoo4} & R(4)  \\
 \end{tabular}
 \caption{Selection criteria}
 \label{my-label}
 \end{table}
 
-
 \pagebreak
 
 %-------------------------------------------------------------------
 
-\chapter{Signal region and event selection}
+\chapter{Signal region analysis}
 
-After selection, we are left with a far reduced number of background events and a non-neglible amount of expected signal events. We can now analyse events within the signal region. This is a region in $\Delta E$ vs $M_{\text{inv}}$ space, with $-0.2 < \Delta E < 0.2$, and $1.7 < M_{\text{inv}} < 1.8$.
+After selection, we are left with a far reduced number of background events and a non-zero amount of expected signal events. We can now analyse events within the signal region. This is a region in $\Delta E$ vs $M_{\text{inv}}$ space, with $-0.4 < \Delta E < 0.2$, and $1.65 < M_{\text{inv}} < 1.85$.
 
-$\Delta E$ is the energy difference between the reconstructed particles and beam energy, calculated as ????. $M_{\text{inv}}$ is the invariant mass of the reconstructed signal tau; experimentally the tau has a mass of $\SI{1.7}{GeV/c}$. These variables have only been cut on very loosely up until this point to avoid bias.
+
+\section{Muon mode}
+
+$\Delta E$ and $M_{\text{inv}}$ are fit with asymmetric Gaussians to determine mean and $\sigma$. We find mean $\Delta E \approx \SI{47}{MeV}$ and $M_{\text{inv}} \approx \SI{1.79}{GeV/c^2}$; this is consistent with our expections of $\Delta E \sim 0$ and $M_{\text{inv}} \sim m_{\tau}$. Signal variable resolutions are $\sigma^{\text{high/low}}_{\Delta E}=\SI{5 \pm 5}{MeV}/\SI{10 \pm 10}{MeV}$ and $\sigma^{\text{high/low}}_{M_{\text{inv}}}=\SI{5 \pm 5}{GeV/c^2}/\SI{10 \pm 10}{GeV/c^2}$.
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{images/tauMG-deltaE_fit_agauss.pdf}
+  \captionof{figure}{$\Delta E$ asymmetric Gaussian fit}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{images/tauMG-invMass_fit_agauss.pdf}
+  \captionof{figure}{$M_{\text{inv}}$ asymmetric Gaussian fit}
+  \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+After accounting for the correlation between signal region variables we produce $2\sigma$ and $3\sigma$ bounds on event selection. The signal region is shown in Figure XXXX, with signal and background MC distributions overlayed.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{images/tauMG-signalRegion.pdf}
+\caption{TauMG signal region. Shaded boxes is the event distribution for $\tau\to\mu\gamma$; dots are unscaled background events coloured according to the legend.}
+\label{}
+\end{figure}
+
+In the entire signal region we find 6 $\tau\to\mu\gamma$ events, and 163 $\tau\to\mu\nu\nu$ events, 40 $\tau\to\pi\nu$ events, 15 $e^+ e^-\to\mu^+\mu^-(\gamma)$ events, 9 $e^+ e^-\to u^+ u^-$ events, 3 $e^+ e^-\to d^+ d^-$ events, and 3 $e^+ e^-\to s^+ s^-$ events. This totals to 6 signal events and \num{232 \pm 1} background events. Within the $2\sigma$ ellipse, we find \num{5 \pm 5} signal events and \num{13 \pm 13} background events. Of these background events we have \num{10 \pm 10} $e^+ e^-\to u^+ u^-$ events and \num{3 \pm 3} $\tau\to\mu\nu\nu$ events. 
+
+SO WHAT'S THE TAKE-AWAY FROM THIS? Need to do a few calculations about something probably.
+
+\section{Electron mode}
+
+
+\section{New bounds and new physics}
+
+COMMENT ON THE MASS SCALE THESE PROBE IN NEW PHYSICS SCENARIOS (2HDM, Babar's looked at it)
+
 
 \pagebreak
 
@@ -1333,6 +1534,27 @@ This research is the first to investigate $\tau$ LFV at Belle II using full anal
         \label{fig:mean and std of nets}
     \end{figure*}
     \end{comment}
+    
+    \begin{comment}
+% A landscape table
+\begin{sidewaystable}
+\bigskip
+\centering  
+  \begin{tabular}{|l|l|l|l|l|l|p{2.5in}|}  
+  \hline  
+  \multicolumn{6}{|c|}{Text in columns 1 through 6}   
+        & A paragraph 2.5 inches wide \\  
+  \hline  
+  Column 1 & Column 2 & Column 3 & Column 4 & Column 5 & Column 6
+                      & This text is a paragraph.  It will wrap  
+                      around to the next line if necessary. \\  
+  Column 1 & Column 2 & Column 3 & Column 4 & Column 5 & Column 6
+                      & The paragraph column \\  
+  \hline  
+  \end{tabular}  
+  \caption{A Very Wide Table}  	
+\end{sidewaystable}
+\end{comment}
 
 \end{document}
 
