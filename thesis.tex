@@ -97,7 +97,7 @@
 %\setlength{\parindent}{2em}
 %\setlength{\parskip}{1em}
 \newcommand{\goth}[1]{{\Huge\textfrak{#1}}}
-%\renewcommand{\baselinestretch}{1.1}
+\renewcommand{\baselinestretch}{0.9}
 
 \newcommand{\br}{\mathcal{B}}
 \newcommand{\tmg}{\tau\to\mu\gamma}
@@ -108,8 +108,8 @@
  \geometry{
  a4paper,
  total={210mm,297mm},
- left=28mm,
- right=28mm,
+ left=20mm,
+ right=20mm,
  top=30mm,
  bottom=30mm,
  }
@@ -126,7 +126,7 @@
 
 %\renewcommand{\submittedtext}{change the default text here if needed}
 \degree{Master of Science}     %the degree
-\degreedate{2016}         %the degree date
+\degreedate{28 October 2016}         %the degree date
 
 %end the preamble and start the document
 \begin{document}
@@ -151,6 +151,7 @@
 \chapter*{Acknowledgements}
 
 
+\chapter*{Abstract}
 
 \end{romanpages}
 
@@ -343,27 +344,30 @@ To probe smaller branching fractions for signals of new physics, we are required
 
 Increased luminosity will allow the branching fractions of various LFV processes to be probed with greater sensitivity. Figure above gives an indication of how future searches at Belle II will improve upper limits on the branching fractions for decays such as, importantly, $\tlg$.
 
-\pagebreak
 
 %-------------------------------------------------------------------
 
 \chapter{The Belle and Belle II detectors}
 
-Located in Tsukuba, Japan, the KEKB particle accelerator was used for the Belle experiment from 1999 to 2010 and collided high energy electrons and positrons of $\SI{8}{GeV}$ and $\SI{3.5}{GeV}$ respectively. This experiment made important discoveries on the flavour structure of elementary particles, notably in the quark section where CP symmetry violation was discovered. Efforts by the Belle Collaboration culminated in the 2008 Nobel Prize awarded to Makoto Kobayashi and Toshihide Maskawa for their theory of CP violation.
-
-Over its lifetime, the Belle detector collected a total time-integrated luminosity of $\SI{1000}{fb^{-1}}$, corresponding to ???? tau-pair events. A 
-
-The key components of the detector are the silicon vertex detector (SVD), the central drift chamber (CDC), the electromagnetic calorimeter (ECL), the time-of-flight/Cerenkov aerogel chamber (TOP), and the K-long/muon detector (KLM).
+Located in Tsukuba, Japan, the KEKB particle accelerator was used for the Belle experiment from 1999 to 2010 and collided high energy electrons and positrons of $\SI{8}{GeV}$ and $\SI{3.5}{GeV}$ respectively. This experiment made important discoveries on the flavour structure of elementary particles, notably in the quark section where CP symmetry violation was discovered. Efforts by the Belle Collaboration culminated in the 2008 Nobel Prize awarded to Makoto Kobayashi and Toshihide Maskawa for their theory of CP violation. Over its lifetime, the Belle detector collected a total time-integrated luminosity of $\SI{1000}{fb^{-1}}$, corresponding to ???? tau-pair events. An upgrade to the KEKB collider known as SuperKEKB is expected to be complete by 2014 \textbf{(LOL)} as part of the Belle II experiement.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\linewidth]{images/super-kekb-side-view.png}
+\includegraphics[width=0.7\linewidth]{images/super-kekb-side-view.png}
 \caption{Super-KEKB detector design, side-view}
 \label{}
 \end{figure}
 
+Over the course of the experiment, it is projected that Belle II will generate a total time-integrated luminosity of $\SI{50}{ab^{-1}}$. This is a much larger data sample than the $\SI{1}{ab^{-1}}$ collected at Belle. Electron-positron beam energies differ from those used at Belle, with high-energy-ring (HER) electron beam energy of $\SI{7}{GeV}$ and low-energy-ring (LER) positron beam energy  of $\SI{4}{GeV}$. Design luminosity in the detector is increased by 40 over Belle; this increases background hit rate (???) by a factor of 20, while physics event rate is expected to be 50 times higher than at Belle.
+
+Key components of the detector are the silicon vertex detector (SVD), the central drift chamber (CDC), the electromagnetic calorimeter (ECL), the time-of-flight/Cerenkov aerogel chamber (TOP), and the K-long/muon detector (KLM). Many of these will be upgraded in Belle II to provide better performance; in some cases the full reconstruction software is rewritten even when the hardware is not improved.
+
 %-------------------------------------------------------------------
 
+\section{Pixel Detector}
+
+
+%-------------------------------------------------------------------
 
 \section{Silicon Vertex Detector}
 
@@ -373,11 +377,17 @@ The key components of the detector are the silicon vertex detector (SVD), the ce
 
 \section{Central Drift Chamber}
 
+Smaller drift cells than Belle; extends to a large radius.
+
 %-------------------------------------------------------------------
 
 
 \section{Electromagnetic Calorimeter}
 
+Possible replacement of endcap scintillator crystral with a faster and radiation tolerant version.
+
+New electronics of ECL considerably reduce noise pile-up.
+`
 I can talk about the importance of cluster timing
 
 \url{https://docs.belle2.org/record/344/files/BELLE2-NOTE-TE-2016-006.pdf}
@@ -389,42 +399,23 @@ I can talk about the importance of cluster timing
 
 %-------------------------------------------------------------------
 
-
 \section{K-long/muon detector}
-
 
 %-------------------------------------------------------------------
 
-
 \section{Particle identification (PID)}
-
 
 These PID values are generated through combination of many components of the detector, and provide the probability of a track being a particular particle. Some tracks may be double counted or misreconstructed. To account for this, several tighter PID cuts are implemented later.
 
 %-------------------------------------------------------------------
 
-
-
-
-\section{Super-KEKB}
-
-The KEKB detector is currently undergoing upgrades to facilitate the running of the sequel to the Belle experiment, inventively labelled Belle II. The upgraded detector is known as Super-KEKB, and has a range of improvements over its predecessor. The SVD is being upgraded to include 6 layers (up from ???) which will allow for SOMETHING. Additionally, a Pixel Detector (PXD) is being installed around the interaction point, prior to the SVD, which will allow for even greater tracking of particle trajectories.
-
-Over the course of the experiment, it is projected that Belle II will generate a total time-integrated luminosity of $\SI{50}{ab^{-1}}$, or $\SI{50000}{fb^{-1}}$; that is, 50 times more available data than with Belle.
-
-The electron and positron beam energies differ from those used at Belle, with electron beam energy of $\SI{7.5}{GeV}$ (HER?) and positron beam energy (LER?) of $\SI{4}{GeV}$. This produces a center-of-mass energy of $\SI{11}{GeV}$.
-
-
-\pagebreak
-
-
 \section{Beam backgrounds}
 
 SEE TECHNICAL DESIGN REPORT
 
-Beam background is an important issue in B factories, and especially so for the upgraded energies of Super-KEKB. Key sources of this beam background are synchrotron radiation (SR), beam-gas scattering, and Touschek radiation.
+Beam background is an important issue in B-factories, and especially so for the upgraded energies of SuperKEKB. Key sources of this beam background are synchrotron radiation (SR), beam-gas scattering, and Touschek radiation.
 
-Scattered particles and radiation photons, generated by these processes, collide with the beam pipe and generate showers of photons, leptons and hadronic particles. Additionally, other particles can be generated at the interaction point in the collision between opposite beams; these are mostly electron-positron pairs. These particles then interact with the detector, and are called beam background. This background can make searches for actual physics events difficult, due to the large number of clusters and tracks introduced.
+Scattered particles and radiation photons generated by these processes collide with the beam pipe and generate showers of photons, leptons and hadrons. Additionally, other particles can be generated at the interaction point of the collision between opposite beams; these are mostly electron-positron pairs. These particles then interact with the detector, and are called beam background. This background can make searches for interesting physics events difficult, due to the large number of clusters and tracks introduced.
 
 \subsection{Synchrotron radiation}
 
@@ -432,19 +423,31 @@ As beam particles are bent by magnets while travelling through the accelerator, 
 
 \subsection{Beam-gas scattering}	
 
-Inside the beam pipes is not a perfect vacuum; the designed gas pressure for Super-KEKB is $\SI{e-7}{Pa}$. Most of this gas is composed of neutral H$_2$ and CO$_2$. Beam particles can collide with the gas molecules, resulting in elastic scattering where energy is maintained by direction is changed (Coulomb scattering), or inelastic scattering whereby a photon is emitted from the scattered particle (bremsstrahlung).
+The region inside the beam pipe is not a perfect vacuum; the designed gas pressure for SuperKEKB is $\SI{e-7}{Pa}$. Most of this gas is composed of neutral H$_2$ and CO$_2$. Beam particles can collide with the gas molecules, resulting in elastic scattering where energy is unchanged but direction is changed (Coulomb scattering), or inelastic scattering whereby a photon is emitted from the scattered particle (bremsstrahlung).
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=\linewidth]{images/beam-gas-scattering.png}
-\caption{Beam-gas scattering}
-\label{fig:test2}
-\end{figure}
+  \begin{figure}[h]
+        \centering
+        \begin{subfigure}[b]{0.475\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{images/coulomb-scattering.png}
+            \caption[Network2]%
+            {{\small Coulomb scattering}}    
+            \label{fig:mean and std of net14}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.475\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{images/bremsstrahlung.png}
+            \caption[]%
+            {{\small Bremsstrahlung}}    
+            \label{fig:mean and std of net24}
+        \end{subfigure}
+    \end{figure}
 
 
 \subsubsection{Coulomb scattering}
 
-Beam electrons (or positrons) can elastically scatter off beam gas particles, changing direction such that the scattered particle does not reach the interaction point.
+Beam electrons and positrons can elastically scatter off beam gas particles, changing direction such that the scattered particle does not reach the interaction point.
 
 \subsubsection{Bremsstrahlung}
 
@@ -466,7 +469,6 @@ Within these bunches the particles oscillate in a direction perpendicular to the
 
 
 
-\pagebreak
 %-------------------------------------------------------------------
 
 \chapter{Monte Carlo production and background types}
@@ -492,35 +494,34 @@ Samples for a range of background events were produced by the Belle II Collabora
 
 The full Belle II dataset is expected to have a time-integrated luminosity of $\SI{50}{ab^{-1}}$ (UM HMM what do I do here). Instead of running over the equivalent amount of background events expected in such a sample size, we can run over a smaller number of events then scale our results. This is done for computing reasons, as the number of background events recorded for these luminosities quickly becomes prohibitively large.
 
-We choose to scale up to a luminosity of $\SI{1000}{fb^-1}$; this is the total time-integrated luminosity of the complete Belle dataset, and so is useful as a point of comparison to previous searches. The scale factor for each event type is calculated by
+We choose to scale up to a luminosity of $\SI{1}{ab^{-1}}$; this is the total time-integrated luminosity of the complete Belle dataset, and so is useful as a point of comparison to previous searches. The scale factor for each event type is calculated by
 
 \begin{equation}
-n_{\SI{1000}{fb^{-1}}} = n_{\text{generated}} \times \text{scale factor},
+n_{\SI{1}{ab^{-1}}} = n_{\text{generated}} \times \text{scale factor},
 \end{equation}
 
-where $n_{\SI{1000}{fb^{-1}}}$ = $\mathcal{L} \sigma$, and $n_{\text{generated}}$ is the number of events generated. Scaled event numbers are presented in Table XXXX below.
+where $n_{\SI{1}{ab^{-1}}}$ = $\mathcal{L} \sigma$, and $n_{\text{generated}}$ is the number of events generated. Scaled event numbers are presented in Table XXXX below.
 
 \begin{table}[h]
 \centering
-\begin{tabular}{lllll}
-\textbf{Event type} & $\mathbf{n_{\text{generated}}}$ & $\mathbf{n_{\SI{1000}{fb^{-1}}}}$ & 
-\textbf{scale factor}\\\hline
+\begin{tabular}{lrrr}
+\textbf{Event type} & $\mathbf{n_{\text{generated}}}$ & \textbf{scale factor} & $\mathbf{n_{\SI{1}{ab^{-1}}}}$ \\ \hline
 \rowcolor[HTML]{EFEFEF} 
-$\tau \to \mu\gamma$ & \num{3.1d6} & 82.71 & \num{2.66806d-5}\\
-\rowcolor[HTML]{EFEFEF} 
-$\tau \to e\gamma$ & \num{3.55d6} & 220.56 & \num{6.21296d-5} \\       
-$\tau \to \mu\nu\nu$ & ?? & \num{3.19996d8} & 9.99987\\
-$\tau \to \pi\nu$ & \num{38d6} & \num{1.99055d8} & 5.2383 \\
-$\tau \to e\nu\nu$ & ?? & \num{3.27715d8} & 68.274 \\
-$\tau \to \text{generic}$ & ?? & ?? & 15.7339  \\
-$e^+e^- \to \mu^+\mu^-(\gamma)$ & \num{681d6} & \num{1.148d9} & 1.68576 \\
-$e^+e^- \to e^+e^-\gamma$ & \num{71.52d6} & \num{3d11} & 4194.63 \\
-$e^+e^- \to u\bar{u}$ & \num{d6} & \num{1.61d9} & 1610 \\
-$e^+e^- \to d\bar{d}$ & \num{d6} & \num{4d8} & 400 \\
-$e^+e^- \to c\bar{c}$ & \num{d6} & \num{1.3d9} & 1300 \\
-$e^+e^- \to s\bar{s}$ & \num{d6} & \num{3.8d8} & 380 \\
-$e^+e^- \to B^+B^-$ & \num{d6} & \num{1.2d9} & 1200 \\
-$e^+e^- \to B^0\bar{B}^0$ & \num{d6} & \num{1.2d9} & 1200
+$\tau \to \mu\gamma$ & \num{3200000} & \num{2.58e-05} & \num{83} \\
+\rowcolor[HTML]{EFEFEF}
+$\tau \to e\gamma$ & \num{2550000} & \num{8.65E-05} & \num{221} \\       
+$\tau \to \mu\nu\nu$ & \num{127998320} & \num{1.250} & \num{159997900} \\
+$\tau \to \pi\nu$ & \num{267245200} & \num{1.250} & \num{334056500}  \\
+$\tau \to e\nu\nu$ & \num{131086160} & \num{1.250} & \num{163857700}  \\
+$\tau \to \text{generic}$ & \num{208870320} & \num{1.250} & \num{261087900} \\
+$e^+e^- \to \mu^+\mu^-(\gamma)$ & \num{148600000} & \num{7.725} & \num{1148000000}  \\
+$e^+e^- \to e^+e^-(\gamma)$ & \num{15630000} & \num{19193.858} & \num{300000000000}  \\
+$e^+e^- \to u\bar{u}$ & \num{1268991935} & \num{1.269} & \num{1610000000} \\
+$e^+e^- \to d\bar{d}$ & \num{317048262} & \num{1.262} & \num{400000000} \\
+$e^+e^- \to c\bar{c}$ & \num{1039855756} & \num{1.250}  & \num{1300000000} \\
+$e^+e^- \to s\bar{s}$ & \num{289900586} & \num{1.310}  & \num{380000000}  \\
+$e^+e^- \to B^+B^-$ & \num{451320000} & \num{1.219}  & \num{550000000}  \\
+$e^+e^- \to B^0\bar{B}^0$ & \num{427680000} & \num{1.286}  & \num{550000000} 
 \end{tabular}
 \caption{Scaled event numbers}
 \label{my-label}
@@ -620,6 +621,11 @@ Kinematic variables such as energy and momentum are also obviously affected by b
 Reconstruction of events was performed through \texttt{basf2}. The generated MC consists of information about charged tracks travelling through the detector geometry and interacting with sub-detectors, as well as cluster information relating 
 to photons from the ECL, among other information. 
 
+
+\section{Process}
+
+\textbf{Belle II Note: Belle II Reconstruction Software and Performance}
+
 To reconstruct events, we fill lists of particles by categorising tracks as specific charged particles - muons, electrons or pions, and by associating clusters with photons. These categorisations are performed with loose criteria to remove obvious background events. Tracks with PID values greater than 0.1 (or 0.5?) are considered muons, and similar for electrons and pions; the photon list is populated by clusters passing a ``goodness'' test. 
 
 
@@ -643,32 +649,35 @@ Once background has been sufficiently reduced through use of selection criteria,
 
 The number of events over which reconstruction was performed, as well as the percentage of events after reconstruction/events before reconstruction (which we shall call \emph{reconstruction efficiency} $\epsilon_{\text{recon}}$), is shown in TABLE XXXX below (I WANT TO REWORD THIS).
 
+
+\section{Reconstruction efficiencies}
+
 \begin{table}[h]
 \centering
-\begin{tabular}{llll}
-\textbf{MC type}         & \textbf{events in (generated)} & \textbf{events out (reconstructed)} & $\mathbf{\epsilon_{\text{recon}}}$ \\ \hline 
+\begin{tabular}{lrrr}
+\textbf{Event type}         & \textbf{events in} & \textbf{events out} & $\mathbf{\epsilon_{\text{recon}}}$ \\ \hline 
 \rowcolor[HTML]{EFEFEF} 
-$\tau\to\mu\gamma$       & \num{3.1d6}        & 2914095             & 94.00\%                            \\
+$\tau\to\mu\gamma$       & \num{3200000}        & \num{5435660}      & $\SI{169.86}{\percent}$                   \\
 \rowcolor[HTML]{EFEFEF} 
-$\tau\to e \gamma$      & \num{3.55d6}       & 3111190             & 87.64\%                            \\
-$\tau\to\mu\nu\nu$      & ??                 & \num{32d6}          & ??                                 \\
-$\tau\to\pi\nu$         & ??                 & \num{38d6}          & ??                                 \\
-$\tau\to e\nu\nu$       & ??                 & \num{4.8d6}         & ??                                 \\
-$\tau\to\text{generic}$  & ??                 & \num{63d6}          & ??                                 \\
-$e^+ e^- \to \mu^+ \mu^- (\gamma)$       & \num{681d6}        & \num{16.9332d6}     & 2.487\%             \\
-$e^+ e^- \to e^+ e^- \gamma$      & \num{71.52d6}      & \num{1.403d6}       & 1.455\%                            \\
-$e^+ e^- \to u \bar{u}$       & \num{d6}           & 20794               & 0.2079\%                           \\
-$e^+ e^- \to d \bar{d}$        & \num{d6}           & 20199               & 0.2020\%                           \\
-$e^+ e^- \to c \bar{c}$        & \num{d6}           & 13688               & 0.1369\%                           \\
-$e^+ e^- \to s \bar{s}$       & \num{d6}           & 15979               & 0.1598\%                           \\
-$e^+ e^- \to B^+ B^-$     & \num{d6}           & 24907               & 0.2491\%                           \\
-$e^+ e^- \to B^0 \bar{B}^0$       & \num{d6}           & 26058               & 0.2606\%                          
+$\tau\to e \gamma$      & \num{2550000}       & \num{4155023}       & $\SI{162.94}{\percent}$                            \\
+$\tau\to\mu\nu\nu$      & \num{127998320}         & \num{542504}          & $\SI{0.42}{\percent}$           \\
+$\tau\to\pi\nu$         & \num{267245200}       & \num{861406}          & $\SI{0.32}{\percent}$            \\
+$\tau\to e\nu\nu$       & \num{131086160}        & \num{87848}         & $\SI{0.07}{\percent}$      \\
+$\tau\to\text{generic}$  & \num{208870320}       & \num{1843380}          & $\SI{0.88}{\percent}$         \\
+$e^+ e^- \to \mu^+ \mu^- (\gamma)$   & \num{148600000}    & \num{5159295}     & $\SI{3.47}{\percent}$   \\
+$e^+ e^- \to e^+ e^- (\gamma)$      & \num{15630000}      & \num{370496}       & $\SI{2.37}{\percent}$     \\
+$e^+ e^- \to u \bar{u}$       & \num{1268991935}           & \num{52373200}  & $\SI{4.13}{\percent}$ \\
+$e^+ e^- \to d \bar{d}$        & \num{317048262}       & \num{12987072}      & $\SI{4.10}{\percent}$       \\
+$e^+ e^- \to c \bar{c}$        & \num{1039855756}       & \num{48007101}           & $\SI{4.62}{\percent}$          \\
+$e^+ e^- \to s \bar{s}$       & \num{289900586}     & \num{11122646}            & $\SI{3.84}{\percent}$         \\
+$e^+ e^- \to B^+ B^-$     & \num{451320000}       & \num{46498047}           & $\SI{10.30}{\percent}$          \\
+$e^+ e^- \to B^0 \bar{B}^0$       & \num{427680000}           & \num{46912228}        & $\SI{10.97}{\percent}$              
 \end{tabular}
-\caption{Reconstruction efficiency}
+\caption{Reconstruction efficiency (un-scaled events)}
 \label{my-label}
 \end{table}
 
-
+\section{Fake rates}
 
 
 \pagebreak
@@ -1015,26 +1024,27 @@ $E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks & $\S
 
 \begin{table}[h]
 \centering
-\begin{tabular}{llll}
-\textbf{MCtype} & \textbf{events in (reconstructed)} & \textbf{events out (preselection)} & $\mathbf{\epsilon_{\text{ps}}}$\\ \hline
-\rowcolor[HTML]{EFEFEF}
-$\tau\to\mu\gamma$ & 2914095 & 2857577 & 98.06\%	\\
-$\tau\to\mu\nu\nu$ & \num{32d6} & 153730 & 0.48\%\\
-$\tau\to\pi\nu$ & \num{38d6} & 102813 & 0.27\%\\
-$\tau\to e\nu\nu$ & \num{4.8d6} & 13322 & 0.28\%\\
-$\tau\to\text{generic}$ & \num{63d6} & 47274 & 0.08\%\\
-$e^+ e^-\to\mu^+\mu^-(\gamma)$ & \num{16.9332d6} & 8099760 & 47.83\%	\\
-$e^+ e^-\to e^+e^-\gamma$ & \num{1.403d6} & 185377 & 13.21\%	\\
-$e^+ e^-\to u\bar{u}$ & 20794 & 7352 & 35.36\%	\\
-$e^+ e^-\to d\bar{d}$ & 20199 & 7259 & 35.94\%	\\
-$e^+ e^-\to c\bar{c}$ & 13688 & 2424 & 17.71\%	\\
-$e^+ e^-\to s\bar{s}$ & 15979 & 4856 & 30.39\%	\\
-$e^+ e^-\to B^+B^-$ & 24907 & 3636 & 14.60\%	\\
-$e^+ e^-\to B^0 \bar{B}^0$ & 26058 & 3550 & 13.62\%
+\begin{tabular}{lrrc}
+\textbf{MC type}         & \textbf{events in (scaled)} & \textbf{events out} & $\mathbf{\epsilon_{\text{ps}}}$ \\ \hline 
+\rowcolor[HTML]{EFEFEF} 
+$\tau\to\mu\gamma$       & \num{140}        & \num{135}      & $\SI{96.32}{\percent}$                   \\
+$\tau\to\mu\nu\nu$      & \num{678130}         & \num{631235}          & $\SI{93.08}{\percent}$           \\
+$\tau\to\pi\nu$         & \num{1076758}       & \num{822028}          & $\SI{76.34}{\percent}$            \\
+$\tau\to e\nu\nu$       & \num{109810}        & \num{70675}         & $\SI{64.36}{\percent}$      \\
+$\tau\to\text{generic}$  & \num{2304225}       & \num{636954}          & $\SI{27.64}{\percent}$         \\
+$e^+ e^- \to \mu^+ \mu^- (\gamma)$   & \num{39857811}    & \num{21938180}     & $\SI{55.04}{\percent}$   \\
+$e^+ e^- \to e^+ e^- (\gamma)$      & \num{7111247601}      & \num{1457005758}       & $\SI{20.49}{\percent}$     \\
+$e^+ e^- \to u \bar{u}$       & \num{66447114}           & \num{29767142}  & $\SI{44.80}{\percent}$ \\
+$e^+ e^- \to d \bar{d}$        & \num{16384978}       & \num{7307320}      & $\SI{44.60}{\percent}$       \\
+$e^+ e^- \to c \bar{c}$        & \num{6017200}       & \num{23401910}           & $\SI{38.99}{\percent}$          \\
+$e^+ e^- \to s \bar{s}$       & \num{14579500}     & \num{6299797}            & $\SI{43.21}{\percent}$         \\
+$e^+ e^- \to B^+ B^-$     & \num{56664730}       & \num{22083348}           & $\SI{38.97}{\percent}$          \\
+$e^+ e^- \to B^0 \bar{B}^0$       & \num{60329511}           & \num{23372366}        & $\SI{61.26}{\percent}$              
 \end{tabular}
-\caption{Preselection efficiency (muon mode)}
+\caption{Preselection efficiency}
 \label{my-label}
 \end{table}
+
 
 \section{Electron mode}
 
@@ -1062,7 +1072,7 @@ Separate preselection criteria was chosen for the electron mode. These criteria 
 \textbf{symbolic} & \textbf{description} & \textbf{lower} & \textbf{upper} \\ \hline
 $p_{\text{tag}}^{\text{CM}}$  & CM momentum of tag track & --- & $\SI{5}{GeV}$ \\
 $\cos\theta_{\text{signal}}$ & Cosine of polar angle of signal track & $-0.975$ & --- \\
-$E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system  & --- & $\SI{15}{GeV}$ \\
+$E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system  & --- & $\SI{14}{GeV}$ \\
 $\lvert\text{thrust}\rvert$ & Magnitude of signal thrust vector* & 0.92 & --- \\
 $E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks & $\SI{4.5}{GeV}$ & ---
 \end{tabular}
@@ -1119,24 +1129,24 @@ $E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks & $\S
 
 \begin{table}[h]
 \centering
-\begin{tabular}{llll}
-\textbf{MCtype} & \textbf{events in (reconstructed)} & \textbf{events out (preselection)} & $\mathbf{\epsilon_{\text{ps}}}$\\ \hline
-\rowcolor[HTML]{EFEFEF}
-$\tau\to\mu\gamma$ & 2914095 & 2857577 & 98.06\%	\\
-$\tau\to\mu\nu\nu$ & \num{32d6} & 153730 & 0.48\%\\
-$\tau\to\pi\nu$ & \num{38d6} & 102813 & 0.27\%\\
-$\tau\to e\nu\nu$ & \num{4.8d6} & 13322 & 0.28\%\\
-$\tau\to\text{generic}$ & \num{63d6} & 47274 & 0.08\%\\
-$e^+ e^-\to\mu^+\mu^-(\gamma)$ & \num{16.9332d6} & 8099760 & 47.83\%	\\
-$e^+ e^-\to e^+e^-\gamma$ & \num{1.403d6} & 185377 & 13.21\%	\\
-$e^+ e^-\to u\bar{u}$ & 20794 & 7352 & 35.36\%	\\
-$e^+ e^-\to d\bar{d}$ & 20199 & 7259 & 35.94\%	\\
-$e^+ e^-\to c\bar{c}$ & 13688 & 2424 & 17.71\%	\\
-$e^+ e^-\to s\bar{s}$ & 15979 & 4856 & 30.39\%	\\
-$e^+ e^-\to B^+B^-$ & 24907 & 3636 & 14.60\%	\\
-$e^+ e^-\to B^0 \bar{B}^0$ & 26058 & 3550 & 13.62\%
+\begin{tabular}{lrrc}
+\textbf{Event type}         & \textbf{events in (scaled)} & \textbf{events out} & $\mathbf{\epsilon_{\text{ps}}}$ \\ \hline 
+\rowcolor[HTML]{EFEFEF} 
+$\tau\to e\gamma$       & \num{140}        & \num{135}      & $\SI{96.32}{\percent}$                   \\
+$\tau\to\mu\nu\nu$      & \num{678130}         & \num{631235}          & $\SI{93.08}{\percent}$           \\
+$\tau\to\pi\nu$         & \num{1076758}       & \num{822028}          & $\SI{76.34}{\percent}$            \\
+$\tau\to e\nu\nu$       & \num{109810}        & \num{70675}         & $\SI{64.36}{\percent}$      \\
+$\tau\to\text{generic}$  & \num{2304225}       & \num{636954}          & $\SI{27.64}{\percent}$         \\
+$e^+ e^- \to \mu^+ \mu^- (\gamma)$   & \num{39857811}    & \num{21938180}     & $\SI{55.04}{\percent}$   \\
+$e^+ e^- \to e^+ e^- (\gamma)$      & \num{7111247601}      & \num{1457005758}       & $\SI{20.49}{\percent}$     \\
+$e^+ e^- \to u \bar{u}$       & \num{66447114}           & \num{29767142}  & $\SI{44.80}{\percent}$ \\
+$e^+ e^- \to d \bar{d}$        & \num{16384978}       & \num{7307320}      & $\SI{44.60}{\percent}$       \\
+$e^+ e^- \to c \bar{c}$        & \num{6017200}       & \num{23401910}           & $\SI{38.99}{\percent}$          \\
+$e^+ e^- \to s \bar{s}$       & \num{14579500}     & \num{6299797}            & $\SI{43.21}{\percent}$         \\
+$e^+ e^- \to B^+ B^-$     & \num{56664730}       & \num{22083348}           & $\SI{38.97}{\percent}$          \\
+$e^+ e^- \to B^0 \bar{B}^0$       & \num{60329511}           & \num{23372366}        & $\SI{61.26}{\percent}$              
 \end{tabular}
-\caption{Preselection efficiency (muon mode)}
+\caption{Preselection efficiency}
 \label{my-label}
 \end{table}
 

@@ -11,13 +11,13 @@
 \BOOKMARK [1][-]{section.1.5}{Future searches}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.5.1}{Belle II}{section.1.5}% 12
 \BOOKMARK [0][-]{chapter.2}{The Belle and Belle II detectors}{}% 13
-\BOOKMARK [1][-]{section.2.1}{Silicon Vertex Detector}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.2}{Central Drift Chamber}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Electromagnetic Calorimeter}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.4}{Time-of-flight/Cerenkov aerogel chamber}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.5}{K-long/muon detector}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.6}{Particle identification \(PID\)}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.7}{Super-KEKB}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.1}{Pixel Detector}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{Silicon Vertex Detector}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Central Drift Chamber}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.4}{Electromagnetic Calorimeter}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.5}{Time-of-flight/Cerenkov aerogel chamber}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.6}{K-long/muon detector}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.7}{Particle identification \(PID\)}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.8}{Beam backgrounds}{chapter.2}% 21
 \BOOKMARK [2][-]{subsection.2.8.1}{Synchrotron radiation}{section.2.8}% 22
 \BOOKMARK [2][-]{subsection.2.8.2}{Beam-gas scattering}{section.2.8}% 23
@@ -30,36 +30,39 @@
 \BOOKMARK [1][-]{section.3.3}{Version differences}{chapter.3}% 30
 \BOOKMARK [1][-]{section.3.4}{Implementation of beam backgrounds}{chapter.3}% 31
 \BOOKMARK [0][-]{chapter.4}{Reconstruction}{}% 32
-\BOOKMARK [0][-]{chapter.5}{Event topologies}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Signal}{chapter.5}% 34
-\BOOKMARK [2][-]{subsection.5.1.1}{Muon mode}{section.5.1}% 35
-\BOOKMARK [2][-]{subsection.5.1.2}{Electron mode}{section.5.1}% 36
-\BOOKMARK [1][-]{section.5.2}{Backgrounds}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.2.1}{Tau-pair processes}{section.5.2}% 38
-\BOOKMARK [2][-]{subsection.5.2.2}{Mu-pair processes}{section.5.2}% 39
-\BOOKMARK [2][-]{subsection.5.2.3}{Bhabha}{section.5.2}% 40
-\BOOKMARK [2][-]{subsection.5.2.4}{Continuum and BbarB}{section.5.2}% 41
-\BOOKMARK [0][-]{chapter.6}{Preselection}{}% 42
-\BOOKMARK [1][-]{section.6.1}{Muon mode}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.2}{Electron mode}{chapter.6}% 44
-\BOOKMARK [0][-]{chapter.7}{Signal optimisation}{}% 45
-\BOOKMARK [1][-]{section.7.1}{Muon mode}{chapter.7}% 46
-\BOOKMARK [2][-]{subsection.7.1.1}{Energy-momentum}{section.7.1}% 47
-\BOOKMARK [2][-]{subsection.7.1.2}{Topological relations}{section.7.1}% 48
-\BOOKMARK [2][-]{subsection.7.1.3}{PID likelihoods}{section.7.1}% 49
-\BOOKMARK [2][-]{subsection.7.1.4}{Continuum suppression}{section.7.1}% 50
-\BOOKMARK [2][-]{subsection.7.1.5}{Remaining criteria}{section.7.1}% 51
-\BOOKMARK [1][-]{section.7.2}{Electron mode}{chapter.7}% 52
-\BOOKMARK [2][-]{subsection.7.2.1}{Energy-momentum}{section.7.2}% 53
-\BOOKMARK [2][-]{subsection.7.2.2}{Topological relations}{section.7.2}% 54
-\BOOKMARK [2][-]{subsection.7.2.3}{PID likelihoods}{section.7.2}% 55
-\BOOKMARK [2][-]{subsection.7.2.4}{Continuum suppression}{section.7.2}% 56
-\BOOKMARK [2][-]{subsection.7.2.5}{Remaining criteria}{section.7.2}% 57
-\BOOKMARK [0][-]{chapter.8}{Signal region analysis}{}% 58
-\BOOKMARK [1][-]{section.8.1}{Muon mode}{chapter.8}% 59
-\BOOKMARK [1][-]{section.8.2}{Electron mode}{chapter.8}% 60
-\BOOKMARK [1][-]{section.8.3}{New bounds and new physics}{chapter.8}% 61
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 62
-\BOOKMARK [1][-]{section.9.1}{Future improvements}{chapter.9}% 63
-\BOOKMARK [1][-]{section.9.2}{Working group status}{chapter.9}% 64
-\BOOKMARK [1][-]{section.9.3}{Expected impact on Belle II}{chapter.9}% 65
+\BOOKMARK [1][-]{section.4.1}{Process}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{Reconstruction efficiencies}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Fake rates}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Event topologies}{}% 36
+\BOOKMARK [1][-]{section.5.1}{Signal}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.1.1}{Muon mode}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.2}{Electron mode}{section.5.1}% 39
+\BOOKMARK [1][-]{section.5.2}{Backgrounds}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.2.1}{Tau-pair processes}{section.5.2}% 41
+\BOOKMARK [2][-]{subsection.5.2.2}{Mu-pair processes}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.3}{Bhabha}{section.5.2}% 43
+\BOOKMARK [2][-]{subsection.5.2.4}{Continuum and BbarB}{section.5.2}% 44
+\BOOKMARK [0][-]{chapter.6}{Preselection}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Muon mode}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.2}{Electron mode}{chapter.6}% 47
+\BOOKMARK [0][-]{chapter.7}{Signal optimisation}{}% 48
+\BOOKMARK [1][-]{section.7.1}{Muon mode}{chapter.7}% 49
+\BOOKMARK [2][-]{subsection.7.1.1}{Energy-momentum}{section.7.1}% 50
+\BOOKMARK [2][-]{subsection.7.1.2}{Topological relations}{section.7.1}% 51
+\BOOKMARK [2][-]{subsection.7.1.3}{PID likelihoods}{section.7.1}% 52
+\BOOKMARK [2][-]{subsection.7.1.4}{Continuum suppression}{section.7.1}% 53
+\BOOKMARK [2][-]{subsection.7.1.5}{Remaining criteria}{section.7.1}% 54
+\BOOKMARK [1][-]{section.7.2}{Electron mode}{chapter.7}% 55
+\BOOKMARK [2][-]{subsection.7.2.1}{Energy-momentum}{section.7.2}% 56
+\BOOKMARK [2][-]{subsection.7.2.2}{Topological relations}{section.7.2}% 57
+\BOOKMARK [2][-]{subsection.7.2.3}{PID likelihoods}{section.7.2}% 58
+\BOOKMARK [2][-]{subsection.7.2.4}{Continuum suppression}{section.7.2}% 59
+\BOOKMARK [2][-]{subsection.7.2.5}{Remaining criteria}{section.7.2}% 60
+\BOOKMARK [0][-]{chapter.8}{Signal region analysis}{}% 61
+\BOOKMARK [1][-]{section.8.1}{Muon mode}{chapter.8}% 62
+\BOOKMARK [1][-]{section.8.2}{Electron mode}{chapter.8}% 63
+\BOOKMARK [1][-]{section.8.3}{New bounds and new physics}{chapter.8}% 64
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 65
+\BOOKMARK [1][-]{section.9.1}{Future improvements}{chapter.9}% 66
+\BOOKMARK [1][-]{section.9.2}{Working group status}{chapter.9}% 67
+\BOOKMARK [1][-]{section.9.3}{Expected impact on Belle II}{chapter.9}% 68

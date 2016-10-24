@@ -5,19 +5,19 @@
 \contentsline {subsection}{\numberline {1.3.1}Neutrino mixing}{2}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}$h\to \tau \mu $ excess}{3}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Models predicting $\tau \to \ell \gamma $}{5}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Searches for $\tau \to \ell \gamma $}{6}{section.1.4}
+\contentsline {section}{\numberline {1.4}Searches for $\tau \to \ell \gamma $}{5}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Belle searches}{6}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Babar searches}{7}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Babar searches}{6}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Future searches}{7}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Belle II}{7}{subsection.1.5.1}
 \contentsline {chapter}{\numberline {2}The Belle and Belle II detectors}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Silicon Vertex Detector}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}Central Drift Chamber}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}Electromagnetic Calorimeter}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Time-of-flight/Cerenkov aerogel chamber}{9}{section.2.4}
-\contentsline {section}{\numberline {2.5}K-long/muon detector}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}Particle identification (PID)}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Super-KEKB}{9}{section.2.7}
+\contentsline {section}{\numberline {2.1}Pixel Detector}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Silicon Vertex Detector}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Central Drift Chamber}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Electromagnetic Calorimeter}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Time-of-flight/Cerenkov aerogel chamber}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}K-long/muon detector}{9}{section.2.6}
+\contentsline {section}{\numberline {2.7}Particle identification (PID)}{9}{section.2.7}
 \contentsline {section}{\numberline {2.8}Beam backgrounds}{10}{section.2.8}
 \contentsline {subsection}{\numberline {2.8.1}Synchrotron radiation}{10}{subsection.2.8.1}
 \contentsline {subsection}{\numberline {2.8.2}Beam-gas scattering}{10}{subsection.2.8.2}
@@ -27,18 +27,21 @@
 \contentsline {chapter}{\numberline {3}Monte Carlo production and background types}{12}{chapter.3}
 \contentsline {section}{\numberline {3.1}Event generation}{12}{section.3.1}
 \contentsline {section}{\numberline {3.2}Event scaling}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Version differences}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}Implementation of beam backgrounds}{14}{section.3.4}
+\contentsline {section}{\numberline {3.3}Version differences}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Implementation of beam backgrounds}{15}{section.3.4}
 \contentsline {chapter}{\numberline {4}Reconstruction}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Process}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Reconstruction efficiencies}{18}{section.4.2}
+\contentsline {section}{\numberline {4.3}Fake rates}{18}{section.4.3}
 \contentsline {chapter}{\numberline {5}Event topologies}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}Signal}{19}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Muon mode}{19}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Electron mode}{20}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}Backgrounds}{22}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Tau-pair processes}{22}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Mu-pair processes}{24}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Mu-pair processes}{23}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Bhabha}{24}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Continuum and $B\bar {B}$}{25}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.4}Continuum and $B\bar {B}$}{24}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Preselection}{28}{chapter.6}
 \contentsline {section}{\numberline {6.1}Muon mode}{28}{section.6.1}
 \contentsline {section}{\numberline {6.2}Electron mode}{30}{section.6.2}
