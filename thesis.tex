@@ -38,6 +38,10 @@
 \usepackage{color, colortbl}
 \usepackage{amssymb}
 
+\usepackage{titlesec, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{$\lvert$}\hsp}{0pt}{\Huge\bfseries}
 
 %%%%%%%%%%%%%%%CATE'S PREAMBLE BIT (TikZ for Feynman diagrams)%%%%%%%%%%%%%%%%
 \usepackage{tikz}
@@ -158,9 +162,7 @@
 
 \chapter{Lepton Flavour Violation and the Standard Model}
 
-Lepton flavour violation (LFV) is an exciting field of research at the frontier of particle physics. Searches for LFV probe a wide variety of new physics (NP) scenarios.
-
-Specifically cover charged LFV of the form $\tlg$. Of the tau processes, these modes are predicted to be the most sensitive to NP. We choose to investigate tau LFV rather than, say, muon LFV, for two main reasons. Firstly, the tau processes have predicted branching fractions of $\sim 5 - 6$ orders of magnitude greater than the analogous muon processes, due to the differences in mass \cite{Paradisi:2016}. The decay $\tmg$ has a predicted branching fraction $\sim 6$ orders of magnitude greater than the analogous $\mu\to e \gamma$. 
+Lepton flavour violation (LFV) is an exciting field of research at the frontier of particle physics. Searches for LFV probe a wide variety of new physics (NP) scenarios. \textbf{DISCUSS WHAT LFV IS AND WHERE LEPTON FLAVOUR FITS INTO THE SM} Charged LFV of the form $\tlg$. Of the tau processes, these modes are predicted to be the most sensitive to NP. We choose to investigate tau LFV rather than, say, muon LFV, for two main reasons. Firstly, the tau processes have predicted branching fractions of $\sim 5 - 6$ orders of magnitude greater than the analogous muon processes, due to the differences in mass \cite{Paradisi:2016}. The decay $\tmg$ has a predicted branching fraction $\sim 6$ orders of magnitude greater than the analogous $\mu\to e \gamma$. 
 
 Secondly, if this NP introduces Higgs-like particles, we would observe the NP more strongly in the tau sector, since taus couple more strongly to Higgs than do muons.
 
@@ -631,32 +633,57 @@ Unless explicitly stated, scaled event numbers will be used throughout this repo
 
 The software framework on which event generation was performed is undergoing continuous development; a majority of signal and background MC was produced on the same release version to ensure accuracy between MC types. This version was made available on XXXXX, and was one of the most up-to-date releases at the time of analysis. However, the backgrounds $\mu^+\mu^-(\gamma)$ and $e^+ e^-(\gamma)$ (mu-pair and bhabha, respectively) did not have any events generated using this release, and instead used an older release dated XXXXX.
 
-A full investigation into the differences in generated MC between releases has not been performed in this analysis, as it is assumed they are negligible in most relevant cases. Changes relate mostly to generation of beam backgrounds (??); however one major change is in the reporting of timing data from the ECL. From the release dated XXXX onwards, these associated times will be reported in nanoseconds, rather than uncalibrated clock ticks (REF). In comparing samples of signal MC generated in both the older and newer releases, figures XXXX a) and b) below, as well as private correspondance with the developer responsible for these changes, it was found that conversion to the newer scale could be made by adding 80 units to the cluster timing values.
+A full investigation into the differences in generated MC between releases has not been performed in this analysis, as it is assumed they are negligible in most relevant cases. Changes relate mostly to generation of beam backgrounds (??); however one major change is in the reporting of timing data from the ECL. From the release dated XXXX onwards, these associated times will be reported in nanoseconds, rather than uncalibrated clock ticks (REF). In comparing samples of background MC generated in both the older and newer releases, figures XXXX a) and b) below, as well as private correspondance with the developer responsible for these changes, it was found that conversion to the newer scale could be made by adding 80 units to the cluster timing values.
 
    \begin{figure}[h]
         \centering
         \begin{subfigure}[b]{0.475\textwidth}
             \centering
-            \includegraphics[width=\textwidth]{images/test.pdf}
+            \includegraphics[width=\textwidth]{images/cluster-timing-old.pdf}
             \caption[Network2]%
-            {{\small Network 1}}    
+            {{\small}}    
             \label{fig:mean and std of net14}
         \end{subfigure}
         \hfill
         \begin{subfigure}[b]{0.475\textwidth}  
             \centering 
-            \includegraphics[width=\textwidth]{images/test.pdf}
+            \includegraphics[width=\textwidth]{images/cluster-timing-new.pdf}
             \caption[]%
-            {{\small Network 2}}    
+            {{\small}}    
             \label{fig:mean and std of net24}
         \end{subfigure}
+        \caption{Comparisons of cluster timing with background MC (a) prior to ECL timing change and (b) after ECL timing change. Note the shift in peak by 80 units.}
     \end{figure}
 
 
 
 \section{Implementation of beam backgrounds}
 
-Signal and background MC was generated with simulated beam background. To implement this beam background, several background components have been separately generated by the Belle II Collaboration. These are generated separately for the electron and positron beams and comprise four  types of beam backgrounds - large angle bhabha events, Coulomb scattering, Touschek scattering, and radiative bhabha.
+Signal and background MC was generated with simulated beam background. The most important sources have been generated by a dedicated accelerator group software within the Belle II collaboration. This software simulates particles travelling the detector and records the position and momentum of particles which leave the nominal beam trajectory and collide with the beam pipe or collimator (???). Detector response simulation is then processed for these particles to produce background samples of a given type. Separate backgrounds were made for electron (HER) and positron (LER) beams, due to differences in energies and currents. 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcr}
+\hline
+\multicolumn{1}{c}{type}      & source & \multicolumn{1}{c}{rate [MHz]} \\ \hline
+radiative Bhabha              & HER    & \num{1320}                     \\
+radiative Bhabha              & LER    & \num{1294}                     \\
+radiative Bhabha (wide angle) & HER    & \num{40}                       \\
+radiative Bhabha (wide angle) & LER    & \num{85}                       \\
+Touschek scattering           & HER    & \num{31}                       \\
+Touschek scattering           & LER    & \num{83}                       \\
+beam-gas interactions         & HER    & \num{1}                        \\
+beam-gas interactions         & LER    & \num{156}                      \\ \hline
+\end{tabular}
+\caption{Beam background types simulated at Belle II (REF - Belle II Simulation (Belle II note)). Rate is calculated}
+\label{my-label}
+\end{table}
+
+
+Implemented background types are listed in Table XXXX.
+
+
+
 
 For comparison, some samples of MC were generated without beam background. Comparisons between some measureables are shown in figures XXX, XXX, XXX below.
 
@@ -780,14 +807,7 @@ $e^+ e^- \to B^0 \bar{B}^0$       & \num{427680000}           & \num{46912228}  
 \pagebreak
 
 
-\chapter{Event topologies}
-
-
-``For a collection of $N$ momenta $\mathbf{p}_i$ ($i = 1,\ldots, N$), the thrust axis $\mathbf{T}$ is defined as the unit vector along which their total projection is maximal; the thrust scalar $T$ (or thrust) is a derived quantity defined as
-\begin{equation}
-T = \frac{\sum^N_{i=1}\lvert\mathbf{T}\cdot\mathbf{p}_i\rvert}{\sum^N_{i=i}\lvert\mathbf{p}_i\rvert}.
-\end{equation}
-''
+\chapter{Event signatures}
 
 We discuss expected energies, kinematics and signal-side event topologies with comparison to MC data. Knowledge of event topologies is important in selecting regions in phase space to remove when optimising the ratio of signal-to-background. 
 
@@ -1359,14 +1379,20 @@ Signal-side tracks are identified as muons by requiring $\mathcal{L}_{\mu} > 0.8
 SOMETHING ABOUT $\mathcal{L}_{\mu}$ being not perfect? Very rough on the tag-side.
 
 
-\subsection{Continuum suppression}
+\subsection{Background suppression using event shape}
 
-Thrust vectors are very powerful in event selection. They are defined as ?????
+\hrule
 
-The magnitude of the thrust vector constructed from ..... signal side stuff(??) should be between \num{0.936} and \num{0.944}; signal events exhibit a sharp, narrow peak around \num{0.944} while other leptonic processes peak towards \num{1}.
+We start with a note on naming of ``continuum suppression'' variables. Physics analyses at B-factories such as Belle and Belle II often involve decays of $B$ mesons (a hadron composed of a quark and anti-quark) generated via the process $e^+ e^- \to \Upsilon(4S)\to B \bar{B}$. $\upsilon(4S)$ is a meson generated in $e^+ e^-$ collisions at the a combined center-of-mass beam energy of $\SI{10.58}{GeV}$ (known as the $\Upsilon(4S)$ resonance) which decays to $B\bar{B}$ in \num{96}{\percent} of all decays. At this resonance many other $e^+ e^-$ decay processes occur, so that the event rate is dominated by non-$B$ background processes. The dominant source of background is from $e^+ e^- \to q\bar{q}$ events, known as continuum events. To effectively suppress these events a suite of variables which provide good discrimination between $B$ events and continuum events have been developed for use at $B$-factories. In a $\tau$ decay analysis, these variables do not suppress continuum background as strongly as for $B$ decays. However they are still useful in removing some continuum as well as other backgrounds as discussed later, so with somewhat of a historical basis we shall refer to these variables as continuum suppression variables. Continuum suppression variables included in this analysis are signal and rest-of-event thrust, cosine of the angle between signal and rest-of-event thrust axes,  CLEO cones, Super Fox-Wolfram moments, and the reduced Fox-Wolfram moment (the ratio of the second to the zeroth Fox-Wolfram moments).
 
-Another thrust vector is also built using rest-of-event data; rest-of-event encompasses all clusters and tracks which are not reconstructed as part of the signal- or tag-sides. The magnitude of this rest-of-event thrust vector is required to be in the range from \num{0.85} and \num{0.98}. As shown in Figure XXXX, events produce very clean Gaussian-like distributions with little trailing tail. As such, while this selection removes a non-negligible amount of signal, it suppreses continuum events very strongly and almost completely excludes $B\bar{B}$ events. 
+(\textbf{note: now that I've renamed this section from ``Continuum suppression'', not sure I need this. Nor if I needed it in the first place. Some possibily still useful stuff though?}).
+\hrule
 
+The thrust axis for a collection of $N$ particles with momenta $\mathbf{p}_{i}$ ($i = 1,\ldots, N$) is defined as the unit vector along with the total projection of these momenta is maximised. The thrust scalar, or thrust, is defined as
+\begin{equation}
+T = \frac{\sum^N_{i=1}\lvert\mathbf{T}\cdot\mathbf{p}_i\rvert}{\sum^N_{i=i}\lvert\mathbf{p}_i\rvert}.
+\end{equation}
+Signal thrust and rest-of-event thrust variables are used for selection. The signal thrust axis is constructed from all particles used to reconstruct the signal-side $\tau$; for our signal mode these are the signal muon and signal photon. On average these particles have similar momentum and a small opening between them, so that signal thrust has a clear peak around \num{0.942}. We consider the signal thrust axis for the other dominant leptonic processes. For most events the signal-side is reconstructed from a high-energy charged track and a low-energy photon generated from bremsstrahlung, beam background or similar (radiative mu-pair or Bhabha events can generate higher energy final-state photons). Regardless of opening angle, the difference in momentum between signal track and signal photon leads to signal thrust for this event peaking around \num{1}. A requirement for signal thrust to be in the range \num{0.936} to \num{0.944} to suppress leptonic backgrounds as shown in Figure XXXX. 
 
 \begin{figure}[h]
 \centering
@@ -1385,48 +1411,72 @@ Another thrust vector is also built using rest-of-event data; rest-of-event enco
 \end{figure}
 
 
-We also selection events using the angle between these thrust vectors; we require the cosine of the angle between the signal thrust vector and rest-of-event thrust vector to be greater than \num{0.7}.
+We construct another thrust axis is also built using rest-of-event (ROE) data. ROE comprises all tracks and clusters not associated with the signal-side reconstruction, and so ROE thrust is influenced by tag-side events. Hadronic processes such as $B\bar{B}$ events and continuum have on average a lower rest-of-event thrust than leptonic processes due to the number of tracks and photons produced due to interactions with the detector. The magnitude of this ROE thrust vector is required to be in the range from \num{0.85} and \num{0.98}. As shown in Figure XXXX, events produce very clean Gaussian-like distributions with little trailing tail. As such, while this selection removes a non-negligible amount of signal, it suppresses continuum events very strongly and almost completely excludes $B\bar{B}$ events. Event selection is also performed using the angle between thrust axes. We require the cosine of the angle between the signal thrust vector and rest-of-event thrust vector to be greater than \num{0.7}.
 
-Several continuum suppression variables were chosen by inspection after many more obvious criteria had been applied. These are:
 
-WHAT ARE CLEO CONES/SUPER FOX WOLFRAM MOMENTS.
+Several continuum suppression variables were chosen by inspection after many more obvious criteria had been applied. These are CLEO cones, Super Fox-Wolfram moments, and the reduced Fox-Wolfram moment (the ratio of the second to the zeroth Fox-Wolfram moments).
 
-cc1 < 5
-cc2 > 2.4
-cc4 < 1.7
-cc5 < 0.9
-cc6 < 0.7
-cc7 < 0.5
-cc9 < 0.4
-0.05 < hso00 < 1
--0.05 < hso01 < 0.3
-hso02 < 0.48
--0.1 < hso03 < 0.25
--0.1 < hso20 < 1
--0.018 < hoo1 < 0.08
--0.01 < hoo3 < 0.007
-R2 > 0.4
+Inherent differences in event shape can be used to suppress backgrounds. Some useful disciminant variables are the CLEO cones, named as such due to being introduced in a 1995 paper by the CLEO collaboration (REF). To calculate these variables, the space around the signal thrust axis is divided into cones at nine polar angle intervals of $10^{\deg}$ each, with the $i^{th}$ interval covering angles from $(i-1)\times 10^{\deg}$ to $i\times 10^{\deg}$ from the thrust axis (see Figure XXXX). Forward and backward intervals are combined. CLEO cone variables cc$i$ are defined as the lab-frame momentum flow of the $i^{th}$ cone; momentum flow in each cone is calculated as the scalar sum of all tracks and clusters in that cone.
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\linewidth]{images/cleo-cone.png}
+\caption{Illustration of cleo cones.}
+\label{}
+\end{figure}
+
+Requirements on CLEO cones are given in Table XXXX.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\textbf{CLEO cone} & \multicolumn{1}{c}{\textbf{lower}} & \multicolumn{1}{c}{\textbf{upper}} \\ \hline
+cc1 & -- & \num{5} \\
+cc2 & \num{2.4} & -- \\
+cc3 & -- & -- \\
+cc4 & -- & \num{1.7} \\
+cc5 & -- & \num{0.9} \\
+cc6 & -- & \num{0.7} \\
+cc7 & -- & \num{0.5} \\
+cc8 & -- & -- \\
+cc9 & -- & \num{0.4}
+\end{tabular}
+\caption{Cleo cone selection criteria}
+\label{my-label}
+\end{table}
+
+Fox-Wolfram moments (FWM) are event shape variables which describe energy flow from high-energy particle collision events, introduced to describe $e^+ e^-$ annihilation event shapes. Variables $h^{so}_i$ ($i=2,4$) and $h^{oo}_j$ are the normalised FWM, defined as
+\begin{equation}
+h_l^k = \frac{\sum_{m,n}\lvert\vec{p_m}\rvert\lvert\vec{p_n}\rvert P_l(\cos\theta_{mn})}
+{\sum_{m,n}\lvert\vec{p_m}\rvert\lvert\vec{p_n}\rvert},
+\end{equation}
+where $\vec{p_m}$ and $\vec{p_n}$ are the momenta of particles $m$ and $n$ and $P_l(\cos\theta_{mn})$ is the $l$-th other Legendre polynomial of cosine of the angle $\theta_{mn}$ between $\vec{p_m}$ and $\vec{p_n}$. We categorise the type of FWM with $k=so,oo$. For $h^{so}_i$, $m$ is from signal particles and $n$ is from ROE; for $h^{oo}_{j}$ both $m$ and $n$ are from ROE.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\textbf{FWM} & \multicolumn{1}{c}{\textbf{lower}} & \multicolumn{1}{c}{\textbf{upper}} \\ \hline
+Hso(0,0) & \num{0.05} & \num{1} \\
+Hso(0,1) & \num{-0.05} & \num{0.3} \\
+Hso(0,2) & -- & \num{0.48} \\
+Hso(0,3) & \num{-0.1} & \num{0.25} \\
+Hso(2,0) & \num{-0.1} & \num{1} \\
+Roo(1) & \num{-0.018} & \num{0.08} \\
+Roo(3) & \num{-0.01} & \num{0.007}
+\end{tabular}
+\caption{Super Fox-Wolfram moment selection criteria}
+\label{my-label}
+\end{table}
+\textbf{Note: not entirely sure what Hso(0,0) etc. means}
+
+A final continuum suppression requirement is on the reduced Fox-Wolfram moment $R_2$, the ratio of the second to the zeroth Fox-Wolfram moments. We require $R_2 > 0.4$.
 
 \subsection{Remaining criteria}
 
+We expect our signal mode to be have two or four charged particle tracks in most cases - a muon on the signal-side, and one (or less often three) charged particles on the tag-side according to SM decays. However due to tracks introduced by beam backgrounds (and not-omniscient reconstruction) we cannot naively select events with only two or four tracks without removing prominent amounts of signal. Instead we require the number of reconstructed tracks to be less than 15 to suppress hadronic backgrounds. Selection is also made on the total energy deposited across all ECL clusters by neutral particles, in the range of 2 to $\SI{6}{GeV}$ to suppress XXXXXX. The ratio of energies in the inner 3x3 and 5x5 cells of the ECL, or E9E25, peaks close to 1 for the signal mode, since the signal photon carries a large fraction of total energy deposited in the ECL. We require E9E25 greater than \num{0.95} to suppress tau-pair backgrounds.
 
-Number of tracks 
-tracks < 15
+The emission of a photon after the short $\tau$ lifetime via $\tau\to\mu\gamma$ gives a strong cluster timing peak around 0, so we require this variable to be in the range $\SI{-1}{ns}$ to $\SI{1}{ns}$. POCA STUFF: Point-of-closest-approach (POCA); $-0.05 < d_0 < 0.05$, $-0.06 < z_0 < 0.06$; signed distance to the POCA in the r-phi plane; z coordinate of the.
 
-Total energy of all neutral ECLClusters
-2 < neutralECLenergy < 6
-
-
-Cluster timing (???)
--1 < clusterTiming < 1
-
-
-Ratio of energies in inner 3x3 and 5x5 cells
-e9e25 > 0.95
-
-sigD0	-0.05	0.05
-sigZ0	-0.06	0.06
 
 \section{Electron mode}
 
@@ -1590,7 +1640,7 @@ These are consistent with predictions made by the Belle II Collaboration [REF].
 
 \section{Future improvements}
 
-This analysis could be extended to run over actual Belle data. The full dataset of $\SI{1000}{fb^-1}$ is available, and it is possible to this data to be reconstructed in \texttt{basf2}. Previous searches at Belle have used $\SI{200}{fb^-1}$ (???) and $\SI{700}{fb^-1}$; a search over higher luminosity would likely improve the accuracy of some $\tau$ LFV branching fractions.
+This analysis could be extended to run over actual Belle data. The full dataset of $\SI{1000}{fb^-1}$ is available, and it is possible to this data to be reconstructed in \texttt{basf2}. Previous searches at Belle have used $\SI{200}{fb^{-1}}$ (???) and $\SI{515}{fb^{-1}}$; a search over higher luminosity would likely improve the accuracy of some $\tau$ LFV branching fractions.
 
 Could use TMVA (at all? or more? maybe I'll do some). Could use more topological variables such as some of the ones I recently added. Could reconstruct electrons better. Could investigate beam backgrounds and ways to remove it.
 
