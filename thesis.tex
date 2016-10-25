@@ -158,18 +158,33 @@
 
 \chapter{Lepton Flavour Violation and the Standard Model}
 
-Lepton flavour violation (LFV) is an exciting field of research at the frontier of particle physics. Searches for LFV can probe a wide variety of new physics (NP) scenarios. We will not be looking at all LFV; in this literature review we specifically cover charged LFV of the form $\tlg$. Of the tau processes, these modes are predicted to be the most sensitive to NP. We choose to investigate tau LFV rather than, say, muon LFV, for two main reasons. Firstly, the tau processes have predicted branching fractions of $\sim 5 - 6$ orders of magnitude greater than the analogous muon processes, due to the differences in mass \cite{Paradisi:2016}. The decay $\tmg$ has a predicted branching fraction $\sim 6$ orders of magnitude greater than the analogous $\mu\to e \gamma$! Secondly, if this NP introduces Higgs-like particles, we would observe the NP more strongly in the tau sector, since taus couple more strongly to Higgs than do muons.
+Lepton flavour violation (LFV) is an exciting field of research at the frontier of particle physics. Searches for LFV probe a wide variety of new physics (NP) scenarios.
 
-\begin{figure}[h]
-\centering
-%\includegraphics[width=0.6\textwidth]{images/taumugamma.png}
-\caption{Diagram of $\tmg$ in the Standard Model}
-\label{}
-\end{figure}
+Specifically cover charged LFV of the form $\tlg$. Of the tau processes, these modes are predicted to be the most sensitive to NP. We choose to investigate tau LFV rather than, say, muon LFV, for two main reasons. Firstly, the tau processes have predicted branching fractions of $\sim 5 - 6$ orders of magnitude greater than the analogous muon processes, due to the differences in mass \cite{Paradisi:2016}. The decay $\tmg$ has a predicted branching fraction $\sim 6$ orders of magnitude greater than the analogous $\mu\to e \gamma$. 
 
-\section{LFV and the Standard Model}
+Secondly, if this NP introduces Higgs-like particles, we would observe the NP more strongly in the tau sector, since taus couple more strongly to Higgs than do muons.
 
-Lepton flavour violation necessarily requires generation mixing between leptons to occur. Though this is prohibited in the Standard Model, the discovery of neutrino oscillations proves that flavour mixing does occur in our universe; that is, flavour is not conserved. We seek to discover whether this LFV can be observed in other areas of flavour physics.
+   \begin{figure}[h]
+        \centering
+        \begin{subfigure}[b]{0.475\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{images/tauMG-feynman.png}
+            \caption[Network2]%
+            {{\small}}    
+            \label{fig:mean and std of net14}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.475\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{images/tauEG-feynman.png}
+            \caption[]%
+            {{\small}}    
+            \label{fig:mean and std of net24}
+        \end{subfigure}
+        \caption{Feynman diagrams for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ proceeding through SM processes.}
+    \end{figure}
+
+LFV necessarily requires generation mixing between leptons to occur. Though this is prohibited in the Standard Model, the discovery of neutrino oscillations proves that flavour mixing does occur in our universe; that is, flavour is not conserved. We seek to discover whether this LFV can be observed in other areas of flavour physics.
 
 In the Standard Model + massive neutrinos, the only source of LFV is from the operators responsible for neutrino mass. However, the relevant Feynman diagrams (see Figure) are ``loop suppressed'' and proportional to the GIM factor, given as $\left(\frac{m_\nu}{M_W}\right)^4$; as neutrino mass is very small ($\mathcal{O}(\SI{0.3}{eV})$) we expect the LFV effects to be negligible! With these operators the branching ratio for, say, $\tmg$ is $\sim 10^{-40}$ \cite{Passemar:2015}. With such little SM background, observation of an LFV process of the type $\tlg$ would be an unambiguous signature of NP.
 
@@ -227,9 +242,6 @@ There are many NP models which introduce mechanisms to give neutrinos mass. Thes
 \label{}
 \end{figure}
 
-
-
-
 \subsection{$\htm$ excess}
 
 Hints of LFV can come in the form of experimental results which are not consistent with the SM. One such ``anomaly’’ is the $\htm$ excess. In 2015, CMS found a $2.4\sigma$ excess in the branching fraction of $\htm$ \cite{CMS:2015a}. This process is lepton flavour violating, so in the SM its branching fraction is expected to be consistent with zero. However it was determined
@@ -237,7 +249,6 @@ Hints of LFV can come in the form of experimental results which are not consiste
 \begin{equation}
 \br(h\to \tau \mu) = (0.84^{+0.39}_{-0.37})\%
 \end{equation}
-
 
 Also in 2015 was a similar search performed by ATLAS \cite{ATLAS:2015}, in which an excess of $1.2\sigma$ was found in the $\htm$ decay. 
 
@@ -247,14 +258,12 @@ B(\htm) = (0.77 \pm 0.66)\%
 
 Though this $1.2\sigma$ result is less indicative of NP, it still provides hints as to where NP could occur. These results indicate possible new physics in the Higgs sector! Several models, including Two-Higgs Doublet Models (2HDM), introduce new Higgs-like particles; these particles can couple with leptons to allow lepton flavour violating processes \cite{Harnik:2012}. In fact, LFV can occur naturally in any model with more than one Higgs doublet.
 
-
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{images/h-vs-tau.png}
 \caption{Correlation between $\br(\htm)$ and $\br(\tmg)$ in various NP scenarios (Dorsner et al., 2015)}
 \label{}
 \end{figure}
-
 
 The present experimental result for $\br(\htm)$ is shown in horizontal blue band; current and future projections for $\br(\tmg)$ experimental sensitivity are represented with vertical light and dark gray bands. We note that certain 2HDM models predict a branching fraction for $\br(\tmg)$, consistent with the CMS results, at sensitivities which could be observed by Belle II. It is important to note that the Higgs sector could contribute to LFV in NP scenarios, and that both theory and experimental limits on other LFV processes such as $\htm$ all interweave with limits on $\tlg$ branching fractions to provide information on NP, even just through reducing the available phase space for certain models \cite{Dorsner:2015}.
 
@@ -282,68 +291,104 @@ As mentioned previously, LFV in the $\tau$ sector is introduced in many NP scena
 Figure above lists a few NP models with their predictions of $\br(\tmg)$. We see that the phase space of some of these models has already been ruled out with our current experimental limits on LFV branching fractions.
 
 
+\section{Past searches for $\tlg$}
 
-\section{Searches for $\tlg$}
-
-The most recent searches for $\tlg$ were undertaken at Belle (2007) and Babar (2010), for both $\ell=\mu,e$ modes. These detectors are $e^+ e^-$ colliders; a signal of the form $e^+ e^-\to \tau^+ \tau^-$, with one tau (signal-side) decaying $\tau\to \ell \gamma$ and the other tau (tag-side) decaying generically, with the requirement that the tag-side track is not $\ell$.
-
-The dominant backgrounds for the process $\tmg$ are $\tau\to \mu \nu \nu$, $\tau\to \pi \nu$ and $e^+ e^- \to \mu^+ \mu^- \gamma$ (with similar backgrounds for $\tau\to e \gamma$) \cite{Hayasaka:2007}. The first two backgrounds have branching fractions
-\begin{align}
-\br(\tau\to \mu \nu \nu)&=17.41\%\\
-\br(\tau\to\pi\nu)&=10.83\%
-\end{align}
-which are non-negligible contributions to the dataset. The cross-section for we can compare the cross section of $e^+ e^- \to \mu^+ \mu^- \gamma$ to that of $e^+ e^- \to \tau^+ \tau^- \gamma$;
-\begin{align}
-\sigma(e^+ e^- \to \mu^+ \mu^- \gamma)&=\SI{0.242}{nb}\\
-\sigma(e^+ e^- \to \tau^+ \tau^- \gamma)&=\SI{0.919}{nb}\\
-\end{align}
-so we note a significant contribution from this background also.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.3\textwidth]{images/taumununu.png}
-\includegraphics[width=0.3\textwidth]{images/taupinu.png}
-\includegraphics[width=0.3\textwidth]{images/eemumugamma.png}
-\caption{Dominant backgrounds to $\tmg$. From left-to-right: $\tau\to \mu \nu \nu$, $\tau\to \pi \nu$ and $e^+ e^- \to \mu^+ \mu^- \gamma$}
-\end{figure}
+The most recent searches for $\tlg$ were undertaken at Belle (2007) and Babar (2010), for both $\ell=\mu,e$ modes. These detectors are $e^+ e^-$ colliders a signal of the form $e^+ e^-\to \tau^+ \tau^-$, with one tau (signal-side) decaying $\tau\to \ell \gamma$ and the other tau (tag-side) decaying generically, with the requirement that the tag-side track is not $\ell$.
 
 
 \subsection{Belle searches}
 
 
+   \begin{figure}[h]
+        \centering
+        \begin{subfigure}[b]{0.475\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{images/belle-search-tauMG-signal-region.png}
+            \caption[Network2]%
+            {{\small}}    
+            \label{fig:mean and std of net14}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.475\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{images/belle-search-tauEG-signal-region.png}
+            \caption[]%
+            {{\small}}    
+            \label{fig:mean and std of net24}
+        \end{subfigure}
+        \caption{$M_{\text{inv}}$-$\Delta E$ distribution in the search for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ at Belle over a $\SI{515}{fb^{-1}}$ data set. $M_{\text{inv}}$ is the reconstructed mass of the $\tau$ from these processes, $\Delta E$ is the energy difference between this reconstructed $\tau$ and half center-of-mass frame beam energy. Dots are the data and shaded boxes indicate the signal MC. The dashed ellipse shows the $3\sigma$ region and the dot-dashed ellipse is the $2\sigma$ signal region.}
+    \end{figure}
+
+
 The Belle detector records events from an asymmetric $e^+ e^-$ collider with electron (positron) energy of $\SI{8}{GeV}$ ($\SI{3.5}{GeV}$). A detailed discussion of the detector can be found at Ref. \cite{Belle:2002}. In 2007, the Belle Collaboration performed a search over $\SI{535}{fb^{-1}}$ of $e^+ e^-$ data and set constraints \cite{Hayasaka:2007} on $\tlg$ branching fractions as
 
-\begin{align}
+\begin{align*}
 \br(\tmg)&<\num{4.5d-8},\\
 \br(\tau\to e \gamma)&<\num{1.2d-7}.
-\end{align}
+\end{align*}
+
 
 
 \subsection{Babar searches}
 
+   \begin{figure}[h]
+        \centering
+        \begin{subfigure}[b]{0.475\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{images/babar-search-tauMG-signal-region.png}
+            \caption[Network2]%
+            {{\small}}    
+            \label{fig:mean and std of net14}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.475\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{images/babar-search-tauEG-signal-region.png}
+            \caption[]%
+            {{\small}}    
+            \label{fig:mean and std of net24}
+        \end{subfigure}
+        \caption{$M_{\text{bc}}$-$\Delta E$ distribution in the search for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ at Babar over a $\SI{515}{fb^{-1}}$ data set. $M_{\text{bc}}$ is the beam-constrained mass of the $\tau$ from these processes, $\Delta E$ is the energy difference between this reconstructed $\tau$ and half center-of-mass frame beam energy. Data are shown as dots and contours containing \num{90}{\percent} (\num{50}{\percent}) of signal MC events are shown as light- (dark-) shaded regions.}
+    \end{figure}
+
+
 Similar to Belle, the Babar detector records events from an asymmetric $e^+e^-$ collider, with electron (positron) energy of $\SI{9}{GeV}$ ($\SI{3.1}{GeV}$). A detailed discussion of the detector can be found at Ref. \cite{Babar:2002}. The most recent search for $\tlg$ was performed in 2010 by the Babar Collaboration \cite{Babar:2010}, over a $\SI{515.5}{fb^{-1}}$ dataset, setting constraints on $\tlg$ branching fractions as
 
-\begin{align}
+\begin{align*}
 \br(\tmg)&<\num{4.4d-8},\\
 \br(\tau\to e \gamma)&<\num{3.3d-8}.
-\end{align}
+\end{align*}
 
 
+\section{The role of this analysis (rephrase plz)}
 
-\section{Future searches}
+Collection of data at Belle II is scheduled to begin in 2017. A physics program has been designed for the experiment, detailing specific decays to investigate and areas of particle physics to probe. It is important before data collection begins to perform sensitivity studies on these decay processes, to find areas in which the analysis performs better or worse than expected. In some cases we may find that background rejection is greater than previously modelled due to, for example, good performance in particle identification by the detector. It is also important if areas for improvement are found, such as beam background degrading analysis performance. Finding areas for improvement during the development stage informs future development, including tracking and reconstruction software and hardware-based beam background mitigation techniques, and leads to more optimal conditions for physics events to be investigated.
 
-\subsection{Belle II}
 
-To probe smaller branching fractions for signals of new physics, we are required to build particle detectors with greater total integrated luminosity. The Belle II experiment, the successor to the Belle experiment, has a predicted total integrated luminosity of $\SI{50}{ab^{-1}}$. As a point of comparison, the Belle experiment collected $\SI{1000}{fb^{-1}}$ of data over its lifetime. A detailed discussion on the Belle II detector can be found at Ref \cite{Belle:2010}.
+This analysis is the first $\tau$ physics study for Belle II. Some key points studied are muon and electron track reconstruction and the effects of beam background on XXXXX (???). Information on these areas of event analysis is not only useful for $\tau\to\ell\gamma$ searches at Belle II --- the physics program for the experiment includes a range of $\tau$ decay processes (see Table XXX) of which many require muon and electron track reconstruction. Low-multiplicity events require XXXXXX, so XXXXXX.
+
+\begin{table}[h]
+\centering
+\label{my-label}
+\begin{tabular}{lll}
+\textbf{LFV process} & \textbf{Present bound} & \textbf{Future sensitivity} \\ \hline
+$\tau\to e\gamma$ & \num{3.3e-9} & $\sim\num{e-8} - \num{e-9}$ \\
+$\tau\to\mu\gamma$ & \num{4.4e-9} & $\sim\num{e-8} - \num{e-9}$ \\
+$\tau^{\pm}\to e^{\pm} e^{\mp} e^{\pm}$ & \num{2.7e-8} & $\sim\num{e-9} - \num{e-10}$ \\
+$\tau^{\pm}\to \mu^{\pm} \mu^{\mp} \mu^{\pm}$ & \num{2.1e-8} & $\sim\num{e-9} - \num{e-10}$
+\end{tabular}
+\caption{Current experimental limits on various LFV processes}
+\label{tab:current lfv bounds}
+\end{table}
+
+Results from this analysis will be published in the Belle II physics book, which is currently being compiled by members across all working groups in the collaboration. The book aims to (????); this study will provide the basis for future $\tau$ LFV studies at Belle II. This study also validates the projected increase in sensitivity for $\tau\to\ell\gamma$ branching fractions from Belle to Belle II.
 
 \begin{figure}[h]
 \centering
-%\includegraphics[width=0.9\textwidth]{images/tauLFV.png}
-\caption{Current and future sensitivities on $\tau$ LFV branching fractions (Urquijo, 2016)}
+\includegraphics[width=0.9\linewidth]{images/current-future-sensitivities.png}
+\caption{Current and future sensitivities on $\tau$ LFV branching fractions (\emph{Urquijo}, 2016). \textbf{NOTE: remove the unrelated LFVs}}
+\label{}
 \end{figure}
-
-Increased luminosity will allow the branching fractions of various LFV processes to be probed with greater sensitivity. Figure above gives an indication of how future searches at Belle II will improve upper limits on the branching fractions for decays such as, importantly, $\tlg$.
-
 
 %-------------------------------------------------------------------
 
@@ -358,7 +403,7 @@ Located in Tsukuba, Japan, the KEKB particle accelerator was used for the Belle 
 \label{}
 \end{figure}
 
-Over the course of the experiment, it is projected that Belle II will generate a total time-integrated luminosity of $\SI{50}{ab^{-1}}$. This is a much larger data sample than the $\SI{1}{ab^{-1}}$ collected at Belle. Electron-positron beam energies differ from those used at Belle, with high-energy-ring (HER) electron beam energy of $\SI{7}{GeV}$ and low-energy-ring (LER) positron beam energy  of $\SI{4}{GeV}$. Design luminosity in the detector is increased by 40 over Belle; this increases background hit rate (???) by a factor of 20, while physics event rate is expected to be 50 times higher than at Belle.
+Over the course of the experiment, it is projected that Belle II will collect a total time-integrated luminosity of $\SI{50}{ab^{-1}}$. This is a much larger data sample than the $\SI{1}{ab^{-1}}$ collected at Belle. Electron-positron beam energies differ from those used at Belle, with high-energy-ring (HER) electron beam energy of $\SI{7}{GeV}$ and low-energy-ring (LER) positron beam energy  of $\SI{4}{GeV}$. Design luminosity in the detector is increased by 40 over Belle; this increases background hit rate (???) by a factor of 20, while physics event rate is expected to be 50 times higher than at Belle.
 
 Key components of the detector are the silicon vertex detector (SVD), the central drift chamber (CDC), the electromagnetic calorimeter (ECL), the time-of-flight/Cerenkov aerogel chamber (TOP), and the K-long/muon detector (KLM). Many of these will be upgraded in Belle II to provide better performance; in some cases the full reconstruction software is rewritten even when the hardware is not improved.
 
@@ -479,15 +524,67 @@ In this analysis, we investigate all generically decaying tau-pair processes, mu
 
 We investigate the characteristic signals of observables such as momentum, energy, and polar angles (object trajectory relative to collision axis ???) as well as other constructed variables, in simulated data known as Monte Carlo (MC). By looking at signal and background signals separately in MC, we are able discriminate between signal and background events in data (NO I don't actually do this.... feasibility test? Not sure how to describe why I do what I do and what it accomplishes).
 
+\section{Physics backgrounds}
+
+The dominant backgrounds for the process $\tmg$ are $\tau\to \mu \nu \nu$, $\tau\to \pi \nu$ and $e^+ e^- \to \mu^+ \mu^- \gamma$ (with similar backgrounds for $\tau\to e \gamma$) \cite{Hayasaka:2007}. The first two backgrounds have branching fractions
+\begin{align*}
+\br(\tau\to \mu \nu \nu)&=\num{17.41}{\percent},\\
+\br(\tau\to\pi\nu)&=\num{10.83}{\percent},
+\end{align*}
+which are non-negligible contributions to the dataset. The cross-section for we can compare the cross section of $e^+ e^- \to \mu^+ \mu^- \gamma$ to that of $e^+ e^- \to \tau^+ \tau^- \gamma$;
+\begin{align*}
+\sigma(e^+ e^- \to \mu^+ \mu^- \gamma)&=\SI{0.242}{nb},\\
+\sigma(e^+ e^- \to \tau^+ \tau^- \gamma)&=\SI{0.919}{nb},\\
+\end{align*}
+so we note a significant contribution from this background also.
+
+  \begin{figure}[h]
+        \centering
+        \begin{subfigure}[b]{0.315\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{images/taumununu.png}
+            \caption[Network2]%
+            {{\small $\tau\to \mu \nu \nu$}}    
+            \label{fig:mean and std of net14}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[b]{0.315\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{images/taupinu.png}
+            \caption[]%
+            {{\small $\tau\to \pi \nu$}}    
+            \label{fig:mean and std of net24}
+        \end{subfigure}
+                \hfill
+        \begin{subfigure}[b]{0.315\textwidth}  
+            \centering 
+            \includegraphics[width=\textwidth]{images/eemumugamma.png}
+            \caption[]%	
+            {{\small $e^+ e^- \to \mu \mu (\gamma)$}}    
+            \label{fig:mean and std of net24}
+        \end{subfigure}
+        \caption{Feynman diagrams for the dominant physics backgrounds for $\tmg$.}
+    \end{figure}
+
+
 \section{Event generation}
 
-All MC was generated in the Belle II Analysis Framework (\texttt{basf2}) with Belle II (Super-KEKB) geometry and energies. HOW DOES GENERATION HAPPEN? 
+All MC was generated in the Belle II Analysis Framework (\texttt{basf2}) with geometry and energies from SuperKEKB. HOW DOES GENERATION HAPPEN? 
 
-The geometry of the detector is accurately known by the generators, which includes very specific location, thickness and material information; magnetic field strength through the detector is also known. The detector components are simulated by the generator, so that timing information and energy deposition is recorded for these components as MC particles interact with them. Following the simulation of a physics event, information from the sub-detectors is used to reconstruct ``tracks'' (correponding to charged particles) and ``clusters'' (referring to cells of the ECL with which a particle has interacted with, corresponding to photons).
+Geometry information of the detector includes very specific location, thickness and material values; magnetic field strength through the detector is also known. The detector components are simulated by the generator, so that timing information and energy deposition is recorded for these components as MC particles interact with them. Following the simulation of a physics event, information from the sub-detectors is used to reconstruct tracks (correponding to charged particles) and clusters (referring to cells of the ECL with which a particle has interacted with, corresponding to photons).
 
-Signal MC was produced using the \texttt{KKMC} generator (REF PHILL'S GENERATOR PAPER). Decays proceeded as $e^+ e^- \to \tau^+ \tau^-$, with one tau decaying to the signal mode $\tau \to \ell \gamma$ (the ``signal'' side), and the other (the ``tag'' side) decaying to all experimentally measured SM decay modes of the tau, scaled by their branching ratio; decaying according to the SM is referred to ``generic'' decay. The modes $\tau^+ \to \ell^+ \gamma$, $\tau^-$ decaying generically, and $\tau^- \to \ell^- \gamma$, $\tau^+$ decaying generically were both generated so that differences were not overlooked. To investigate both the electron and muon modes, two distinct final states were produced. The number of produced events was 3,100,000 for the muon final state, and 3,550,000 for the electron final state.
+\subsection{Signal generation}
+
+Signal MC was produced using the \texttt{KKMC} generator (REF PHILL'S GENERATOR PAPER). Decays proceeded as $e^+ e^- \to \tau^+ \tau^-$, with one tau decaying to the signal mode $\tau \to \ell \gamma$ (the signal-side), and the other (the tag-side) decaying to all experimentally measured SM decay modes of the tau, scaled by their branching ratio; decaying according to the SM is referred to generic decay. The modes $\tau^+ \to \ell^+ \gamma$, $\tau^-$ decaying generically, and $\tau^- \to \ell^- \gamma$, $\tau^+$ decaying generically were both generated so that differences were not overlooked. To investigate both the electron and muon modes, two distinct final states were produced. The number of produced events was 3,100,000 for the muon final state, and 3,550,000 for the electron final state.
+
+The \texttt{KKMC} generator
+
+
+\subsection{Background generation}
 
 Samples for a range of background events were produced by the Belle II Collaboration. 
+
+Continuum = KKMC ($e^+e^-\to q\bar{q}$, PYTHIA8.2 ($q\bar{q}\to\text{hadrons}$) and EvtGen (decay of unstable hadrons). These generators were not used to produce $q\bar{q}$ pairs at Belle.
 
 
 \section{Event scaling}
@@ -684,6 +781,13 @@ $e^+ e^- \to B^0 \bar{B}^0$       & \num{427680000}           & \num{46912228}  
 
 
 \chapter{Event topologies}
+
+
+``For a collection of $N$ momenta $\mathbf{p}_i$ ($i = 1,\ldots, N$), the thrust axis $\mathbf{T}$ is defined as the unit vector along which their total projection is maximal; the thrust scalar $T$ (or thrust) is a derived quantity defined as
+\begin{equation}
+T = \frac{\sum^N_{i=1}\lvert\mathbf{T}\cdot\mathbf{p}_i\rvert}{\sum^N_{i=i}\lvert\mathbf{p}_i\rvert}.
+\end{equation}
+''
 
 We discuss expected energies, kinematics and signal-side event topologies with comparison to MC data. Knowledge of event topologies is important in selecting regions in phase space to remove when optimising the ratio of signal-to-background. 
 
@@ -949,7 +1053,7 @@ NOT SURE HOW TO DESCRIBE TOPOLOGIES FOR THESE EVENTS
 
 \chapter{Preselection}
 
-Following reconstruction, preselection criteria were applied to the reconstructed ROOT files. Preselection criteria are defined as distinct from selection criteria in that they remove a minimal amount of signal while removing the more obvious background components; in choosing selection criteria we seek to maximise $S/\sqrt{S+B}$, which may necessarily involve ``cutting out'' some non-neglible amount of signal.
+Following reconstruction, preselection criteria were applied to the reconstructed events. Preselection criteria are defined as distinct from selection criteria in that they remove a minimal amount of signal while removing the more obvious background components; in choosing selection criteria we seek to maximise $S/\sqrt{S+B}$, which may necessarily involve ``cutting out'' some non-neglible amount of signal.
 
 The preselection criteria were selected by inspection of plots of various topology and energy based variables. Different preselection and selection criteria are chosen for each final state mode, due to the different event signatures. A total of 5 variables where chosen for preselection.
 
