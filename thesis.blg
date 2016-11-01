@@ -1,62 +1,69 @@
-This is BibTeX, Version 0.99d (TeX Live 2012)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: refs.bib.bib
-Warning--I didn't find a database entry for "Paradisi:2016"
-Warning--I didn't find a database entry for "SuperK:1998"
-Warning--I didn't find a database entry for "SNO:2002"
-Warning--I didn't find a database entry for "CMS:2015a"
-Warning--I didn't find a database entry for "ATLAS:2015"
-Warning--I didn't find a database entry for "Harnik:2012"
-Warning--I didn't find a database entry for "Dorsner:2015"
-Warning--I didn't find a database entry for "Hayasaka:2007"
-Warning--I didn't find a database entry for "Belle:2002"
-Warning--I didn't find a database entry for "Babar:2002"
-Warning--I didn't find a database entry for "Babar:2010"
-Warning--I didn't find a database entry for "Belle:2010"
+"{" immediately follows a field name---line 235 of file refs.bib.bib
+ : @inproceedings
+ :               {key,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 375 of file refs.bib.bib
+ : @article{BelleII: 
+ :                   generators,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in Passemar:2015
+Warning--to sort, need author or key in NobelPrize
+Too many commas in name 1 of "Hearty, C., Ferber, T." for entry BelleII:cluster-timing
+while executing---line 1049 of file plain.bst
+Warning--empty author in Passemar:2015
 Warning--empty title in Passemar:2015
 Warning--empty journal in Passemar:2015
 Warning--empty year in Passemar:2015
-You've used 2 entries,
+Warning--empty journal in BelleII:tech-design-report
+Warning--empty journal in BelleII:reconstruction
+Warning--empty journal in BelleII:simulation
+Too many commas in name 1 of "Hearty, C., Ferber, T." for entry BelleII:cluster-timing
+while executing---line 1090 of file plain.bst
+Warning--empty journal in BelleII:cluster-timing
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            534 strings with 4511 characters,
-and the built_in function-call counts, 505 in all, are:
-= -- 46
-> -- 14
-< -- 0
-+ -- 6
-- -- 4
-* -- 34
-:= -- 93
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 7
+            614 strings with 6704 characters,
+and the built_in function-call counts, 5397 in all, are:
+= -- 523
+> -- 224
+< -- 1
++ -- 90
+- -- 70
+* -- 339
+:= -- 922
+add.period$ -- 56
+call.type$ -- 19
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 21
-empty$ -- 44
-format.name$ -- 4
-if$ -- 99
+cite$ -- 29
+duplicate$ -- 212
+empty$ -- 448
+format.name$ -- 70
+if$ -- 1130
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 12
-num.names$ -- 4
-pop$ -- 11
+int.to.str$ -- 19
+missing$ -- 18
+newline$ -- 97
+num.names$ -- 34
+pop$ -- 81
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 62
 quote$ -- 0
-skip$ -- 12
+skip$ -- 165
 stack$ -- 0
-substring$ -- 31
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 331
+swap$ -- 24
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 3
-while$ -- 5
-width$ -- 3
-write$ -- 20
-(There were 15 warnings)
+type$ -- 76
+warning$ -- 10
+while$ -- 48
+width$ -- 21
+write$ -- 196
+(There were 4 error messages)

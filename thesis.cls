@@ -4,11 +4,8 @@
 % Version 1.0 released 26/11/1997
 %-------------------------- identification ---------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{ociamthesis}[2010/11/22 v2.2 OCIAM thesis class]
+\ProvidesClass{thesis}[2010/11/22 v2.2 OCIAM thesis class]
 %-------------------------- initial code -----------------------
-\def\logoversion{squarelogo}
-\DeclareOption{beltcrest}{\def\logoversion{beltcrest}}
-\DeclareOption{shieldcrest}{\def\logoversion{shieldcrest}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions\relax
 \LoadClass[a4paper]{report}
@@ -16,7 +13,6 @@
 %\LoadClass[a4paper,twoside,openright]{report}
 
 \RequirePackage{graphicx} % needed for latest frontpage logo
-\RequirePackage{ifthen}   % needed for option parsing for logo
 
 \raggedbottom
 
@@ -41,32 +37,9 @@
 % Setup choosen crest/logo
 %
 
-\ifthenelse{\equal{\logoversion}{shieldcrest}}%
-{
-% Traditional Oxford shield crest
-%Using latex metafont (Mathematical Institute system)
-\font\crestfont=oxcrest40 scaled\magstep3
-\def\logo{{\crestfont \char1}}
-%For comlab system replace 1st line above with
-%\font\crestfont=crest scaled\magstep3
-}{}
-
-\ifthenelse{\equal{\logoversion}{beltcrest}}%
-{
-% Newer Oxford Belt crest
-%Using latex metafont (Mathematical Institute system)
-\font\beltcrestfont=oxbeltcrest
-\def\logo{{\beltcrestfont \char0}}
-%For comlab system replace 1st line above with
-%\font\beltcrestfont=newcrest
-}{}
-
-\ifthenelse{\equal{\logoversion}{squarelogo}}%
-{
 % Latest Logo, Square version (the default!)
 % you need an oxlogo.eps or oxlogo.pdf file as appropriate
 \def\logo{{\includegraphics[width=64mm]{unimelb-logo}}}
-}{}
 
 %
 % Define text area of page and margin offsets
@@ -74,7 +47,7 @@
 \setlength{\topmargin}{0.0in}
 \setlength{\oddsidemargin}{0.33in}
 \setlength{\evensidemargin}{-0.08in}
-\setlength{\textheight}{9.0in}
+\setlength{\textheight}{11.0in}
 \setlength{\textwidth}{6.0in}
 
 %

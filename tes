@@ -1,0 +1,81 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[tablexcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+\centering
+\begin{tabular}{lcccrrrrrrrrrrrrr}
+ & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{\textbf{$\tau\to\mu\gamma$}} & \multicolumn{1}{l}{\textbf{$\tau\to\mu\nu\nu$}} & \multicolumn{1}{l}{\textbf{$\tau\to\pi\nu$}} & \multicolumn{1}{l}{\textbf{$\tau\to e\nu\nu$}} & \multicolumn{1}{l}{\textbf{$\tau\to\text{generic}$}} & \multicolumn{1}{l}{\textbf{$e^+ e^- \to \mu^+ \mu^- (\gamma)$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to e^+ e^- (\gamma)$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to u\bar{u}$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to d\bar{d}$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to c\bar{c}$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to s\bar{s}$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to B^+ B^-$}} & \multicolumn{1}{l}{\textbf{$e^+ e^-\to B^0 \bar{B}^0$}} \\
+\multicolumn{4}{r}{\textbf{events in}} & \cellcolor[HTML]{EFEFEF}135 & 631235 & 822028 & 70675 & 636954 & 21938180 & 1457005758 & 29767142 & 7307320 & 23401910 & 6299797 & 22083348 & 23372366 \\
+ & \multicolumn{1}{l}{\textbf{lower}} & \multicolumn{1}{l}{\textbf{upper}} & \multicolumn{1}{l}{\textbf{criteria#}} & \cellcolor[HTML]{EFEFEF} &  &  &  &  &  &  &  &  &  &  &  &  \\ \hline
+muCM_P & \num{1} & \num{4.3} & 0 & \cellcolor[HTML]{EFEFEF}\num{91} & \num{21766} & \num{32974} & \num{7324} & \num{84184} & \num{1429469} & \num{25239923} & \num{1197596} & \num{299166} & \num{1004741} & \num{228377} & \num{378083} & \num{395804} \\
+tagtrackCM_P & \num{} & \num{2.5} & 1 & \cellcolor[HTML]{EFEFEF}\num{85} & \num{21089} & \num{32169} & \num{7139} & \num{81811} & \num{490202} & \num{8291747} & \num{1179381} & \num{294818} & \num{992633} & \num{225315} & \num{373158} & \num{391169} \\
+mu_Pt & \num{0.1} & \num{} & 2 & \cellcolor[HTML]{EFEFEF}\num{85} & \num{21089} & \num{32155} & \num{7133} & \num{81811} & \num{490202} & \num{8291747} & \num{1178793} & \num{294748} & \num{992215} & \num{225270} & \num{373015} & \num{390932} \\
+tagtrack_Pt & \num{} & \num{} & 3 & \cellcolor[HTML]{EFEFEF}\num{85} & \num{21089} & \num{32155} & \num{7133} & \num{81811} & \num{490202} & \num{8291747} & \num{1178793} & \num{294748} & \num{992215} & \num{225270} & \num{373015} & \num{390932} \\
+muCosTheta & \num{-0.8} & \num{0.9} & 4 & \cellcolor[HTML]{EFEFEF}\num{78} & \num{16425} & \num{20003} & \num{4215} & \num{25820} & \num{434015} & \num{1151631} & \num{637526} & \num{160350} & \num{560777} & \num{125241} & \num{232106} & \num{241352} \\
+tagtrackCosTheta & \num{} & \num{} & 5 & \cellcolor[HTML]{EFEFEF}\num{78} & \num{16425} & \num{20003} & \num{4215} & \num{25820} & \num{434015} & \num{1151631} & \num{637526} & \num{160350} & \num{560777} & \num{125241} & \num{232106} & \num{241352} \\
+totalCM_E & \num{} & \num{12} & 6 & \cellcolor[HTML]{EFEFEF}\num{77} & \num{16113} & \num{19718} & \num{4159} & \num{25160} & \num{433111} & \num{1151631} & \num{618179} & \num{155496} & \num{544948} & \num{121108} & \num{226042} & \num{234168} \\
+thrustSignal & \num{0.936} & \num{0.944} & 7 & \cellcolor[HTML]{EFEFEF}\num{70} & \num{8224} & \num{9803} & \num{1845} & \num{11175} & \num{167642} & \num{403071} & \num{298024} & \num{74428} & \num{264600} & \num{59129} & \num{109294} & \num{115361} \\
+signalPIDmu & \num{0.8} & \num{} & 8 & \cellcolor[HTML]{EFEFEF}\num{67} & \num{6168} & \num{1884} & \num{456} & \num{1869} & \num{162010} & \num{0} & \num{44512} & \num{11100} & \num{35760} & \num{8879} & \num{13695} & \num{14928} \\
+mu_P & \num{} & \num{} & 9 & \cellcolor[HTML]{EFEFEF}\num{67} & \num{6168} & \num{1884} & \num{456} & \num{1869} & \num{162010} & \num{0} & \num{44512} & \num{11100} & \num{35760} & \num{8879} & \num{13695} & \num{14928} \\
+tagPIDmu & \num{} & \num{0.85} & 10 & \cellcolor[HTML]{EFEFEF}\num{60} & \num{5428} & \num{1669} & \num{353} & \num{1636} & \num{138602} & \num{0} & \num{38610} & \num{9558} & \num{30404} & \num{7711} & \num{11801} & \num{12914} \\
+gamma_E & \num{0.8} & \num{} & 11 & \cellcolor[HTML]{EFEFEF}\num{60} & \num{4616} & \num{1466} & \num{308} & \num{1371} & \num{133202} & \num{0} & \num{30448} & \num{7291} & \num{22971} & \num{5602} & \num{7424} & \num{7831} \\
+sig_gammaCosTheta & \num{-0.8} & \num{0.85} & 12 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24532} & \num{6008} & \num{18688} & \num{4530} & \num{5889} & \num{6391} \\
+mugammaCMOpeningCosTheta & \num{} & \num{} & 13 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24532} & \num{6008} & \num{18688} & \num{4530} & \num{5889} & \num{6391} \\
+sumCM_E & \num{} & \num{} & 14 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24532} & \num{6008} & \num{18688} & \num{4530} & \num{5889} & \num{6391} \\
+tracksCMOpeningTheta & \num{} & \num{} & 15 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24532} & \num{6008} & \num{18688} & \num{4530} & \num{5889} & \num{6391} \\
+helicityCosTheta & \num{-0.8} & \num{0.8} & 16 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24532} & \num{6008} & \num{18688} & \num{4530} & \num{5889} & \num{6391} \\
+pmissing & \num{} & \num{} & 17 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24516} & \num{6002} & \num{18688} & \num{4530} & \num{5876} & \num{6366} \\
+missingCosTheta & \num{} & \num{} & 18 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24516} & \num{6002} & \num{18688} & \num{4530} & \num{5876} & \num{6366} \\
+missingTagCMOpeningCosTheta & \num{} & \num{} & 19 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2485} & \num{899} & \num{300} & \num{1170} & \num{93570} & \num{0} & \num{24516} & \num{6002} & \num{18688} & \num{4530} & \num{5876} & \num{6366} \\
+m_nu2 & \num{} & \num{} & 20 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2483} & \num{896} & \num{300} & \num{1148} & \num{93570} & \num{0} & \num{23886} & \num{5802} & \num{18101} & \num{4390} & \num{5562} & \num{6100} \\
+tracks & \num{} & \num{15} & 21 & \cellcolor[HTML]{EFEFEF}\num{53} & \num{2460} & \num{858} & \num{266} & \num{1131} & \num{93570} & \num{0} & \num{20196} & \num{4817} & \num{13328} & \num{3835} & \num{2623} & \num{2641} \\
+clusterTiming & \num{-1} & \num{1} & 22 & \cellcolor[HTML]{EFEFEF}\num{44} & \num{1861} & \num{618} & \num{178} & \num{829} & \num{9595} & \num{0} & \num{13037} & \num{3083} & \num{8580} & \num{2209} & \num{1403} & \num{1474} \\
+signalPIDk & \num{} & \num{0.08} & 23 & \cellcolor[HTML]{EFEFEF}\num{44} & \num{1861} & \num{618} & \num{178} & \num{829} & \num{9595} & \num{0} & \num{13037} & \num{3083} & \num{8580} & \num{2209} & \num{1403} & \num{1474} \\
+signalPIDpi & \num{0.8} & \num{} & 24 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1683} & \num{570} & \num{140} & \num{299} & \num{9008} & \num{0} & \num{9353} & \num{2140} & \num{6501} & \num{1345} & \num{1058} & \num{1137} \\
+signalPIDe & \num{} & \num{0.005} & 25 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1600} & \num{530} & \num{10} & \num{95} & \num{9008} & \num{0} & \num{5410} & \num{1246} & \num{3679} & \num{720} & \num{478} & \num{658} \\
+clusterNHits & \num{} & \num{} & 26 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1600} & \num{530} & \num{10} & \num{95} & \num{9008} & \num{0} & \num{5410} & \num{1246} & \num{3679} & \num{720} & \num{478} & \num{658} \\
+clusterUncorrE & \num{} & \num{} & 27 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1600} & \num{530} & \num{10} & \num{95} & \num{9008} & \num{0} & \num{5410} & \num{1246} & \num{3679} & \num{720} & \num{478} & \num{658} \\
+clusterHighE & \num{} & \num{} & 28 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1600} & \num{530} & \num{10} & \num{95} & \num{9008} & \num{0} & \num{5410} & \num{1246} & \num{3679} & \num{720} & \num{478} & \num{658} \\
+signalTrPval & \num{} & \num{} & 29 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1600} & \num{530} & \num{10} & \num{95} & \num{9008} & \num{0} & \num{5410} & \num{1246} & \num{3679} & \num{720} & \num{478} & \num{658} \\
+tagTrPval & \num{} & \num{} & 30 & \cellcolor[HTML]{EFEFEF}\num{39} & \num{1600} & \num{530} & \num{10} & \num{95} & \num{9008} & \num{0} & \num{5410} & \num{1246} & \num{3679} & \num{720} & \num{478} & \num{658} \\
+thrustRoe & \num{0.85} & \num{0.98} & 31 & \cellcolor[HTML]{EFEFEF}\num{26} & \num{1054} & \num{350} & \num{10} & \num{89} & \num{3306} & \num{0} & \num{1633} & \num{358} & \num{640} & \num{161} & \num{0} & \num{5} \\
+cosTBz & \num{} & \num{} & 32 & \cellcolor[HTML]{EFEFEF}\num{26} & \num{1054} & \num{350} & \num{10} & \num{89} & \num{3306} & \num{0} & \num{1633} & \num{358} & \num{640} & \num{161} & \num{0} & \num{5} \\
+cc1 & \num{} & \num{5} & 33 & \cellcolor[HTML]{EFEFEF}\num{25} & \num{1010} & \num{339} & \num{10} & \num{80} & \num{3276} & \num{0} & \num{1406} & \num{324} & \num{630} & \num{161} & \num{0} & \num{5} \\
+hso00 & \num{0.05} & \num{1} & 34 & \cellcolor[HTML]{EFEFEF}\num{19} & \num{793} & \num{229} & \num{10} & \num{60} & \num{178} & \num{0} & \num{529} & \num{173} & \num{145} & \num{25} & \num{0} & \num{0} \\
+neutralECLEnergy & \num{2} & \num{6} & 35 & \cellcolor[HTML]{EFEFEF}\num{15} & \num{630} & \num{163} & \num{0} & \num{44} & \num{100} & \num{0} & \num{218} & \num{73} & \num{78} & \num{16} & \num{0} & \num{0} \\
+sigD0 & \num{-0.05} & \num{0.05} & 36 & \cellcolor[HTML]{EFEFEF}\num{15} & \num{581} & \num{113} & \num{0} & \num{1} & \num{100} & \num{0} & \num{171} & \num{58} & \num{43} & \num{3} & \num{0} & \num{0} \\
+sigZ0 & \num{-0.06} & \num{0.06} & 37 & \cellcolor[HTML]{EFEFEF}\num{14} & \num{529} & \num{104} & \num{0} & \num{0} & \num{100} & \num{0} & \num{150} & \num{57} & \num{43} & \num{3} & \num{0} & \num{0} \\
+e9e25 & \num{0.95} & \num{} & 38 & \cellcolor[HTML]{EFEFEF}\num{14} & \num{526} & \num{101} & \num{0} & \num{0} & \num{100} & \num{0} & \num{114} & \num{54} & \num{34} & \num{3} & \num{0} & \num{0} \\
+R2 & \num{0.4} & \num{} & 39 & \cellcolor[HTML]{EFEFEF}\num{13} & \num{520} & \num{90} & \num{0} & \num{0} & \num{100} & \num{0} & \num{114} & \num{54} & \num{25} & \num{3} & \num{0} & \num{0} \\
+hoo0 & \num{} & \num{0.15} & 40 & \cellcolor[HTML]{EFEFEF}\num{13} & \num{510} & \num{90} & \num{0} & \num{0} & \num{85} & \num{0} & \num{110} & \num{54} & \num{16} & \num{3} & \num{0} & \num{0} \\
+hso10 & \num{} & \num{0.35} & 41 & \cellcolor[HTML]{EFEFEF}\num{12} & \num{443} & \num{85} & \num{0} & \num{0} & \num{54} & \num{0} & \num{66} & \num{16} & \num{8} & \num{3} & \num{0} & \num{0} \\
+tagD0 & \num{} & \num{} & 42 & \cellcolor[HTML]{EFEFEF}\num{12} & \num{443} & \num{85} & \num{0} & \num{0} & \num{54} & \num{0} & \num{66} & \num{16} & \num{8} & \num{3} & \num{0} & \num{0} \\
+tagZ0 & \num{} & \num{} & 43 & \cellcolor[HTML]{EFEFEF}\num{12} & \num{443} & \num{85} & \num{0} & \num{0} & \num{54} & \num{0} & \num{66} & \num{16} & \num{8} & \num{3} & \num{0} & \num{0} \\
+tauCMTheta & \num{1} & \num{2.2} & 44 & \cellcolor[HTML]{EFEFEF}\num{9} & \num{311} & \num{63} & \num{0} & \num{0} & \num{31} & \num{0} & \num{27} & \num{3} & \num{8} & \num{3} & \num{0} & \num{0} \\
+cosTBTO & \num{0.7} & \num{} & 45 & \cellcolor[HTML]{EFEFEF}\num{8} & \num{268} & \num{63} & \num{0} & \num{0} & \num{31} & \num{0} & \num{27} & \num{3} & \num{8} & \num{3} & \num{0} & \num{0} \\
+cc2 & \num{2.4} & \num{} & 46 & \cellcolor[HTML]{EFEFEF}\num{8} & \num{241} & \num{48} & \num{0} & \num{0} & \num{15} & \num{0} & \num{23} & \num{3} & \num{5} & \num{3} & \num{0} & \num{0} \\
+cc3 & \num{} & \num{} & 47 & \cellcolor[HTML]{EFEFEF}\num{8} & \num{241} & \num{48} & \num{0} & \num{0} & \num{15} & \num{0} & \num{23} & \num{3} & \num{5} & \num{3} & \num{0} & \num{0} \\
+cc4 & \num{} & \num{1.7} & 48 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{211} & \num{44} & \num{0} & \num{0} & \num{15} & \num{0} & \num{19} & \num{3} & \num{4} & \num{3} & \num{0} & \num{0} \\
+cc5 & \num{} & \num{0.9} & 49 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{205} & \num{43} & \num{0} & \num{0} & \num{15} & \num{0} & \num{19} & \num{3} & \num{4} & \num{3} & \num{0} & \num{0} \\
+cc6 & \num{} & \num{0.7} & 50 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{194} & \num{43} & \num{0} & \num{0} & \num{15} & \num{0} & \num{18} & \num{3} & \num{4} & \num{3} & \num{0} & \num{0} \\
+cc7 & \num{} & \num{0.5} & 51 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{184} & \num{43} & \num{0} & \num{0} & \num{15} & \num{0} & \num{15} & \num{3} & \num{4} & \num{3} & \num{0} & \num{0} \\
+cc8 & \num{} & \num{} & 52 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{184} & \num{43} & \num{0} & \num{0} & \num{15} & \num{0} & \num{15} & \num{3} & \num{4} & \num{3} & \num{0} & \num{0} \\
+cc9 & \num{} & \num{0.4} & 53 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{184} & \num{43} & \num{0} & \num{0} & \num{15} & \num{0} & \num{15} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso01 & \num{-0.05} & \num{0.3} & 54 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{180} & \num{43} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso02 & \num{} & \num{0.48} & 55 & \cellcolor[HTML]{EFEFEF}\num{7} & \num{180} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso03 & \num{-0.1} & \num{0.25} & 56 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso04 & \num{} & \num{} & 57 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso12 & \num{} & \num{} & 58 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso14 & \num{} & \num{} & 59 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso20 & \num{0.1} & \num{1} & 60 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso22 & \num{} & \num{} & 61 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hso24 & \num{} & \num{} & 62 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{175} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hoo1 & \num{-0.018} & \num{0.08} & 63 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{171} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hoo2 & \num{} & \num{} & 64 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{171} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hoo3 & \num{-0.01} & \num{0.007} & 65 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{163} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+hoo4 & \num{} & \num{} & 66 & \cellcolor[HTML]{EFEFEF}\num{6} & \num{163} & \num{40} & \num{0} & \num{0} & \num{15} & \num{0} & \num{9} & \num{3} & \num{0} & \num{3} & \num{0} & \num{0} \\
+ & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{}
+\end{tabular}
+\caption{My caption}
+\label{my-label}
+\end{table}

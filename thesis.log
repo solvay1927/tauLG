@@ -1,14 +1,10 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.15)  26 OCT 2016 03:59
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.15)  28 OCT 2016 23:55
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
 LaTeX2e <2015/01/01> patch level 2
 (./thesis.cls
-
-LaTeX Warning: You have requested document class `thesis',
-               but the document class provides `ociamthesis'.
-
-Document Class: ociamthesis 2010/11/22 v2.2 OCIAM thesis class
+Document Class: thesis 2010/11/22 v2.2 OCIAM thesis class
 (/home/brmoore/.local/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/home/brmoore/.local/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -58,9 +54,6 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-)
-(/home/brmoore/.local/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 (/home/brmoore/.local/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -1223,6 +1216,10 @@ Package: cite 2015/02/27  v 5.5
 )
 (./rotating.sty
 Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
+
+(/home/brmoore/.local/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
 \c@r@tfl@t=\count355
 \rotFPtop=\skip282
 \rotFPbot=\skip283
@@ -1384,283 +1381,19 @@ LaTeX Warning: Label `' multiply defined.
 LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
 LaTeX Warning: Label `my-label' multiply defined.
 
 
 LaTeX Warning: Label `tab:current lfv bounds' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
+LaTeX Warning: Label `fig:tauMG sigPIDk' multiply defined.
 
 
 LaTeX Warning: Label `my-label' multiply defined.
 
 
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net34' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net34' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net14' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net24' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net34' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net34' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net44' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net44' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of nets' multiply defined.
-
-
-LaTeX Warning: Label `fig:mean and std of net34' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mean and std of net34' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:test1' multiply defined.
-
-
-LaTeX Warning: Label `fig:test2' multiply defined.
+LaTeX Warning: Label `fig:tauMG tracks' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -2952,7 +2685,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count358
 
-<unimelb-logo.png, id=284, 284.5029pt x 288.1164pt>
+<unimelb-logo.png, id=252, 284.5029pt x 288.1164pt>
 File: unimelb-logo.png Graphic file (type png)
  <use unimelb-logo.png>
 Package pdftex.def Info: unimelb-logo.png used on input line 148.
@@ -2965,710 +2698,652 @@ Package pdftex.def Info: unimelb-logo.png used on input line 148.
 imelb-logo.png>] (./thesis.toc [1
 
 
-] [2])
+])
 \tf@toc=\write5
 
 \openout5 = thesis.toc
- [3] [4
-
-] [5
+ [2] [3
 
 ]
 Chapter 1.
-
-LaTeX Warning: Citation `Paradisi:2016' on page 1 undefined on input line 165.
-
-<images/tauMG-feynman.png, id=393, 539.01375pt x 231.86626pt>
+<images/tauMG-feynman.png, id=347, 539.01375pt x 231.86626pt>
 File: images/tauMG-feynman.png Graphic file (type png)
 
 <use images/tauMG-feynman.png>
-Package pdftex.def Info: images/tauMG-feynman.png used on input line 173.
+Package pdftex.def Info: images/tauMG-feynman.png used on input line 174.
 (pdftex.def)             Requested size: 229.75896pt x 98.83372pt.
 
-<images/tauEG-feynman.png, id=394, 539.01375pt x 231.86626pt>
+<images/tauEG-feynman.png, id=348, 655.44875pt x 286.06876pt>
 File: images/tauEG-feynman.png Graphic file (type png)
 
 <use images/tauEG-feynman.png>
-Package pdftex.def Info: images/tauEG-feynman.png used on input line 181.
-(pdftex.def)             Requested size: 229.75896pt x 98.83372pt.
+Package pdftex.def Info: images/tauEG-feynman.png used on input line 182.
+(pdftex.def)             Requested size: 229.75896pt x 100.27834pt.
 LuaTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 een already used, duplicate ignored
 <to be read again> 
 \relax 
-l.192 
+l.203 
      [1
 
 
 <./images/tauMG-feynman.png><./images/tauEG-feynman.png>]
-
-LaTeX Warning: Citation `Paradisi:2016' on page 2 undefined on input line 201.
-
-
-LaTeX Warning: Citation `SuperK:1998' on page 2 undefined on input line 228.
-
-
-LaTeX Warning: Citation `SNO:2002' on page 2 undefined on input line 228.
-
-[2] <images/seesaw.png, id=419, 671.50874pt x 381.425pt>
+<images/seesaw.png, id=369, 671.50874pt x 381.425pt>
 File: images/seesaw.png Graphic file (type png)
-
-<use images/seesaw.png>
-Package pdftex.def Info: images/seesaw.png used on input line 235.
+ <use images/seesaw.png>
+Package pdftex.def Info: images/seesaw.png used on input line 237.
 (pdftex.def)             Requested size: 338.58632pt x 192.31836pt.
 
-<images/seesaw-lfv-modes.png, id=420, 627.34375pt x 261.97874pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/seesaw-lfv-modes.png, id=370, 627.34375pt x 261.97874pt>
 File: images/seesaw-lfv-modes.png Graphic file (type png)
 
 <use images/seesaw-lfv-modes.png>
-Package pdftex.def Info: images/seesaw-lfv-modes.png used on input line 242.
+Package pdftex.def Info: images/seesaw-lfv-modes.png used on input line 245.
 (pdftex.def)             Requested size: 241.84843pt x 100.99603pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 247.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 247.
+(hyperref)                removing `math shift' on input line 251.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 247.
+(hyperref)                removing `\to' on input line 251.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 247.
+(hyperref)                removing `\tau' on input line 251.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 247.
+(hyperref)                removing `\mu' on input line 251.
 
 
-LaTeX Warning: Citation `CMS:2015a' on page 3 undefined on input line 249.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 251.
 
-
-LaTeX Warning: Citation `ATLAS:2015' on page 3 undefined on input line 255.
-
-[3
+[2
 Missing character: There is no ’ (U+2019) in font cmr12!
 Missing character: There is no ’ (U+2019) in font cmr12!
-<./images/seesaw.png><./images/seesaw-lfv-modes.png>]
-
-LaTeX Warning: Citation `Harnik:2012' on page 4 undefined on input line 261.
-
-<images/h-vs-tau.png, id=431, 599.23875pt x 562.1pt>
+] <images/h-vs-tau.png, id=384, 599.23875pt x 562.1pt>
 File: images/h-vs-tau.png Graphic file (type png)
- <use images/h-vs-tau.png>
-Package pdftex.def Info: images/h-vs-tau.png used on input line 265.
+
+<use images/h-vs-tau.png>
+Package pdftex.def Info: images/h-vs-tau.png used on input line 269.
 (pdftex.def)             Requested size: 338.58632pt x 317.60425pt.
 
 
-LaTeX Warning: Citation `Dorsner:2015' on page 4 undefined on input line 270.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/higgs-lfv-modes.png, id=432, 719.68875pt x 245.91875pt>
+<images/higgs-lfv-modes.png, id=386, 1538.74875pt x 397.485pt>
 File: images/higgs-lfv-modes.png Graphic file (type png)
 
 <use images/higgs-lfv-modes.png>
-Package pdftex.def Info: images/higgs-lfv-modes.png used on input line 274.
-(pdftex.def)             Requested size: 435.32422pt x 148.7569pt.
- [4<./images/h-vs-tau.png>]
+Package pdftex.def Info: images/higgs-lfv-modes.png used on input line 278.
+(pdftex.def)             Requested size: 435.32422pt x 112.45348pt.
 
-LaTeX Warning: Citation `Dorsner:2015' on page 5 undefined on input line 279.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3<./images/seesaw.png><./images/seesaw-lfv-modes.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 282.
+(hyperref)                removing `\tau' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 282.
+(hyperref)                removing `\to' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 282.
+(hyperref)                removing `\ell' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 282.
+(hyperref)                removing `\gamma' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 282.
+(hyperref)                removing `math shift' on input line 289.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 282.
-
-<images/np-models-bounds.png, id=440, 370.38374pt x 209.78375pt>
-File: images/np-models-bounds.png Graphic file (type png)
-
-<use images/np-models-bounds.png>
-Package pdftex.def Info: images/np-models-bounds.png used on input line 288.
-(pdftex.def)             Requested size: 241.84843pt x 136.98201pt.
+(hyperref)                removing `math shift' on input line 311.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 296.
+(hyperref)                removing `\tau' on input line 311.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 296.
+(hyperref)                removing `\to' on input line 311.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 296.
+(hyperref)                removing `\ell' on input line 311.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 296.
+(hyperref)                removing `\gamma' on input line 311.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 296.
+(hyperref)                removing `math shift' on input line 311.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 296.
-
-[5<./images/higgs-lfv-modes.png><./images/np-models-bounds.png>]
-<images/belle-search-tauMG-signal-region.png, id=454, 539.01375pt x 548.0475pt>
+[4<./images/h-vs-tau.png>]
+<images/belle-search-tauMG-signal-region.png, id=414, 539.01375pt x 548.0475pt>
 File: images/belle-search-tauMG-signal-region.png Graphic file (type png)
 <use images/belle-search-tauMG-signal-region.png>
 Package pdftex.def Info: images/belle-search-tauMG-signal-region.png used on inp
-ut line 308.
+ut line 323.
 (pdftex.def)             Requested size: 229.75896pt x 233.60701pt.
 
-<images/belle-search-tauEG-signal-region.png, id=455, 499.8675pt x 484.81125pt>
+<images/belle-search-tauEG-signal-region.png, id=415, 499.8675pt x 484.81125pt>
 File: images/belle-search-tauEG-signal-region.png Graphic file (type png)
 <use images/belle-search-tauEG-signal-region.png>
 Package pdftex.def Info: images/belle-search-tauEG-signal-region.png used on inp
-ut line 316.
+ut line 331.
 (pdftex.def)             Requested size: 229.75896pt x 222.83833pt.
-
-
-LaTeX Warning: Citation `Belle:2002' on page 6 undefined on input line 325.
-
-
-LaTeX Warning: Citation `Hayasaka:2007' on page 6 undefined on input line 325.
-
-<images/babar-search-tauMG-signal-region.png, id=456, 397.485pt x 303.1325pt>
+ [5<./images/higgs-lfv-modes.png><./images/belle-search-tauMG-signal-region.png>
+<./images/belle-search-tauEG-signal-region.png>]
+<images/babar-search-tauMG-signal-region.png, id=431, 397.485pt x 303.1325pt>
 File: images/babar-search-tauMG-signal-region.png Graphic file (type png)
 
 <use images/babar-search-tauMG-signal-region.png>
 Package pdftex.def Info: images/babar-search-tauMG-signal-region.png used on inp
-ut line 340.
+ut line 355.
 (pdftex.def)             Requested size: 229.75896pt x 175.22491pt.
 
-<images/babar-search-tauEG-signal-region.png, id=457, 405.515pt x 305.14pt>
+<images/babar-search-tauEG-signal-region.png, id=432, 405.515pt x 305.14pt>
 File: images/babar-search-tauEG-signal-region.png Graphic file (type png)
 
 <use images/babar-search-tauEG-signal-region.png>
 Package pdftex.def Info: images/babar-search-tauEG-signal-region.png used on inp
-ut line 348.
+ut line 362.
 (pdftex.def)             Requested size: 229.75896pt x 172.8933pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `Babar:2002' on page 6 undefined on input line 357.
-
-
-LaTeX Warning: Citation `Babar:2010' on page 6 undefined on input line 357.
-
-[6<./images/belle-search-tauMG-signal-region.png><./images/belle-search-tauEG-si
-gnal-region.png>] [7<./images/babar-search-tauMG-signal-region.png><./images/bab
-ar-search-tauEG-signal-region.png>]
-<images/current-future-sensitivities.png, id=472, 571.4148pt x 261.1356pt>
-File: images/current-future-sensitivities.png Graphic file (type png)
-
-<use images/current-future-sensitivities.png>
-Package pdftex.def Info: images/current-future-sensitivities.png used on input l
-ine 390.
-(pdftex.def)             Requested size: 435.32422pt x 198.94325pt.
- [8<./images/current-future-sensitivities.png>]
+ [6<./images/babar-search-tauMG-signal-region.png><./images/babar-search-tauEG-s
+ignal-region.png>] [7]
 Chapter 2.
-<images/super-kekb-side-view.png, id=479, 930.47626pt x 664.4825pt>
+<images/super-kekb-side-view.png, id=454, 930.47626pt x 664.4825pt>
 File: images/super-kekb-side-view.png Graphic file (type png)
 
 <use images/super-kekb-side-view.png>
-Package pdftex.def Info: images/super-kekb-side-view.png used on input line 403.
+Package pdftex.def Info: images/super-kekb-side-view.png used on input line 413.
 
-(pdftex.def)             Requested size: 338.58632pt x 241.78886pt.
- [9
+(pdftex.def)             Requested size: 386.95897pt x 276.33302pt.
+ [8
 
 <./images/super-kekb-side-view.png>]
-[10] <images/coulomb-scattering.png, id=494, 353.32pt x 177.66376pt>
+
+LaTeX Warning: Reference `sec:reconstruction process' on page 9 undefined on inp
+ut line 425.
+
+<images/svd.png, id=463, 760.8425pt x 235.88126pt>
+File: images/svd.png Graphic file (type png)
+ <use images/svd.png>
+Package pdftex.def Info: images/svd.png used on input line 446.
+(pdftex.def)             Requested size: 386.95897pt x 119.9703pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9] <images/cdc.png, id=469, 795.97375pt x 394.47375pt>
+File: images/cdc.png Graphic file (type png)
+ <use images/cdc.png>
+Package pdftex.def Info: images/cdc.png used on input line 464.
+(pdftex.def)             Requested size: 338.58632pt x 167.79659pt.
+
+[10<./images/svd.png><./images/cdc.png>]
+Overfull \hbox (18.42278pt too wide) in paragraph at lines 484--484
+[]|[]\OT1/cmr/bx/n/17.28 Time-Of-Propagation/Aero-gel Ring Imag-ing Cerenkov
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 490.
+
+[11
+Missing character: There is no – (U+2013) in font cmr12!
+] <images/tauMG-sigPIDmu.pdf, id=484, 569.12625pt x 554.07pt>
+File: images/tauMG-sigPIDmu.pdf Graphic file (type pdf)
+
+<use images/tauMG-sigPIDmu.pdf>
+Package pdftex.def Info: images/tauMG-sigPIDmu.pdf used on input line 521.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-sigPIDe.pdf, id=485, 569.12625pt x 554.07pt>
+File: images/tauMG-sigPIDe.pdf Graphic file (type pdf)
+
+<use images/tauMG-sigPIDe.pdf>
+Package pdftex.def Info: images/tauMG-sigPIDe.pdf used on input line 529.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-sigPIDpi.pdf, id=486, 569.12625pt x 554.07pt>
+File: images/tauMG-sigPIDpi.pdf Graphic file (type pdf)
+
+<use images/tauMG-sigPIDpi.pdf>
+Package pdftex.def Info: images/tauMG-sigPIDpi.pdf used on input line 537.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-sigPIDk.pdf, id=487, 569.12625pt x 554.07pt>
+File: images/tauMG-sigPIDk.pdf Graphic file (type pdf)
+
+<use images/tauMG-sigPIDk.pdf>
+Package pdftex.def Info: images/tauMG-sigPIDk.pdf used on input line 545.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-tagPIDmu.pdf, id=488, 569.12625pt x 554.07pt>
+File: images/tauMG-tagPIDmu.pdf Graphic file (type pdf)
+
+<use images/tauMG-tagPIDmu.pdf>
+Package pdftex.def Info: images/tauMG-tagPIDmu.pdf used on input line 558.
+(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
+ [12] [13<./images/tauMG-sigPIDmu.pdf><./images/tauMG-sigPIDe.pdf><./images/tauM
+G-sigPIDpi.pdf><./images/tauMG-sigPIDk.pdf>]
+<images/coulomb-scattering.png, id=686, 353.32pt x 177.66376pt>
 File: images/coulomb-scattering.png Graphic file (type png)
 
 <use images/coulomb-scattering.png>
-Package pdftex.def Info: images/coulomb-scattering.png used on input line 479.
+Package pdftex.def Info: images/coulomb-scattering.png used on input line 590.
 (pdftex.def)             Requested size: 229.75896pt x 115.53429pt.
 
-<images/bremsstrahlung.png, id=495, 356.33125pt x 177.66376pt>
+<images/bremsstrahlung.png, id=687, 356.33125pt x 177.66376pt>
 File: images/bremsstrahlung.png Graphic file (type png)
 
 <use images/bremsstrahlung.png>
-Package pdftex.def Info: images/bremsstrahlung.png used on input line 487.
+Package pdftex.def Info: images/bremsstrahlung.png used on input line 598.
 (pdftex.def)             Requested size: 229.75896pt x 114.55563pt.
- [11<./images/coulomb-scattering.png><./images/bremsstrahlung.png>]
-<images/touschek-beam-frame.png, id=503, 361.35pt x 239.89626pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14<./images/tauMG-tagPIDmu.pdf>]
+<images/touschek-beam-frame.png, id=744, 361.35pt x 239.89626pt>
 File: images/touschek-beam-frame.png Graphic file (type png)
 
 <use images/touschek-beam-frame.png>
-Package pdftex.def Info: images/touschek-beam-frame.png used on input line 512.
+Package pdftex.def Info: images/touschek-beam-frame.png used on input line 625.
 (pdftex.def)             Requested size: 241.84843pt x 160.56126pt.
- [12<./images/touschek-beam-frame.png>]
+ [15<./images/coulomb-scattering.png><./images/bremsstrahlung.png><./images/tous
+chek-beam-frame.png>]
 Chapter 3.
-
-LaTeX Warning: Citation `Hayasaka:2007' on page 13 undefined on input line 531.
-
-<images/taumununu.png, id=510, 508.90125pt x 272.01625pt>
+<images/taumununu.png, id=756, 508.90125pt x 272.01625pt>
 File: images/taumununu.png Graphic file (type png)
 
 <use images/taumununu.png>
-Package pdftex.def Info: images/taumununu.png used on input line 547.
+Package pdftex.def Info: images/taumununu.png used on input line 646.
 (pdftex.def)             Requested size: 152.36569pt x 81.43947pt.
 
-<images/taupinu.png, id=511, 556.0775pt x 282.05376pt>
+<images/taupinu.png, id=757, 556.0775pt x 282.05376pt>
 File: images/taupinu.png Graphic file (type png)
 
 <use images/taupinu.png>
-Package pdftex.def Info: images/taupinu.png used on input line 555.
+Package pdftex.def Info: images/taupinu.png used on input line 654.
 (pdftex.def)             Requested size: 152.36569pt x 77.28311pt.
+ <images/enunu.png, id=758, 446.66875pt x 222.8325pt>
+File: images/enunu.png Graphic file (type png)
 
-<images/eemumugamma.png, id=512, 455.7025pt x 300.12125pt>
-File: images/eemumugamma.png Graphic file (type png)
+<use images/enunu.png>
+Package pdftex.def Info: images/enunu.png used on input line 661.
+(pdftex.def)             Requested size: 152.36569pt x 76.01025pt.
+ <images/mupair.png, id=759, 337.26pt x 208.78pt>
+File: images/mupair.png Graphic file (type png)
 
-<use images/eemumugamma.png>
-Package pdftex.def Info: images/eemumugamma.png used on input line 563.
-(pdftex.def)             Requested size: 152.36569pt x 100.34546pt.
+<use images/mupair.png>
+Package pdftex.def Info: images/mupair.png used on input line 668.
+(pdftex.def)             Requested size: 121.893pt x 75.457pt.
+ <images/bhabha.png, id=760, 337.26pt x 208.78pt>
+File: images/bhabha.png Graphic file (type png)
+
+<use images/bhabha.png>
+Package pdftex.def Info: images/bhabha.png used on input line 675.
+(pdftex.def)             Requested size: 121.893pt x 75.457pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13
+[16
 
-] [14<./images/taumununu.png><./images/taupinu.png><./images/eemumugamma.png>] 
-[15] <images/cluster-timing-old.pdf, id=535, 569.12625pt x 554.07pt>
+] [17<./images/taumununu.png><./images/taupinu.png><./images/enunu.png><./images
+/mupair.png><./images/bhabha.png>] [18]
+<images/cluster-timing-old.pdf, id=803, 569.12625pt x 554.07pt>
 File: images/cluster-timing-old.pdf Graphic file (type pdf)
 
 <use images/cluster-timing-old.pdf>
-Package pdftex.def Info: images/cluster-timing-old.pdf used on input line 642.
+Package pdftex.def Info: images/cluster-timing-old.pdf used on input line 778.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<images/cluster-timing-new.pdf, id=536, 569.12625pt x 554.07pt>
+<images/cluster-timing-new.pdf, id=804, 569.12625pt x 554.07pt>
 File: images/cluster-timing-new.pdf Graphic file (type pdf)
 
 <use images/cluster-timing-new.pdf>
-Package pdftex.def Info: images/cluster-timing-new.pdf used on input line 650.
+Package pdftex.def Info: images/cluster-timing-new.pdf used on input line 785.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+ [19<./images/cluster-timing-old.pdf><./images/cluster-timing-new.pdf>]
+<images/tauMG-tracks-BGx0.pdf, id=912, 569.12625pt x 554.07pt>
+File: images/tauMG-tracks-BGx0.pdf Graphic file (type pdf)
+
+<use images/tauMG-tracks-BGx0.pdf>
+Package pdftex.def Info: images/tauMG-tracks-BGx0.pdf used on input line 827.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
+<images/tauMG-tracks.pdf, id=913, 569.12625pt x 554.07pt>
+File: images/tauMG-tracks.pdf Graphic file (type pdf)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16<./images/cluster-timing-old.pdf><./images/cluster-timing-new.pdf>]
-<images/test.pdf, id=634, 569.12625pt x 554.07pt>
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 692.
+<use images/tauMG-tracks.pdf>
+Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 835.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 694--694
-[][]\OT1/cmr/m/n/10.95 (a) |To-tal center-of-mass en-er-gies w/o beam
- []
+<images/uubar-tagtrackP-beambackground.pdf, id=914, 569.12625pt x 554.07pt>
+File: images/uubar-tagtrackP-beambackground.pdf Graphic file (type pdf)
 
-File: images/test.pdf Graphic file (type pdf)
-<use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 700.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 712.
+<use images/uubar-tagtrackP-beambackground.pdf>
+Package pdftex.def Info: images/uubar-tagtrackP-beambackground.pdf used on input
+ line 849.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-Underfull \hbox (badness 1297) in paragraph at lines 714--714
-[][]\OT1/cmr/m/n/10.95 (a) |To-tal center-of-mass en-er-gies w/o beam
- []
-
-File: images/test.pdf Graphic file (type pdf)
-<use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 720.
+<images/uubar-neutralEclEnergy-beambackground.pdf, id=915, 569.12625pt x 554.07
+pt>
+File: images/uubar-neutralEclEnergy-beambackground.pdf Graphic file (type pdf)
+ <use images/uubar-neutralEclEnergy-beambackground.pdf>
+Package pdftex.def Info: images/uubar-neutralEclEnergy-beambackground.pdf used o
+n input line 857.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17<./images/test.pdf>] [18]
+ [20<./images/tauMG-tracks-BGx0.pdf><./images/tauMG-tracks.pdf>] [21<./images/uu
+bar-tagtrackP-beambackground.pdf><./images/uubar-neutralEclEnergy-beambackground
+.pdf>]
 Chapter 4.
-[19
+[22
 
-] [20]
+] [23]
 Chapter 5.
-[21
+<images/tauMG-muCM_P.pdf, id=1137, 569.12625pt x 554.07pt>
+File: images/tauMG-muCM_P.pdf Graphic file (type pdf)
 
-] <images/stack/stack_cut6_totalCM_E.pdf, id=710, 569.12625pt x 554.07pt>
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
+<use images/tauMG-muCM_P.pdf>
+Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 960.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 846.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
+<images/tauMG-gamma_E.pdf, id=1138, 569.12625pt x 554.07pt>
+File: images/tauMG-gamma_E.pdf Graphic file (type pdf)
 
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 852.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
+<use images/tauMG-gamma_E.pdf>
+Package pdftex.def Info: images/tauMG-gamma_E.pdf used on input line 968.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 862.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
+<images/tauMG-totalCM_E.pdf, id=1139, 569.12625pt x 554.07pt>
+File: images/tauMG-totalCM_E.pdf Graphic file (type pdf)
 
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 868.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
+<use images/tauMG-totalCM_E.pdf>
+Package pdftex.def Info: images/tauMG-totalCM_E.pdf used on input line 976.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+File: images/tauMG-tracks.pdf Graphic file (type pdf)
+ <use images/tauMG-tracks.pdf>
+Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 984.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+ [24
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22<./images/stack/stack_cut6_totalCM_E.pdf>]
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
-
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 896.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
-
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 902.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 912.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
-
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 918.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23] [24] <images/taupair-muCM_P.pdf, id=777, 569.12625pt x 554.07pt>
-File: images/taupair-muCM_P.pdf Graphic file (type pdf)
-
-<use images/taupair-muCM_P.pdf>
-Package pdftex.def Info: images/taupair-muCM_P.pdf used on input line 951.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-<images/taupair-gamma_E.pdf, id=778, 569.12625pt x 554.07pt>
-File: images/taupair-gamma_E.pdf Graphic file (type pdf)
-
-<use images/taupair-gamma_E.pdf>
-Package pdftex.def Info: images/taupair-gamma_E.pdf used on input line 957.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/taupair-muGammaOpeningCM.pdf, id=779, 569.12625pt x 554.07pt>
+] [25<./images/tauMG-muCM_P.pdf><./images/tauMG-gamma_E.pdf><./images/tauMG-tota
+lCM_E.pdf>]
+<images/taupair-muGammaOpeningCM.pdf, id=1295, 569.12625pt x 554.07pt>
 File: images/taupair-muGammaOpeningCM.pdf Graphic file (type pdf)
 
 <use images/taupair-muGammaOpeningCM.pdf>
 Package pdftex.def Info: images/taupair-muGammaOpeningCM.pdf used on input line 
-967.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-<images/taupair-e9e25.pdf, id=780, 569.12625pt x 554.07pt>
-File: images/taupair-e9e25.pdf Graphic file (type pdf)
-
-<use images/taupair-e9e25.pdf>
-Package pdftex.def Info: images/taupair-e9e25.pdf used on input line 973.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/taupair-muCM_P.pdf Graphic file (type pdf)
-<use images/taupair-muCM_P.pdf>
-Package pdftex.def Info: images/taupair-muCM_P.pdf used on input line 992.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-<images/mupair-gamma_E.pdf, id=781, 569.12625pt x 554.07pt>
-File: images/mupair-gamma_E.pdf Graphic file (type pdf)
-
-<use images/mupair-gamma_E.pdf>
-Package pdftex.def Info: images/mupair-gamma_E.pdf used on input line 998.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/taupair-muGammaOpeningCM.pdf Graphic file (type pdf)
-<use images/taupair-muGammaOpeningCM.pdf>
-Package pdftex.def Info: images/taupair-muGammaOpeningCM.pdf used on input line 
-1008.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/taupair-e9e25.pdf Graphic file (type pdf)
- <use images/taupair-e9e25.pdf>
-Package pdftex.def Info: images/taupair-e9e25.pdf used on input line 1014.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25] <images/bhabha-mupair-muCM_P.pdf, id=788, 569.12625pt x 554.07pt>
+1014.
+(pdftex.def)             Requested size: 217.66211pt x 211.90149pt.
+ [26]
+<images/bhabha-mupair-muCM_P.pdf, id=1305, 569.12625pt x 554.07pt>
 File: images/bhabha-mupair-muCM_P.pdf Graphic file (type pdf)
 
 <use images/bhabha-mupair-muCM_P.pdf>
-Package pdftex.def Info: images/bhabha-mupair-muCM_P.pdf used on input line 1032
+Package pdftex.def Info: images/bhabha-mupair-muCM_P.pdf used on input line 1037
 .
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<images/bhabha-mupair-totalCM_E.pdf, id=789, 569.12625pt x 554.07pt>
+<images/bhabha-mupair-totalCM_E.pdf, id=1306, 569.12625pt x 554.07pt>
 File: images/bhabha-mupair-totalCM_E.pdf Graphic file (type pdf)
 
 <use images/bhabha-mupair-totalCM_E.pdf>
 Package pdftex.def Info: images/bhabha-mupair-totalCM_E.pdf used on input line 1
-038.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
+045.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1045.
+(hyperref)                removing `math shift' on input line 1053.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1045.
+(hyperref)                removing `math shift' on input line 1053.
 
-File: images/bhabha-mupair-muCM_P.pdf Graphic file (type pdf)
-<use images/bhabha-mupair-muCM_P.pdf>
-Package pdftex.def Info: images/bhabha-mupair-muCM_P.pdf used on input line 1054
-.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/bhabha-mupair-totalCM_E.pdf Graphic file (type pdf)
- <use images/bhabha-mupair-totalCM_E.pdf>
-Package pdftex.def Info: images/bhabha-mupair-totalCM_E.pdf used on input line 1
-060.
+<images/hadronic-tracks.pdf, id=1307, 569.12625pt x 554.07pt>
+File: images/hadronic-tracks.pdf Graphic file (type pdf)
+
+<use images/hadronic-tracks.pdf>
+Package pdftex.def Info: images/hadronic-tracks.pdf used on input line 1059.
 (pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26<./images/taupair-muCM_P.pdf><./images/taupair-gamma_E.pdf>] [27<./images/tau
-pair-muGammaOpeningCM.pdf><./images/taupair-e9e25.pdf><./images/mupair-gamma_E.p
-df>] [28<./images/bhabha-mupair-muCM_P.pdf><./images/bhabha-mupair-totalCM_E.pdf
->] [29]
+[27<./images/taupair-muGammaOpeningCM.pdf>] [28<./images/bhabha-mupair-muCM_P.pd
+f><./images/bhabha-mupair-totalCM_E.pdf><./images/hadronic-tracks.pdf>]
 Chapter 6.
 
-Overfull \hbox (20.82935pt too wide) in paragraph at lines 1082--1083
+Overfull \hbox (20.82935pt too wide) in paragraph at lines 1079--1080
 [][]\OT1/cmr/m/n/12 98.06% of re-con-structed $\OML/cmm/m/it/12  \OMS/cmsy/m/n
 /12 ! \OML/cmm/m/it/12 $ \OT1/cmr/m/n/12 sig-nal events pass the pre-s-e-lec-
 tion cri-te-ria; around 1,000,000,000
  []
 
-File: images/test.pdf Graphic file (type pdf)
-<use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1104.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1112.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1120.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
 
-<use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1128.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1137.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-
-
-LaTeX Warning: Float too large for page by 102.33157pt on input line 1144.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30
-
-] [31]
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
- <use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 1179.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-File: images/stack/stack_cut6_totalCM_E.pdf Graphic file (type pdf)
-
-<use images/stack/stack_cut6_totalCM_E.pdf>
-Package pdftex.def Info: images/stack/stack_cut6_totalCM_E.pdf used on input lin
-e 1185.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: images/test.pdf Graphic file (type pdf)
-<use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1209.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1217.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1225.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
+[29
 
-<use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1233.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
-File: images/test.pdf Graphic file (type pdf)
- <use images/test.pdf>
-Package pdftex.def Info: images/test.pdf used on input line 1242.
-(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+] <images/tauMG-tauEG-tauinvmass.pdf, id=1517, 569.12625pt x 554.07pt>
+File: images/tauMG-tauEG-tauinvmass.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Float too large for page by 102.33157pt on input line 1249.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[32] [33] [34]
+<use images/tauMG-tauEG-tauinvmass.pdf>
+Package pdftex.def Info: images/tauMG-tauEG-tauinvmass.pdf used on input line 11
+53.
+(pdftex.def)             Requested size: 290.22107pt x 282.55505pt.
+ [30] [31<./images/tauMG-tauEG-tauinvmass.pdf>]
 Chapter 7.
-[35
+<images/fom-cut0.pdf, id=1576, 569.12625pt x 355.3275pt>
+File: images/fom-cut0.pdf Graphic file (type pdf)
 
-] <images/fom-test.pdf, id=1168, 569.12625pt x 355.3275pt>
-File: images/fom-test.pdf Graphic file (type pdf)
-
-<use images/fom-test.pdf>
-Package pdftex.def Info: images/fom-test.pdf used on input line 1308.
+<use images/fom-cut0.pdf>
+Package pdftex.def Info: images/fom-cut0.pdf used on input line 1192.
 (pdftex.def)             Requested size: 338.58632pt x 211.4035pt.
 
-<images/tauMG-muCM_P.pdf, id=1169, 569.12625pt x 554.07pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32
+
+]
 File: images/tauMG-muCM_P.pdf Graphic file (type pdf)
+ <use images/tauMG-muCM_P.pdf>
+Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 1204.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<use images/tauMG-muCM_P.pdf>
-Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 1319.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-<images/tauMG-missingCosTheta.pdf, id=1170, 569.12625pt x 554.07pt>
+<images/tauMG-missingCosTheta.pdf, id=1588, 569.12625pt x 554.07pt>
 File: images/tauMG-missingCosTheta.pdf Graphic file (type pdf)
 
 <use images/tauMG-missingCosTheta.pdf>
-Package pdftex.def Info: images/tauMG-missingCosTheta.pdf used on input line 132
-5.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[36<./images/fom-test.pdf>] [37<./images/tauMG-muCM_P.pdf><./images/tauMG-missin
-gCosTheta.pdf>] [38]
-<images/tauMG-thrustSignal.pdf, id=1325, 569.12625pt x 554.07pt>
+Package pdftex.def Info: images/tauMG-missingCosTheta.pdf used on input line 121
+2.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+ [33<./images/fom-cut0.pdf><./images/tauMG-missingCosTheta.pdf>] [34]
+<images/tauMG-thrustSignal.pdf, id=1698, 569.12625pt x 554.07pt>
 File: images/tauMG-thrustSignal.pdf Graphic file (type pdf)
 
 <use images/tauMG-thrustSignal.pdf>
-Package pdftex.def Info: images/tauMG-thrustSignal.pdf used on input line 1399.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
+Package pdftex.def Info: images/tauMG-thrustSignal.pdf used on input line 1274.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<images/tauMG-thrustRoe.pdf, id=1326, 569.12625pt x 554.07pt>
+<images/tauMG-thrustRoe.pdf, id=1699, 569.12625pt x 554.07pt>
 File: images/tauMG-thrustRoe.pdf Graphic file (type pdf)
 
 <use images/tauMG-thrustRoe.pdf>
-Package pdftex.def Info: images/tauMG-thrustRoe.pdf used on input line 1405.
-(pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
+Package pdftex.def Info: images/tauMG-thrustRoe.pdf used on input line 1282.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39] <images/cleo-cone.png, id=1332, 634.37pt x 358.33875pt>
+[35] <images/cleo-cone.png, id=1710, 634.37pt x 358.33875pt>
 File: images/cleo-cone.png Graphic file (type png)
 
 <use images/cleo-cone.png>
-Package pdftex.def Info: images/cleo-cone.png used on input line 1421.
-(pdftex.def)             Requested size: 241.84843pt x 136.61302pt.
+Package pdftex.def Info: images/cleo-cone.png used on input line 1302.
+(pdftex.def)             Requested size: 229.75896pt x 129.78374pt.
+
+<images/tauMG-cc1.pdf, id=1711, 569.12625pt x 554.07pt>
+File: images/tauMG-cc1.pdf Graphic file (type pdf)
+
+<use images/tauMG-cc1.pdf>
+Package pdftex.def Info: images/tauMG-cc1.pdf used on input line 1332.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-cc2.pdf, id=1712, 569.12625pt x 554.07pt>
+File: images/tauMG-cc2.pdf Graphic file (type pdf)
+
+<use images/tauMG-cc2.pdf>
+Package pdftex.def Info: images/tauMG-cc2.pdf used on input line 1340.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40<./images/tauMG-thrustSignal.pdf><./images/tauMG-thrustRoe.pdf><./images/cleo
--cone.png>] [41]
+[36<./images/tauMG-thrustSignal.pdf><./images/tauMG-thrustRoe.pdf><./images/cleo
+-cone.png>] <images/tauMG-R2.pdf, id=1816, 569.12625pt x 554.07pt>
+File: images/tauMG-R2.pdf Graphic file (type pdf)
+
+<use images/tauMG-R2.pdf>
+Package pdftex.def Info: images/tauMG-R2.pdf used on input line 1376.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-cosTBz.pdf, id=1817, 569.12625pt x 554.07pt>
+File: images/tauMG-cosTBz.pdf Graphic file (type pdf)
+
+<use images/tauMG-cosTBz.pdf>
+Package pdftex.def Info: images/tauMG-cosTBz.pdf used on input line 1384.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43]
+[37<./images/tauMG-cc1.pdf><./images/tauMG-cc2.pdf>]
+<images/tauMG-neutralEclEnergy.pdf, id=1919, 569.12625pt x 554.07pt>
+File: images/tauMG-neutralEclEnergy.pdf Graphic file (type pdf)
+
+<use images/tauMG-neutralEclEnergy.pdf>
+Package pdftex.def Info: images/tauMG-neutralEclEnergy.pdf used on input line 14
+01.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+File: images/tauMG-tracks.pdf Graphic file (type pdf)
+ <use images/tauMG-tracks.pdf>
+Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 1409.
+(pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
+
+<images/tauMG-sigD0.png, id=1920, 568.7649pt x 553.5882pt>
+File: images/tauMG-sigD0.png Graphic file (type png)
+
+<use images/tauMG-sigD0.png>
+Package pdftex.def Info: images/tauMG-sigD0.png used on input line 1417.
+(pdftex.def)             Requested size: 229.75896pt x 223.62758pt.
+
+<images/tauMG-sigZ0.png, id=1921, 568.7649pt x 553.5882pt>
+File: images/tauMG-sigZ0.png Graphic file (type png)
+
+<use images/tauMG-sigZ0.png>
+Package pdftex.def Info: images/tauMG-sigZ0.png used on input line 1425.
+(pdftex.def)             Requested size: 229.75896pt x 223.62758pt.
+
+Overfull \hbox (17.0059pt too wide) in paragraph at lines 1434--1480
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38<./images/tauMG-R2.pdf><./images/tauMG-cosTBz.pdf>] [39<./images/tauMG-neutra
+lEclEnergy.pdf><./images/tauMG-sigD0.png><./images/tauMG-sigZ0.png>] [40]
 Chapter 8.
-<images/tauMG-deltaE_fit_agauss.pdf, id=1449, 569.12625pt x 552.0625pt>
-File: images/tauMG-deltaE_fit_agauss.pdf Graphic file (type pdf)
-
-<use images/tauMG-deltaE_fit_agauss.pdf>
-Package pdftex.def Info: images/tauMG-deltaE_fit_agauss.pdf used on input line 1
-590.
-(pdftex.def)             Requested size: 241.84843pt x 234.60239pt.
-
-<images/tauMG-invMass_fit_agauss.pdf, id=1450, 569.12625pt x 552.0625pt>
-File: images/tauMG-invMass_fit_agauss.pdf Graphic file (type pdf)
-
-<use images/tauMG-invMass_fit_agauss.pdf>
-Package pdftex.def Info: images/tauMG-invMass_fit_agauss.pdf used on input line 
-1596.
-(pdftex.def)             Requested size: 241.84843pt x 234.60239pt.
-
-<images/tauMG-signalRegion.pdf, id=1451, 569.12625pt x 386.44376pt>
+<images/tauMG-signalRegion.pdf, id=2077, 569.12625pt x 386.44376pt>
 File: images/tauMG-signalRegion.pdf Graphic file (type pdf)
 
 <use images/tauMG-signalRegion.pdf>
-Package pdftex.def Info: images/tauMG-signalRegion.pdf used on input line 1606.
-(pdftex.def)             Requested size: 483.69687pt x 328.44925pt.
+Package pdftex.def Info: images/tauMG-signalRegion.pdf used on input line 1581.
+(pdftex.def)             Requested size: 435.32422pt x 295.60492pt.
+
+<images/tauMG-signalRegionRotated.pdf, id=2078, 569.12625pt x 338.26375pt>
+File: images/tauMG-signalRegionRotated.pdf Graphic file (type pdf)
+
+<use images/tauMG-signalRegionRotated.pdf>
+Package pdftex.def Info: images/tauMG-signalRegionRotated.pdf used on input line
+ 1589.
+(pdftex.def)             Requested size: 483.69687pt x 287.49973pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44
+[41
 
-<./images/tauMG-deltaE_fit_agauss.pdf><./images/tauMG-invMass_fit_agauss.pdf>] 
-[45<./images/tauMG-signalRegion.pdf>]
+<./images/tauMG-signalRegion.pdf>] [42<./images/tauMG-signalRegionRotated.pdf>]
+
 Chapter 9.
-[46
+[43
 
-] (./thesis.bbl) [47
+] [44] (./thesis.bbl [45
 
+Missing character: There is no → (U+2192) in font cmr12!
+Missing character: There is no μ (U+03BC) in font cmr12!
+Missing character: There is no τ (U+03C4) in font cmr12!
+Missing character: There is no š (U+0161) in font cmr12!
+Missing character: There is no š (U+0161) in font cmr12!
+Missing character: There is no š (U+0161) in font cmr12!
+Missing character: There is no ž (U+017E) in font cmr12!
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1721.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1721.
+Missing character: There is no − (U+2212) in font cmr12!
+Missing character: There is no − (U+2212) in font cmr12!
+) [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1658.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1658.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1721.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1658.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1658.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4A832A2D58F152721CE2A212058418EE;4663.
+(rerunfilecheck)             Checksum: 791AF9F990AD419BBB18D29A343B1AAC;4186.
 
 
 LaTeX Warning: There were undefined references.
@@ -3676,18 +3351,19 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1721.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1658.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42293 strings out of 494956
+ 42364 strings out of 494956
  100000,1373583 words of node,token memory allocated
- 784 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 9 kern, 56 glue_spec, 1 write nodes
-   avail lists: 2:474,3:696,4:2174,5:242,6:3508,7:260,8:37,9:768,10:294
- 43768 multiletter control sequences out of 65536+600000
+ 789 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 11 kern, 56 glue_spec, 1 action, 1 write no
+des
+   avail lists: 2:504,3:687,4:1911,5:310,6:3787,7:197,8:39,9:521,10:373
+ 43893 multiletter control sequences out of 65536+600000
  137 fonts using 5390483 bytes
- 55i,24n,77p,1586b,1306s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 55i,24n,77p,1491b,1306s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</home/brmoore/.local/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><</home/brmoore/.local/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><</home/brmoore/.local/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -3705,10 +3381,10 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><</home/brmoore/.local/texlive/texmf-dist
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><</home/brmoore/.local/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><</home/brmoore/.local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (53 pages, 2330499 bytes).
+Output written on thesis.pdf (50 pages, 2725752 bytes).
 
-PDF statistics: 1675 PDF objects out of 1728 (max. 8388607)
- 1057 compressed objects within 11 object streams
+PDF statistics: 2268 PDF objects out of 2487 (max. 8388607)
+ 1355 compressed objects within 14 object streams
  194 named destinations out of 1000 (max. 131072)
- 568 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 504 words of extra memory for PDF output out of 10000 (max. 10000000)
 
