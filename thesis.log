@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.15)  28 OCT 2016 23:55
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.8.15)  3 NOV 2016 20:44
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -2728,6 +2728,10 @@ l.203
 
 
 <./images/tauMG-feynman.png><./images/tauEG-feynman.png>]
+
+LaTeX Warning: Reference `fig:scalar couplings' on page 2 undefined on input lin
+e 232.
+
 <images/seesaw.png, id=369, 671.50874pt x 381.425pt>
 File: images/seesaw.png Graphic file (type png)
  <use images/seesaw.png>
@@ -3078,25 +3082,25 @@ Chapter 5.
 File: images/tauMG-muCM_P.pdf Graphic file (type pdf)
 
 <use images/tauMG-muCM_P.pdf>
-Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 960.
+Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 962.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 <images/tauMG-gamma_E.pdf, id=1138, 569.12625pt x 554.07pt>
 File: images/tauMG-gamma_E.pdf Graphic file (type pdf)
 
 <use images/tauMG-gamma_E.pdf>
-Package pdftex.def Info: images/tauMG-gamma_E.pdf used on input line 968.
+Package pdftex.def Info: images/tauMG-gamma_E.pdf used on input line 970.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 <images/tauMG-totalCM_E.pdf, id=1139, 569.12625pt x 554.07pt>
 File: images/tauMG-totalCM_E.pdf Graphic file (type pdf)
 
 <use images/tauMG-totalCM_E.pdf>
-Package pdftex.def Info: images/tauMG-totalCM_E.pdf used on input line 976.
+Package pdftex.def Info: images/tauMG-totalCM_E.pdf used on input line 978.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 File: images/tauMG-tracks.pdf Graphic file (type pdf)
  <use images/tauMG-tracks.pdf>
-Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 984.
+Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 986.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
  [24
 
@@ -3107,14 +3111,14 @@ File: images/taupair-muGammaOpeningCM.pdf Graphic file (type pdf)
 
 <use images/taupair-muGammaOpeningCM.pdf>
 Package pdftex.def Info: images/taupair-muGammaOpeningCM.pdf used on input line 
-1014.
+1016.
 (pdftex.def)             Requested size: 217.66211pt x 211.90149pt.
  [26]
 <images/bhabha-mupair-muCM_P.pdf, id=1305, 569.12625pt x 554.07pt>
 File: images/bhabha-mupair-muCM_P.pdf Graphic file (type pdf)
 
 <use images/bhabha-mupair-muCM_P.pdf>
-Package pdftex.def Info: images/bhabha-mupair-muCM_P.pdf used on input line 1037
+Package pdftex.def Info: images/bhabha-mupair-muCM_P.pdf used on input line 1039
 .
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
@@ -3123,7 +3127,7 @@ File: images/bhabha-mupair-totalCM_E.pdf Graphic file (type pdf)
 
 <use images/bhabha-mupair-totalCM_E.pdf>
 Package pdftex.def Info: images/bhabha-mupair-totalCM_E.pdf used on input line 1
-045.
+047.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
@@ -3131,17 +3135,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1053.
+(hyperref)                removing `math shift' on input line 1055.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1053.
+(hyperref)                removing `math shift' on input line 1055.
 
 <images/hadronic-tracks.pdf, id=1307, 569.12625pt x 554.07pt>
 File: images/hadronic-tracks.pdf Graphic file (type pdf)
 
 <use images/hadronic-tracks.pdf>
-Package pdftex.def Info: images/hadronic-tracks.pdf used on input line 1059.
+Package pdftex.def Info: images/hadronic-tracks.pdf used on input line 1061.
 (pdftex.def)             Requested size: 241.84843pt x 235.45549pt.
 
 
@@ -3151,7 +3155,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 f><./images/bhabha-mupair-totalCM_E.pdf><./images/hadronic-tracks.pdf>]
 Chapter 6.
 
-Overfull \hbox (20.82935pt too wide) in paragraph at lines 1079--1080
+Overfull \hbox (20.82935pt too wide) in paragraph at lines 1081--1082
 [][]\OT1/cmr/m/n/12 98.06% of re-con-structed $\OML/cmm/m/it/12  \OMS/cmsy/m/n
 /12 ! \OML/cmm/m/it/12 $ \OT1/cmr/m/n/12 sig-nal events pass the pre-s-e-lec-
 tion cri-te-ria; around 1,000,000,000
@@ -3164,24 +3168,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `tab:preselection events electron mode' on page 29 unde
+fined on input line 1147.
 
 [29
 
-] <images/tauMG-tauEG-tauinvmass.pdf, id=1517, 569.12625pt x 554.07pt>
+] <images/tauMG-tauEG-tauinvmass.pdf, id=1515, 569.12625pt x 554.07pt>
 File: images/tauMG-tauEG-tauinvmass.pdf Graphic file (type pdf)
 
 <use images/tauMG-tauEG-tauinvmass.pdf>
 Package pdftex.def Info: images/tauMG-tauEG-tauinvmass.pdf used on input line 11
-53.
+51.
 (pdftex.def)             Requested size: 290.22107pt x 282.55505pt.
  [30] [31<./images/tauMG-tauEG-tauinvmass.pdf>]
 Chapter 7.
-<images/fom-cut0.pdf, id=1576, 569.12625pt x 355.3275pt>
+<images/fom-cut0.pdf, id=1575, 569.12625pt x 355.3275pt>
 File: images/fom-cut0.pdf Graphic file (type pdf)
 
 <use images/fom-cut0.pdf>
-Package pdftex.def Info: images/fom-cut0.pdf used on input line 1192.
+Package pdftex.def Info: images/fom-cut0.pdf used on input line 1180.
 (pdftex.def)             Requested size: 338.58632pt x 211.4035pt.
 
 
@@ -3192,29 +3197,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 File: images/tauMG-muCM_P.pdf Graphic file (type pdf)
  <use images/tauMG-muCM_P.pdf>
-Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 1204.
+Package pdftex.def Info: images/tauMG-muCM_P.pdf used on input line 1192.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<images/tauMG-missingCosTheta.pdf, id=1588, 569.12625pt x 554.07pt>
+<images/tauMG-missingCosTheta.pdf, id=1587, 569.12625pt x 554.07pt>
 File: images/tauMG-missingCosTheta.pdf Graphic file (type pdf)
 
 <use images/tauMG-missingCosTheta.pdf>
-Package pdftex.def Info: images/tauMG-missingCosTheta.pdf used on input line 121
-2.
+Package pdftex.def Info: images/tauMG-missingCosTheta.pdf used on input line 120
+0.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
  [33<./images/fom-cut0.pdf><./images/tauMG-missingCosTheta.pdf>] [34]
-<images/tauMG-thrustSignal.pdf, id=1698, 569.12625pt x 554.07pt>
+<images/tauMG-thrustSignal.pdf, id=1697, 569.12625pt x 554.07pt>
 File: images/tauMG-thrustSignal.pdf Graphic file (type pdf)
 
 <use images/tauMG-thrustSignal.pdf>
-Package pdftex.def Info: images/tauMG-thrustSignal.pdf used on input line 1274.
+Package pdftex.def Info: images/tauMG-thrustSignal.pdf used on input line 1264.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
-<images/tauMG-thrustRoe.pdf, id=1699, 569.12625pt x 554.07pt>
+<images/tauMG-thrustRoe.pdf, id=1698, 569.12625pt x 554.07pt>
 File: images/tauMG-thrustRoe.pdf Graphic file (type pdf)
 
 <use images/tauMG-thrustRoe.pdf>
-Package pdftex.def Info: images/tauMG-thrustRoe.pdf used on input line 1282.
+Package pdftex.def Info: images/tauMG-thrustRoe.pdf used on input line 1272.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
@@ -3224,21 +3229,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/cleo-cone.png Graphic file (type png)
 
 <use images/cleo-cone.png>
-Package pdftex.def Info: images/cleo-cone.png used on input line 1302.
+Package pdftex.def Info: images/cleo-cone.png used on input line 1292.
 (pdftex.def)             Requested size: 229.75896pt x 129.78374pt.
 
 <images/tauMG-cc1.pdf, id=1711, 569.12625pt x 554.07pt>
 File: images/tauMG-cc1.pdf Graphic file (type pdf)
 
 <use images/tauMG-cc1.pdf>
-Package pdftex.def Info: images/tauMG-cc1.pdf used on input line 1332.
+Package pdftex.def Info: images/tauMG-cc1.pdf used on input line 1324.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 <images/tauMG-cc2.pdf, id=1712, 569.12625pt x 554.07pt>
 File: images/tauMG-cc2.pdf Graphic file (type pdf)
 
 <use images/tauMG-cc2.pdf>
-Package pdftex.def Info: images/tauMG-cc2.pdf used on input line 1340.
+Package pdftex.def Info: images/tauMG-cc2.pdf used on input line 1332.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
@@ -3249,14 +3254,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/tauMG-R2.pdf Graphic file (type pdf)
 
 <use images/tauMG-R2.pdf>
-Package pdftex.def Info: images/tauMG-R2.pdf used on input line 1376.
+Package pdftex.def Info: images/tauMG-R2.pdf used on input line 1370.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 <images/tauMG-cosTBz.pdf, id=1817, 569.12625pt x 554.07pt>
 File: images/tauMG-cosTBz.pdf Graphic file (type pdf)
 
 <use images/tauMG-cosTBz.pdf>
-Package pdftex.def Info: images/tauMG-cosTBz.pdf used on input line 1384.
+Package pdftex.def Info: images/tauMG-cosTBz.pdf used on input line 1378.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 
@@ -3267,29 +3272,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/tauMG-neutralEclEnergy.pdf Graphic file (type pdf)
 
 <use images/tauMG-neutralEclEnergy.pdf>
-Package pdftex.def Info: images/tauMG-neutralEclEnergy.pdf used on input line 14
-01.
+Package pdftex.def Info: images/tauMG-neutralEclEnergy.pdf used on input line 13
+95.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 File: images/tauMG-tracks.pdf Graphic file (type pdf)
  <use images/tauMG-tracks.pdf>
-Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 1409.
+Package pdftex.def Info: images/tauMG-tracks.pdf used on input line 1403.
 (pdftex.def)             Requested size: 229.75896pt x 223.6785pt.
 
 <images/tauMG-sigD0.png, id=1920, 568.7649pt x 553.5882pt>
 File: images/tauMG-sigD0.png Graphic file (type png)
 
 <use images/tauMG-sigD0.png>
-Package pdftex.def Info: images/tauMG-sigD0.png used on input line 1417.
+Package pdftex.def Info: images/tauMG-sigD0.png used on input line 1411.
 (pdftex.def)             Requested size: 229.75896pt x 223.62758pt.
 
 <images/tauMG-sigZ0.png, id=1921, 568.7649pt x 553.5882pt>
 File: images/tauMG-sigZ0.png Graphic file (type png)
 
 <use images/tauMG-sigZ0.png>
-Package pdftex.def Info: images/tauMG-sigZ0.png used on input line 1425.
+Package pdftex.def Info: images/tauMG-sigZ0.png used on input line 1419.
 (pdftex.def)             Requested size: 229.75896pt x 223.62758pt.
 
-Overfull \hbox (17.0059pt too wide) in paragraph at lines 1434--1480
+Overfull \hbox (17.0059pt too wide) in paragraph at lines 1428--1474
  [][][] 
  []
 
@@ -3303,7 +3308,7 @@ Chapter 8.
 File: images/tauMG-signalRegion.pdf Graphic file (type pdf)
 
 <use images/tauMG-signalRegion.pdf>
-Package pdftex.def Info: images/tauMG-signalRegion.pdf used on input line 1581.
+Package pdftex.def Info: images/tauMG-signalRegion.pdf used on input line 1575.
 (pdftex.def)             Requested size: 435.32422pt x 295.60492pt.
 
 <images/tauMG-signalRegionRotated.pdf, id=2078, 569.12625pt x 338.26375pt>
@@ -3311,7 +3316,7 @@ File: images/tauMG-signalRegionRotated.pdf Graphic file (type pdf)
 
 <use images/tauMG-signalRegionRotated.pdf>
 Package pdftex.def Info: images/tauMG-signalRegionRotated.pdf used on input line
- 1589.
+ 1583.
 (pdftex.def)             Requested size: 483.69687pt x 287.49973pt.
 
 
@@ -3337,11 +3342,11 @@ Missing character: There is no ž (U+017E) in font cmr12!
 Missing character: There is no − (U+2212) in font cmr12!
 Missing character: There is no − (U+2212) in font cmr12!
 ) [46]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1658.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1658.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1652.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1652.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1658.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1658.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1652.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1652.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 791AF9F990AD419BBB18D29A343B1AAC;4186.
 
@@ -3351,19 +3356,19 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1658.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1652.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42364 strings out of 494956
+ 42365 strings out of 494956
  100000,1373583 words of node,token memory allocated
- 789 words of node memory still in use:
+ 787 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 11 kern, 56 glue_spec, 1 action, 1 write no
 des
-   avail lists: 2:504,3:687,4:1911,5:310,6:3787,7:197,8:39,9:521,10:373
- 43893 multiletter control sequences out of 65536+600000
+   avail lists: 2:504,3:685,4:1833,5:304,6:3869,7:202,8:39,9:504,10:376
+ 43895 multiletter control sequences out of 65536+600000
  137 fonts using 5390483 bytes
- 55i,24n,77p,1491b,1306s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 55i,24n,77p,1498b,1306s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</home/brmoore/.local/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb><</home/brmoore/.local/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><</home/brmoore/.local/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -3381,10 +3386,10 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><</home/brmoore/.local/texlive/texmf-dist
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><</home/brmoore/.local/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><</home/brmoore/.local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (50 pages, 2725752 bytes).
+Output written on thesis.pdf (50 pages, 2725751 bytes).
 
 PDF statistics: 2268 PDF objects out of 2487 (max. 8388607)
  1355 compressed objects within 14 object streams
- 194 named destinations out of 1000 (max. 131072)
+ 193 named destinations out of 1000 (max. 131072)
  504 words of extra memory for PDF output out of 10000 (max. 10000000)
 

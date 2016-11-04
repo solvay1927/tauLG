@@ -187,7 +187,7 @@ Lepton flavour violation (LFV) is an exciting field of research at the frontier 
         \caption{Feynman diagrams for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ proceeding through SM processes.}
     \end{figure}
 
-LFV necessarily requires generation mixing between leptons to occur. Though this is prohibited in the Standard Model, the discovery of neutrino oscillations proves that flavour mixing does occur in our universe --- that is, flavour is not conserved. Neutrino oscillations occur due to the finite but very small mass of the neutrinos. However, the Standard Model cannot explain how neutrinos have this mass. There must be new physics coupling to leptons which facilitates the mass generation of neutrinos, and this new physics may induce charged LFV.
+LFV necessarily requires generation mixing between leptons to occur. Though this is prohibited in the Standard Model, the discovery of neutrino oscillations proves that flavour mixing does occur in our universe --- that is, flavour is not conserved. Neutrino oscillations occur due to the finite but very small mass of the neutrinos. However, the Standard Model cannot explain how neutrinos have this mass. There must be new physics coupling to leptons which faciliates the mass generation of neutrinos, and this new physics may induce charged LFV.
 
 In the SM modified to include massive neutrinos, LFV processes can occur through processes shown in Figures~\ref{fig:tauMG feynman} and~\ref{fig:tauEG feynman}. However, these Feynman diagrams are greatly suppressed and are proportional to the Glashow-Iliopoulo-Maiani (GIM) factor, given as $\left(\frac{m_\nu}{M_W}\right)^4$. As neutrino mass is very small ($\mathcal{O}(\SI{0.3}{eV})$) we expect any LFV effects in the SM to be negligible. With these operators the branching ratio for $\tmg$ is $\sim 10^{-40}$ \cite{Passemar:2015}, and similarly small for $\tau\to e\gamma$. With such little SM background, observation of an LFV process of the type $\tlg$ would be an unambiguous signature of NP.
 
@@ -229,7 +229,7 @@ Motivations behind the search for LFV come from both theoretical and experimenta
 
 The discovery that flavour mixing can occur in the neutrino sector \cite{Fukuda:1998}\cite{McGregor:2002} proves that neutrinos have mass. Both the concept of massive neutrinos, and by extension the mechanisms which generate neutrino mass, are not predicted or explained by the SM. This tells us that the lepton sector is not fully understood.
 
-There are many NP models which introduce mechanisms to give neutrinos mass. These include SUSY, seesaw models, and many others. In introducing these mechanisms, many of these models inadvertently introduce LFV. As a particular example, a Type-II seesaw model posits a scalar triplet of Higgs-like particles \cite{Passemar:2015}. This triplet comprises a doubly-charged Higgs, a singly-charged Higgs, and a neutral Higgs. As show in Figure~\ref{fig:scalar couplings} below, lepton-flavour violating processes could proceed via leptons coupling to these scalars.
+There are many NP models which introduce mechanisms to give neutrinos mass. These include SUSY, seesaw models, and many others. In introducing these mechanisms, many of these models inadvertently introduce LFV. As a particular example, a Type-II seesaw model posits a scalar triplet of Higgs-like particles \cite{Passemar:2015}. This triplet comprises a doubly-charged Higgs, a singly-charged Higgs, and a neutral Higgs. As show in Figure X below, lepton-flavour violating processes could proceed via leptons coupling to these scalars.
 
 
 \begin{figure}[h]
@@ -245,7 +245,7 @@ There are many NP models which introduce mechanisms to give neutrinos mass. Thes
 \includegraphics[width=0.5\textwidth]{images/seesaw-lfv-modes.png}
 \caption[]%
 {{\small Scalars introduced in Type-II seesaw models mediating LFV decays (Passemar, 2015). $\Delta^{--}$ are doubly-charged scalars.}}
-\label{fig:scalar couplings}
+\label{}
 \end{figure}
 
 \subsection{$\htm$ excess}
@@ -333,7 +333,7 @@ The most recent searches for $\tlg$ were undertaken at Belle (2007) and Babar (2
             {{\small}}    
             \label{fig:Belle search tauEG signal region}
         \end{subfigure}
-        \caption{$M_{\text{inv}}$-$\Delta E$ distribution in the search for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ at Belle over a $\SI{535}{fb^{-1}}$ data set. $M_{\text{inv}}$ is the reconstructed mass of the $\tau$ from these processes, $\Delta E$ is the energy difference between this reconstructed $\tau$ and half centre-of-mass frame beam energy. Dots are the data and shaded boxes indicate the signal MC. The dashed ellipse shows the $3\sigma$ region and the dot-dashed ellipse is the $2\sigma$ signal region.}
+        \caption{$M_{\text{inv}}$-$\Delta E$ distribution in the search for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ at Belle over a $\SI{535}{fb^{-1}}$ data set. $M_{\text{inv}}$ is the reconstructed mass of the $\tau$ from these processes, $\Delta E$ is the energy difference between this reconstructed $\tau$ and half center-of-mass frame beam energy. Dots are the data and shaded boxes indicate the signal MC. The dashed ellipse shows the $3\sigma$ region and the dot-dashed ellipse is the $2\sigma$ signal region.}
     \end{figure}
 
 
@@ -363,7 +363,7 @@ Events were selected by applying selection criteria to twenty event-related vari
             \caption[]%
             {{\small}}    
         \end{subfigure}
-        \caption{$M_{\text{bc}}$-$\Delta E$ distribution in the search for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ at Babar over a $\SI{515.5}{fb^{-1}}$ data set. $M_{\text{bc}}$ is the beam-constrained mass of the $\tau$ from these processes, $\Delta E$ is the energy difference between this reconstructed $\tau$ and half centre-of-mass frame beam energy. Data are shown as dots and contours containing \num{90}{\percent} (\num{50}{\percent}) of signal MC events are shown as light- (dark-) shaded regions.}
+        \caption{$M_{\text{bc}}$-$\Delta E$ distribution in the search for (a) $\tau\to\mu\gamma$ and (b) $\tau\to e\gamma$ at Babar over a $\SI{515.5}{fb^{-1}}$ data set. $M_{\text{bc}}$ is the beam-constrained mass of the $\tau$ from these processes, $\Delta E$ is the energy difference between this reconstructed $\tau$ and half center-of-mass frame beam energy. Data are shown as dots and contours containing \num{90}{\percent} (\num{50}{\percent}) of signal MC events are shown as light- (dark-) shaded regions.}
         \label{fig:babar signal region}
     \end{figure}
 
@@ -564,7 +564,7 @@ where $\alpha$ and $\beta$ are two different particle types. $\mathcal{L}(\alpha
 \subsection{Neutral particle identification}
 \label{sec:neutral PID}
 
-Long-lived neutral particles found within the Belle II detector comprise photons, neutral pions $\pi^0$ and K-long mesons $K^0_L$; only photons are important to our analysis. Photon identification relies strongly on ECL data, and is based on parameters which describe the electromagnetic shower shape of ECL clusters not matched to reconstructed tracks. One of these parameters is the ratio of energy deposited in the nearest $3\times 3$ crystals to the the nearest $5 \times 5$ crystals (or E9oE25); for photons this ratio is close to 1. The main background in photon reconstruction comes from hadronic showers, which create asymmetric showers which often result in more than one ECL cluster which is not matched to a reconstructed track.
+Long-lived neutral particles found within the Belle II detector comprise photons, neutral pions $\pi^0$ and K-long mesons $K^0_L$; only photons are important to our analysis. Photon identification relies strongly on ECL data, and is based on parameters which describe the electromagentic shower shape of ECL clusters not matched to reconstructed tracks. One of these parameters is the ratio of energy deposited in the nearest $3\times 3$ crystals to the the nearest $5 \times 5$ crystals (or E9oE25); for photons this ratio is close to 1. The main background in photon reconstruction comes from hadronic showers, which create asymmetric showers which often result in more than one ECL cluster which is not matched to a reconstructed track.
 
 
 %-------------------------------------------------------------------
@@ -684,7 +684,7 @@ It is unfeasible to study MC in-depth for every possible physics background; we 
     \end{figure}
 
 
-Fiducial cross-sections for these backgrounds are given in Table~\ref{tab:background cross-sections}. These values are for collisions at centre-of-mass beam energies of $\SI{10.573}{GeV}$ and with Belle II detector geometry.
+Fiducial cross-sections for these backgrounds are given in Table~\ref{tab:background cross-sections}. These values are for collisions at center-of-mass beam energies of $\SI{10.573}{GeV}$ and with Belle II detector geometry.
 
 
 \begin{table}[h]
@@ -714,7 +714,7 @@ $e^+e^- \to B^0\bar{B}^0$ & \num{0.525} & \texttt{EvtGen 1.3}, \texttt{PYTHIA 8.
 
 \section{Event generation}
 
-All MC was generated in the Belle II Analysis Framework (basf2) with geometry and energies from SuperKEKB using physics event generators given in Table~\ref{tab:background cross-sections}. All generators use the same beam parameters such as vertex positions and beam energies, as well as geometry information including highly accurate location, thickness and material values. Magnetic field strength through the detector is also known and included in event generation. The detector components are simulated by the generator, so that timing information and energy deposition is recorded for these components as MC particles interact with them. Following the simulation of a physics event, information from the sub-detectors is used to reconstruct tracks (corresponding to charged particles) and clusters (referring to cells of the ECL with which a particle has interacted with, corresponding to photons).
+All MC was generated in the Belle II Analysis Framework (basf2) with geometry and energies from SuperKEKB using physics event generators given in Table~\ref{tab:background cross-sections}. All generators use the same beam parameters such as vertex positions and beam energies, as well as geometry information including highly accurate location, thickness and material values. Magnetic field strength through the detector is also known and included in event generation. The detector components are simulated by the generator, so that timing information and energy deposition is recorded for these components as MC particles interact with them. Following the simulation of a physics event, information from the sub-detectors is used to reconstruct tracks (correponding to charged particles) and clusters (referring to cells of the ECL with which a particle has interacted with, corresponding to photons).
 
 \subsection{Signal generation}
 
@@ -766,9 +766,9 @@ Unless explicitly stated, scaled event numbers will be used throughout this anal
 
 \section{Version differences}
 
-The software framework on which event generation was performed is undergoing continuous development; a majority of signal and background MC was produced on the same release version to ensure accuracy between MC types. This version was made available on July 13th 2016, and was one of the most up-to-date releases at the time of analysis. However, the backgrounds $\mu^+\mu^-(\gamma)$ and $e^+ e^-(\gamma)$ (mu-pair and Bhabha, respectively) did not have any events generated using this release, and instead used an older release dated August 4th 2015.
+The software framework on which event generation was performed is undergoing continuous development; a majority of signal and background MC was produced on the same release version to ensure accuracy between MC types. This version was made available on July 13th 2016, and was one of the most up-to-date releases at the time of analysis. However, the backgrounds $\mu^+\mu^-(\gamma)$ and $e^+ e^-(\gamma)$ (mu-pair and bhabha, respectively) did not have any events generated using this release, and instead used an older release dated August 4th 2015.
 
-A full investigation into the differences in generated MC between releases has not been performed in this analysis, as it is assumed they are negligible in most relevant cases. Changes relate mostly to the mixing of beam backgrounds; however one major change is in the reporting of timing data from the ECL. From the release dated July 13th 2016 onwards, these associated times will be reported in nanoseconds, rather than uncalibrated clock ticks\cite{BelleII:cluster-timing}. In comparing samples of background MC generated in both the older and newer releases, Figure~\ref{fig:cluster timing old} and~\ref{fig:cluster timing new} below, as well as private correspondence with the developer responsible for these changes, it was found that conversion to the newer scale could be achieved by adding 80 units to the cluster timing values.
+A full investigation into the differences in generated MC between releases has not been performed in this analysis, as it is assumed they are negligible in most relevant cases. Changes relate mostly to the mixing of beam backgrounds; however one major change is in the reporting of timing data from the ECL. From the release dated July 13th 2016 onwards, these associated times will be reported in nanoseconds, rather than uncalibrated clock ticks\cite{BelleII:cluster-timing}. In comparing samples of background MC generated in both the older and newer releases, Figure~\ref{fig:cluster timing old} and~\ref{fig:cluster timing new} below, as well as private correspondance with the developer responsible for these changes, it was found that conversion to the newer scale could be achieved by adding 80 units to the cluster timing values.
 
 
    \begin{figure}[h]
@@ -895,7 +895,7 @@ We reconstruct the signal side $\tau$ as $\tau \to \mu (e) \gamma$ for the muon 
 \Delta E &= E^{\text{CM}}_{\text{signal }\tau} - E_{\text{beam}}/2,\\
 M_{\text{inv}} &= \text{invariant mass of reconstructed signal-side $\tau$},
 \end{align}
-where $E^{\text{CM}}_{\text{signal }\tau}$ is the centre-of-mass energy of the reconstructed signal-side tau, and $E_{\text{beam}}$ is the total centre-of-mass energy of the electron-positron beam system. Nominally we expect signal events to have $\Delta E\sim 0$ and $M_{\text{inv}}\sim m_{\tau}$. As to not bias final event selection, we place only loose requirements on the signal region variables, requiring $\SI{-0.4}{GeV} < \Delta E < \SI{0.2}{GeV}$ and $\SI{1.6}{GeV} < M_{\text{inv}} < \SI{1.9}{GeV}$ for the signal-side $\tau$. 
+where $E^{\text{CM}}_{\text{signal }\tau}$ is the center-of-mass energy of the reconstructed signal-side tau, and $E_{\text{beam}}$ is the total center-of-mass energy of the electron-positron beam system. Nominally we expect signal events to have $\Delta E\sim 0$ and $M_{\text{inv}}\sim m_{\tau}$. As to not bias final event selection, we place only loose requirements on the signal region variables, requiring $\SI{-0.4}{GeV} < \Delta E < \SI{0.2}{GeV}$ and $\SI{1.6}{GeV} < M_{\text{inv}} < \SI{1.9}{GeV}$ for the signal-side $\tau$. 
 
 \section{Reconstruction efficiencies}
 
@@ -940,7 +940,7 @@ We discuss expected energies, kinematics and signal-side event topologies with c
 
 \subsection{Muon mode}
 
-The mode $\tau\to\mu\gamma$ has a simple signal side, with only one track and one photon, and no missing energy (in the form of neutrinos). If we assume that on average both $\tau$ particles generated in the $e^+ e^-$ collision share equally the energy generated in the interaction, we expect the mean signal-side centre-of-mass frame energy to be $\SI{5.5}{GeV}$. No physical preference is given to the energy distribution between the signal muon and signal photon, so their centre-of-mass energies should be normally distributed around $\SI{2.75}{GeV}$. Recalling the relation between energy, momentum and mass,
+The mode $\tau\to\mu\gamma$ has a simple signal side, with only one track and one photon, and no missing energy (in the form of neutrinos). If we assume that on average both $\tau$ particles generated in the $e^+ e^-$ collision share equally the energy generated in the interaction, we expect the mean signal-side center-of-mass frame energy to be $\SI{5.5}{GeV}$. No physical preference is given to the energy distribution between the signal muon and signal photon, so their center-of-mass energies should be normally distributed around $\SI{2.75}{GeV}$. Recalling the relation between energy, momentum and mass,
 
 \begin{equation}
 E^2 = p^2 + m^2,
@@ -961,7 +961,7 @@ We can predict and compare with MC several topological measureables, such as pol
   \centering
   \includegraphics[width=\linewidth]{images/tauMG-muCM_P.pdf}
   \caption[]%
-  {{\small Centre-of-mass frame momentum of signal muon.}}    
+  {{\small Center-of-mass frame momentum of signal muon.}}    
   \label{fig:tauMG muCM P}
 \end{minipage}%
         \hfill
@@ -977,7 +977,7 @@ We can predict and compare with MC several topological measureables, such as pol
   \centering
   \includegraphics[width=\linewidth]{images/tauMG-totalCM_E.pdf}
   \caption[]%
-  {{\small Total centre-of-mass energy of the system.}}    
+  {{\small Total center-of-mass energy of the system.}}    
   \label{fig:tauMG EtotalCM}
 \end{minipage}%
         \hfill
@@ -985,7 +985,7 @@ We can predict and compare with MC several topological measureables, such as pol
   \centering
   \includegraphics[width=\linewidth]{images/tauMG-tracks.pdf}
   \caption[]%
-  {{\small Number of reconstructed tracks.}}  
+  {{\small Number of reconstucted tracks.}}  
   \label{fig:tauMG tracks}
 \end{minipage}
 \end{figure}
@@ -1009,13 +1009,13 @@ In tau-pair processes, the signal-side $\tau$ of energy $\SI{5.5}{GeV}$ decays d
 
 In most cases for tau-pair processes, the reconstructed signal photon comes from ISR, FSR or more often beam backgrounds. Photons produced as beam background are often low energy, especially compared to the average photon energy from signal processes of $\sim \SI{2.25}{GeV}$. Signal photon energy is shown in Figure~\ref{fig:tauMG muCM P}; we note the peak energy of $E_{\gamma}<\SI{1}{GeV}$ for tau-pair processes. 
 
-Since the signal photon does not originate from the signal-side $\tau$, the signal tracks appears ``boosted'' by comparison. This boost leads to the signal track and signal photon travelling almost back-to-back in the centre-of-mass frame, in contrast to the signal mode where these final state particles have only a small opening angle between them (see Figure~\ref{fig:taupair muGammaOpeningCosThetaCM}). 
+Since the signal photon does not originate from the signal-side $\tau$, the signal tracks appears ``boosted'' by comparison. This boost leads to the signal track and signal photon travelling almost back-to-back in the center-of-mass frame, in contrast to the signal mode where these final state particles have only a small opening angle between them (see Figure~\ref{fig:taupair muGammaOpeningCosThetaCM}). 
 
 \begin{figure}
 \centering
 \includegraphics[width=0.45\linewidth]{images/taupair-muGammaOpeningCM.pdf}
 \caption[]%
-{{\small Cosine of the opening angle between signal track and signal photon in the centre-of-mass frame; comparison between $\tau\to\mu\gamma$ and background tau-pair processes.}}    
+{{\small Cosine of the opening angle between signal track and signal photon in the center-of-mass frame; comparison between $\tau\to\mu\gamma$ and background tau-pair processes.}}    
 \label{fig:taupair muGammaOpeningCosThetaCM}
 \end{figure}
 
@@ -1030,7 +1030,7 @@ By momentum conservation, the signal and tag tracks are generated back-to-back f
 
 Bhabha events $e^+ e^- \to e^+ e^- (\gamma)$ have similar event signatures to mu-pair processes $e^+ e^- \to \mu^+ \mu^- (\gamma)$ across a range of variables, for obvious reasons. However, as is case with electrons in the detector, both signal- and tag-track particles lose a significant portion of their energy to bremsstrahlung and are not reconstructed as cleanly as muons. 
 
-Smearing of energies and momenta occurs for Bhabha event reconstruction, with measureables not peaking as strongly as for mu-pair events and instead spreading across a values. These features are shown in Figures~\ref{fig:bhabha mupair muCM P} and~\ref{fig:bhabha mupair EtotalCM} below, comparing distributions for mu-pair events to Bhabha events. Much of the event topology is still common between these processes, however.
+Smearing of energies and momenta occurs for Bhabha event reconstruction, with measureables not peaking as strongly as for mu-pair events and instead spreading across a values. These features are shown in Figures~\ref{fig:bhabha mupair muCM P} and~\ref{fig:bhabha mupair EtotalCM} below, comparing distributions for mu-pair events to bhabha events. Much of the event topology is still common between these processes, however.
 
 \begin{figure}[h]
 \centering
@@ -1038,7 +1038,7 @@ Smearing of energies and momenta occurs for Bhabha event reconstruction, with me
   \centering
   \includegraphics[width=\linewidth]{images/bhabha-mupair-muCM_P.pdf}
   \caption[]%
-  {\small Comparison of centre-of-mass frame signal track momentum for Bhabha and mu-pair events.}
+  {\small Comparison of center-of-mass frame signal track momentum for Bhabha and mu-pair events.}
   \label{fig:bhabha mupair muCM P}
 \end{minipage}%
 \hfill
@@ -1046,7 +1046,7 @@ Smearing of energies and momenta occurs for Bhabha event reconstruction, with me
   \centering
   \includegraphics[width=\linewidth]{images/bhabha-mupair-totalCM_E.pdf}
   \caption[]%
-  {\small Comparison of total energy of the system in centre-of-mass frame for Bhabha and mu-pair events.}
+  {\small Comparison of total energy of the system in center-of-mass frame for Bhabha and mu-pair events.}
   \label{fig:bhabha mupair EtotalCM}
 \end{minipage}
 \end{figure}
@@ -1087,22 +1087,22 @@ Specific values for preselection are listed in Table~\ref{tab:preselection cuts 
 \textbf{symbolic} & \textbf{description} & \textbf{lower} & \textbf{upper} \\ \hline
 $p_{\text{tag}}^{\text{CM}}$  & CM momentum of tag track & --- & $\SI{5.2}{GeV}$ \\
 $\cos\theta_{\text{signal}}$ & Cosine of polar angle of signal track & $-0.9$ & --- \\
-$E_{\text{total}}^{\text{CM}}$ & Centre-of-mass energy of total system  & --- & $\SI{15}{GeV}$ \\
+$E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system  & --- & $\SI{15}{GeV}$ \\
 $\lvert\text{thrust}\rvert$ & Magnitude of signal thrust vector* & 0.92 & --- \\
-$E_{\text{sum}}^{\text{CM}}$ & Centre-of-mass energy of photons and tracks & $\SI{4.5}{GeV}$ & --- \\
+$E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks & $\SI{4.5}{GeV}$ & --- \\
 \hline
 \end{tabular}
 \caption{Preselection cuts (muon mode)}
 \label{tab:preselection cuts muon mode}
 \end{table}
 
-We also place a loose requirement of $M_{\text{inv}}$, requiring $1.65 < M_{\text{inv}} < 1.85$. Although this is one of our signal region variables, we are justified in applying loose preselection on it because events outside this selection will lie outside the final signal region, and hence be unimportant to the analysis.
+We also place a loose requirement of $M_{\text{inv}}$, requiring $1.65 < M_{\text{inv}} < 1.85$. Although this is one of our signal region variables, we are justfied in applying loose preselection on it because events outside this selection will lie outside the final signal region, and hence be unimportant to the analysis.
 
 \begin{table}[h]
 \centering
 \begin{tabular}{lrrc}
 \hline
-\textbf{Backgroun process}         & \textbf{events in (scaled)} & \textbf{events out} & $\mathbf{\epsilon_{\text{ps}}}$ \\ \hline 
+\textbf{Background process}         & \textbf{events in (scaled)} & \textbf{events out} & $\mathbf{\epsilon_{\text{ps}}}$ \\ \hline 
 \rowcolor[HTML]{EFEFEF} 
 $\tau\to\mu\gamma$       & \num{140}        & \num{135}      & $\SI{96.32}{\percent}$                   \\
 $\tau\to\mu\nu\nu$      & \num{678130}         & \num{631235}          & $\SI{93.08}{\percent}$           \\
@@ -1135,9 +1135,9 @@ Separate preselection criteria was chosen for the electron mode. These criteria 
 \textbf{symbolic} & \textbf{description} & \textbf{lower} & \textbf{upper} \\ \hline
 $p_{\text{tag}}^{\text{CM}}$  & CM momentum of tag track & --- & $\SI{5}{GeV}$ \\
 $\cos\theta_{\text{signal}}$ & Cosine of polar angle of signal track & $-0.975$ & --- \\
-$E_{\text{total}}^{\text{CM}}$ & Centre-of-mass energy of total system  & --- & $\SI{14}{GeV}$ \\
+$E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system  & --- & $\SI{14}{GeV}$ \\
 $\lvert\text{thrust}\rvert$ & Magnitude of signal thrust vector* & 0.92 & --- \\
-$E_{\text{sum}}^{\text{CM}}$ & Centre-of-mass energy of photons and tracks & $\SI{4.5}{GeV}$ & --- \\
+$E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks & $\SI{4.5}{GeV}$ & --- \\
 \hline
 \end{tabular}
 \caption{Preselection cuts (electron mode)}
@@ -1161,6 +1161,17 @@ After preselection, the signal electron mode has an efficiency of only $\SI{9.95
 
 %-------------------------------------------------------------------
 
+\begin{comment}
+\chapter{Correlation}
+
+The final signal region in which events will be selected from lies in $\Delta E$ vs. $M_{\text{inv}}$ space. To avoid biasing event selection, only loose cuts are applied to these variables throughout. We also investigate the correlation between these signal variables and other variables which we may cut over, to avoid introducing bias through these correlations. 
+
+???
+
+\pagebreak
+\end{comment}
+
+%-------------------------------------------------------------------
 
 \chapter{Signal optimisation}
 \label{sec:signal-optimisation}
@@ -1168,9 +1179,9 @@ After preselection, the signal electron mode has an efficiency of only $\SI{9.95
 There are many reasonable ways to quantify signal optimisation compared to background in a particle physics analysis. For this analysis, we have chosen the measure of signal optimisation $S/\sqrt{S+B}$. $S$ is the expected number of signal events remaining after event selection has been performed; note that we scale for our signal events dependent on their associated LFV branching fractions, which are currently experimental upper bounds. Hence the measure $S/\sqrt{S+B}$ will vary for different branching fraction hypotheses. 
 Similarly $B$ is the expected number of background events remaining after event selection; specifically this is the sum of all events remaining across all background MC used in analysis. Since not all possible background processes have been included we would expect the empirical value of $B$ to be higher; this is mostly unimportant for our analysis since we need only compare changes in $S/\sqrt{S+B}$ between different selection criteria, not to know the absolute value.
 
-To maximise $S/\sqrt{S+B}$, the number of background events must be reduced while not removing too many signal events. This is especially important given the low branching fraction of our signal - taking the experimental upper limit of the $\tau\to\mu\gamma$ branching fraction, we expect only 83 signal events, after reconstruction and preselection, in a $\SI{1}{ab^{-1}}$ dataset, compared to over \num{1500000000} (1.5 billion) background events in the same luminosity.
+To maximise $S/\sqrt{S+B}$, the number of background events must be reduced while not removing too many sgnal events. This is especially important given the low branching fraction of our signal - taking the experimental upper limit of the $\tau\to\mu\gamma$ branching fraction, we expect only 83 signal events, after reconstruction and preselection, in a $\SI{1}{ab^{-1}}$ dataset, compared to over \num{1500000000} (1.5 billion) background events in the same luminosity.
 
-Forty selection criteria were used in selecting for $\tau\to\mu\gamma$ events. Some variables were taken from the previous search for $\tau\to\ell\gamma$ at Belle (REF); more were added as the analysis progressed to achieve better greater signal separation. Some of these variables were not included in the final analysis. Notable were those related to missing momentum and mass, as some uncertainty was held regarding the accurate reconstruction of these variables. Others such as tag-track transverse momentum and signal-track momentum were not included due to significant overlap of background exclusion with other variables (most obviously centre-of-mass tag track momentum and centre-of-mass signal-track momentum) causing selection on these measureables to have little to no impact on signal optimisation.
+Forty selection criteria were used in selecting for $\tau\to\mu\gamma$ events. Some variables were taken from the previous search for $\tau\to\ell\gamma$ at Belle (REF); more were added as the analysis progressed to achieve better greater signal separation. Some of these variables were not included in the final analysis. Notable were those related to missing momentum and mass, as some uncertainty was held regardly the accurate reconstruction of these variables. Others such as tag-track transverse momentum and signal-track momentum were not included due to significant overlap of background exclusion with other variables (most obviously center-of-mass tag track momentum and center-of-mass signal-track momentum) causing selection on these measureables to have little to no impact on signal optimisation.
 The thresholds were chosen via a manually iterative process, continually improving the ratio $S/\sqrt{S+B}$ by adding or refining criteria. Initial criteria were informed by a combination of automatic iteration over a range of threshold values for around 20 variables, and by visual inspection. As this is the first $\tau$ study performed at Belle II, we are justified in selecting some criteria through inspection of plots as it serves as validation of the reconstruction process.
 
 The accomplish the former, selection was repeatedly performed over all MC with only a single criteria applied. The lower or upper threshold of this criteria was modified by a small increment each time. The resulting value of $S/\sqrt{S+B}$ was then plotted against the selection threshold; this plot is called a figure-of-merit plot. An obvious peak, as in Figure~\ref{fig:fom plot muCM P}, indicates a useful value for selection. For many variables, no peak was apparent and so no initial threshold could be chosen through this method.
@@ -1183,7 +1194,7 @@ The accomplish the former, selection was repeatedly performed over all MC with o
 \label{fig:fom plot muCM P}
 \end{figure}
 
-Initial visual inspection was performed by finding obvious separation between signal and many background variables. This was informed by knowledge of event signatures (Chapter~\ref{chp:event signatures}), as well as some figure-of-merit plots as described above. Figures~\ref{fig:good sep} and~\ref{fig:bad sep} are examples of good and poor selection variables. In Figure~\ref{fig:good sep}, large background peaks occurring at less than $\SI{1}{GeV/c}$ and greater than $\SI{4.3}{Gev}$ lead to great separation from signal, which does not peak anywhere in those regions. Figure~\ref{fig:bad sep} offers less than optimal threshold positions, as there is no apparent way to remove any amount of background without also removing a large amount of signal; note that this variable was not included during event selection. 
+Initial visual inspection was performed by finding obvious separation between signal and many background variables. This was informed by knowledge of event signatures (Chapter~\ref{chp:event signatures}), as well as some figure-of-merit plots as described above. Figures~\ref{fig:good sep} and~\ref{fig:bad sep} are examples of good and poor selection variables. In Figure~\ref{fig:good sep}, large background peaks occuring at less than $\SI{1}{GeV/c}$ and greater than $\SI{4.3}{Gev}$ lead to great separation from signal, which does not peak anywhere in those regions. Figure~\ref{fig:bad sep} offers less than optimal threshold positions, as there is no apparent way to remove any amount of background without also removing a large amount of signal; note that this variable was not included during event selection. 
 
 \begin{figure}[h]
 \centering
@@ -1191,7 +1202,7 @@ Initial visual inspection was performed by finding obvious separation between si
   \centering
   \includegraphics[width=\linewidth]{images/tauMG-muCM_P.pdf}
   \caption[]%
-  {\small Centre-of-mass frame momentum of signal track.}
+  {\small Center-of-mass frame momentum of signal track.}
   \label{fig:good sep}
 \end{minipage}%
 \hfill
@@ -1215,7 +1226,7 @@ Table~\ref{tab:tauMG events after selection} shows the number of signal and back
 \centering
 \begin{tabular}{lrr}
 \hline
-\textbf{Background process}         & \textbf{events generated} & \textbf{events out} \\ \hline 
+\textbf{Event process}         & \textbf{events generated} & \textbf{events out} \\ \hline 
 \rowcolor[HTML]{EFEFEF} 
 $\tau\to\mu\gamma$       & \num{135}        & 6                             \\
 $\tau\to\mu\nu\nu$      & \num{631235}             & 163                    \\
@@ -1239,11 +1250,11 @@ $e^+ e^- \to B^0 \bar{B}^0$       & \num{23372366}           & 0             \\
 
 \subsection{Energy-momentum}
 
-We require $p^{\text{CM}}_{\mu}$ greater than $\SI{1}{GeV/c}$ and less than $\SI{4.3}{GeV/c}$, to remove low-momentum tracks from continuum events and to remove high-momentum tracks from leptonic processes without high-energy final state photons, that is, generic tau-pair processes, mu-pair processes, and Bhabha events. Muon transerve momentum $p^{\text{t}}_{\mu}$ is required to be greater than $\SI{0.1}{GeV/c}$; tracks with a lesser transverse momentum could not reach the CDC sub-detector component so we do not select these events. Low-energy tracks from continuum events often do not satisfy this criteria, however most low-energy tracks are excluded through selection on $p^{\text{CM}}_{\mu}$. To suppress $\mu^+\mu^-$ and Bhabha backgrounds we require centre-of-mass momentum of the tag track $p^{\text{CM}}_{\text{tag track}}$ less than $\SI{2.5}{GeV}$. Through conservation of momentum we expect the signal and tag tracks of the processes $e^+ e^-\to\ell^+ \ell^- (\gamma)$ we to have momentum peaks around $\SI{5}{GeV}$, which are excluded by this selection. Since most background processes reconstruct the signal photon from low-energy photons, we require the energy of the signal photon $E_{\gamma}$ to be $\SI{0.8}{GeV}$. This selection criteria is effective in removing background events across different processes. Total energy in the centre-of-mass frame $E^{\text{CM}}_{\text{total}}$ is required to be less than $\SI{12}{GeV}$ to suppress $\mu^+\mu^-$ events.
+We require $p^{\text{CM}}_{\mu}$ greater than $\SI{1}{GeV/c}$ and less than $\SI{4.3}{GeV/c}$, to remove low-momentum tracks from continuum events and to remove high-momentum tracks from leptonic processes without high-energy final state photons, that is, generic tau-pair processes, mu-pair processes, and bhabha. Muon transerve momentum $p^{\text{t}}_{\mu}$ is required to be greater than $\SI{0.1}{GeV/c}$; tracks with a lesser transverse momentum could not reach the CDC sub-detector component so we do not select these events. Low-energy tracks from continuum events often do not satisfy this criteria, however most low-energy tracks are excluded through selection on $p^{\text{CM}}_{\mu}$. To suppress $\mu^+\mu^-$ and Bhabha backgrounds we require center-of-mass momentum of the tag track $p^{\text{CM}}_{\text{tag track}}$ less than $\SI{2.5}{GeV}$. Through conservation of momentum we expect the signal and tag tracks of the processes $e^+ e^-\to\ell^+ \ell^- (\gamma)$ we to have momentum peaks around $\SI{5}{GeV}$, which are excluded by this selection. Since most background processes reconstruct the signal photon from low-energy photons, we require the energy of the signal photon $E_{\gamma}$ to be $\SI{0.8}{GeV}$. This selection criteria is effective in removing background events across different processes. Total energy in the center-of-mass frame $E^{\text{CM}}_{\text{total}}$ is required to be less than $\SI{12}{GeV}$ to suppress $\mu^+\mu^-$ events.
 
 \subsection{Angular relations}
 
-As discussed in Chapter~\ref{chp:event signatures}, angular distributions of reconstruction particles depend strongly on the decay process and hence can be used as discriminating variables. For this analysis, $\cos\theta_{\mu}$ is required to be in the range \num{-0.8} to \num{0.9} to suppress continuum, mu-pair and Bhabha processes. Cosine of the signal photon polar angle $\cos\theta_{\gamma}$ is required to be less than \num{0.85}. We require the polar angle of the reconstructed signal $\tau$ in the centre-of-mass frame to be between \num{1} and \num{2.2}. Note that these variables are correlated and overlap in the background which is removed by this selection. Selection is also made on the cosine of the helicity angle $\cos\theta_{\text{H}}$, requiring  $-0.8 < \cos\theta_{\text{H}} < 0.8$. The helicity angle is the opening angle between the signal muon in the signal $\tau$ frame, and the boost direction of the $\tau$ in the centre-of-mass frame.
+As discussed in Chapter~\ref{chp:event signatures}, angular distributions of reconstruction particles depend strongly on the decay process and hence can be used as discriminating variables. For this analysis, $\cos\theta_{\mu}$ is required to be in the range \num{-0.8} to \num{0.9} to suppress continuum, mupair and Bhabha processes. Cosine of the signal photon polar angle $\cos\theta_{\gamma}$ is required to be less than \num{0.85}. We require the polar angle of the reconstructed signal $\tau$ in the center-of-mass frame to be between \num{1} and \num{2.2}. Note that these variables are correlated and overlap in the background which is removed by this selection. Selection is also made on the cosine of the helicity angle $\cos\theta_{\text{H}}$, requiring  $-0.8 < \cos\theta_{\text{H}} < 0.8$. The helicity angle is the opening angle between the signal muon in the signal $\tau$ frame, and the boost direction of the $\tau$ in the center-of-mass frame.
 
 \subsection{Particle likelihoods}
 
@@ -1282,7 +1293,7 @@ We construct another thrust axis is also built using rest-of-event (ROE) data. R
 
 Several continuum suppression variables were chosen by inspection after many more obvious criteria had been applied. These are CLEO cones, Super Fox-Wolfram moments, and the reduced Fox-Wolfram moment (the ratio of the second to the zeroth Fox-Wolfram moments).
 
-Inherent differences in event shape can be used to suppress backgrounds. Some useful discriminant variables are the CLEO cones, named as such due to being introduced in a 1995 paper by the CLEO collaboration\cite{cleo-cones}. To calculate these variables, the space around the signal thrust axis is divided into cones at nine polar angle intervals of $10^{\circ}$ each, with the $i^{th}$ interval covering angles from $(i-1)\times 10^{\circ}$ to $i\times 10^{\circ}$ from the thrust axis (see Figure~\ref{fig:cleo cone image}). Forward and backward intervals are combined. CLEO cone variables cc$i$ are defined as the lab-frame momentum flow of the $i^{th}$ cone; momentum flow in each cone is calculated as the scalar sum of all tracks and clusters in that cone. Requirements on CLEO cones are given in Table~\ref{tab:cleo cone cuts}.
+Inherent differences in event shape can be used to suppress backgrounds. Some useful disciminant variables are the CLEO cones, named as such due to being introduced in a 1995 paper by the CLEO collaboration\cite{cleo-cones}. To calculate these variables, the space around the signal thrust axis is divided into cones at nine polar angle intervals of $10^{\circ}$ each, with the $i^{th}$ interval covering angles from $(i-1)\times 10^{\circ}$ to $i\times 10^{\circ}$ from the thrust axis (see Figure~\ref{fig:cleo cone image}). Forward and backward intervals are combined. CLEO cone variables cc$i$ are defined as the lab-frame momentum flow of the $i^{th}$ cone; momentum flow in each cone is calculated as the scalar sum of all tracks and clusters in that cone. Requirements on CLEO cones are given in Table~\ref{tab:cleo cone cuts}.
 
 
 \begin{figure}[h]
@@ -1433,14 +1444,14 @@ $p_{t~\text{signal}}$ & Transverse momentum of signal track \\
 $p_{t~\text{tag}}$ & Transverse momentum of tag track  \\
 $\cos\theta_{\text{signal}}$ & Cosine of polar angle of signal track  \\
 $\cos\theta_{\text{tag}}$ & Cosine of polar angle of tag track  \\
-$E_{\text{total}}^{\text{CM}}$ & Centre-of-mass energy of total system    \\
+$E_{\text{total}}^{\text{CM}}$ & Center-of-mass energy of total system    \\
 $\text{thrust}_{\text{signal}}$ & Magnitude of signal thrust vector* \\
 $\mu\text{-ID}_{\text{signal}}$ & $\mu$ PID of signal track  \\
 $\mu\text{-ID}_{\text{tag}}$ & $\mu$ PID of tag track  \\
 $E_{\gamma}$ & Energy of signal photon   \\
 $\cos\theta_{\gamma}$ & Cosine of polar angle of signal photon   \\
-$\cos\theta^{\text{CM}}_{\text{signal}-\gamma}$ & Cosine of centre-of-mass frame angle between signal track and signal photon \\
-$E_{\text{sum}}^{\text{CM}}$ & Centre-of-mass energy of photons and tracks  \\
+$\cos\theta^{\text{CM}}_{\text{signal}-\gamma}$ & Cosine of center-of-mass frame angle between signal track and signal photon \\
+$E_{\text{sum}}^{\text{CM}}$ & Center-of-mass energy of photons and tracks  \\
 $\cos\theta^{\text{CM}}_{\text{signal, tag track}}$ & Opening angle between signal and tag track  \\
 $\cos\theta_{\text{H}}$ & Cosine of the helicity angle \\
 $n_{\text{tracks}}$ & Number of charged tracks  \\
@@ -1451,7 +1462,7 @@ $\text{e-ID}_{\text{signal}}$ & e PID of signal track  \\
 \textbf{cosTBz} & Cosine of the angle between the signal thrust axis and z-axis   \\
 \textbf{cosTBTO} & Cosine of the angle between the signal thrust axis and ROE thrust axis  \\
 $\text{thrust}_{\text{ROE}}$ & Rest-of-event thrust   \\
-\textbf{tauCMtheta} & Centre-of-mass frame polar angle of reconstructed signal $\tau$ \\
+\textbf{tauCMtheta} & Center-of-mass frame polar angle of reconstructed signal $\tau$ \\
 $E_{\text{neutral ECL}}$ & Energy in ECL clusters deposited by neutral particles \\
 \textbf{sigD0} & D0 of signal track  \\
 \textbf{sigZ0} & Z0 of signal track \\
@@ -1634,7 +1645,7 @@ for a $\SI{50}{ab^{-1}}$ sample, consistent with projected improvements in $\tau
 
 \section{Future work}
 
-Selection criteria could be optimised to increase signal efficiency through use of multivariate analysis techniques, such as through the Toolkit for Multivariate Analysis (TMVA). Additional selection variables could be investigated, in particular those related to missing mass and momenta which were key variables in Belle's 2010 analysis. Signal region analysis can be extended to utilise $M_{\text{inv}}$ and $\Delta E$ resolutions and provide a statistics-motivated signal region. Fitting of probability density functions (PDFs) to background MC in the signal region would be useful. We note that selection on the track multiplicity variable was not fully optimised during this analysis; there remains work to do in improving tracking criteria.
+Selection criteria could be optimised to increase signal efficiency through use of multivariate analysis techniques, such as through the Toolkit for Multivariate Analysis (TMVA). Additional selection variables could be investigated, in particular those related to missing mass and momenta which were key variables in Belle's 2010 analysis. Signal region analysis can be extended to utilise $M_{\text{inv}}$ and $\Delta E$ resolutions and provide a statisics-motivated signal region. Fitting of probability density functions (PDFs) to background MC in the signal region would be useful. We note that selection on the track multiplicity variable was not fully optimised during this analysis; there remains work to do in improving tracking criteria.
 
 The framework set up over the course of the analysis allows for the work to be extended to run over Belle data. The full data set of $\SI{1}{fb^{-1}}$ is available, and it is possible for this data to be reconstructed in basf2 after conversion from the Belle data format to the Belle II data format. Previous searches at Belle have used $\SI{232.2}{fb^{-1}}$ and $\SI{535}{fb^{-1}}$ luminosity data samples; a search over higher luminosity could improve the accuracy of some $\tau$ LFV branching fractions due to increase statistics, as well as possibly improved reconstruction and selection techniques.
 
